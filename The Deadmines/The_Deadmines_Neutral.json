@@ -466,6 +466,47 @@
       }
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
+      "ObjectId": "17153",
+      "ExpectedPosition": {
+        "X": -290.294,
+        "Y": -536.96,
+        "Z": 49.4353,
+        "Type": "None",
+        "Action": ""
+      },
+      "InteractDistance": 3,
+      "Name": "Open Sneed's door",
+      "Order": 5,
+      "CompleteCondition": {
+        "HasCompleteCondition": true,
+        "ConditionType": 6,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": {
+          "X": -290.4194,
+          "Y": -531.4084,
+          "Z": 51.4263,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": -290.2365,
+          "Y": -542.5466,
+          "Z": 51.4478,
+          "Type": "None",
+          "Action": ""
+        },
+        "WaitTime": 0
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
@@ -568,7 +609,7 @@
         }
       ],
       "Name": "Path to Door",
-      "Order": 5,
+      "Order": 6,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -597,7 +638,7 @@
       },
       "InteractDistance": 3,
       "Name": "Interact with Door",
-      "Order": 6,
+      "Order": 7,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 2,
@@ -836,7 +877,7 @@
         }
       ],
       "Name": "Boss - Gilnid",
-      "Order": 7,
+      "Order": 8,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 4,
@@ -865,7 +906,7 @@
       },
       "InteractDistance": 4,
       "Name": "Interact with Door",
-      "Order": 8,
+      "Order": 9,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 6,
@@ -962,7 +1003,7 @@
         }
       ],
       "Name": "Path to Defias Gunpowder",
-      "Order": 9,
+      "Order": 10,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -991,7 +1032,7 @@
       },
       "InteractDistance": 3,
       "Name": "Pickup Defias Gunpowder",
-      "Order": 10,
+      "Order": 11,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 3,
@@ -1076,7 +1117,7 @@
         }
       ],
       "Name": "Path to Defias Cannon",
-      "Order": 11,
+      "Order": 12,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 2,
@@ -1105,7 +1146,7 @@
       },
       "InteractDistance": 5,
       "Name": "Interact with Defias Cannon",
-      "Order": 12,
+      "Order": 13,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 6,
@@ -1293,7 +1334,7 @@
         }
       ],
       "Name": "Boss - Mr. Smite",
-      "Order": 13,
+      "Order": 14,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 4,
@@ -1665,7 +1706,7 @@
         }
       ],
       "Name": "Boss - Captain Greenskin",
-      "Order": 14,
+      "Order": 15,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 4,
@@ -1708,7 +1749,7 @@
         }
       ],
       "Name": "Boss - Edwin VanCleef",
-      "Order": 15,
+      "Order": 16,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 4,
