@@ -4095,25 +4095,89 @@
       }
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 1.0,
-      "TargetPosition": {
-        "X": 142.129135,
-        "Y": 263.20224,
-        "Z": -102.962341,
-        "Type": "Swimming",
-        "Action": ""
-      },
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 110.369469,
+          "Y": 241.40007,
+          "Z": -96.09399,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 109.3546,
+          "Y": 251.024155,
+          "Z": -96.5362,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 106.766014,
+          "Y": 259.7615,
+          "Z": -97.9514,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 105.992462,
+          "Y": 268.4236,
+          "Z": -100.1708,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 109.6964,
+          "Y": 276.118683,
+          "Z": -102.159378,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 117.825508,
+          "Y": 276.147339,
+          "Z": -102.510971,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 125.609444,
+          "Y": 273.1035,
+          "Z": -102.7436,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 132.918884,
+          "Y": 268.348969,
+          "Z": -102.679665,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 138.657608,
+          "Y": 262.218384,
+          "Z": -102.902725,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 143.90506,
+          "Y": 255.226059,
+          "Z": -102.553986,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
       "Name": "Approach Mutanos the Devourer",
       "Order": 19,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
         "GameObjectId": 0,
         "InitialFlags": 0,
         "ItemId": 0,
         "CSharpCondition": null,
-        "DeadMobId": 3654,
+        "DeadMobId": 0,
         "MobPositionId": 0,
         "MobId": 0,
         "MobPositionVector": null,
