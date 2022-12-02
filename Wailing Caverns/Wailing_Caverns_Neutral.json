@@ -3970,6 +3970,33 @@
       }
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -135.2459,
+        "Y": 134.7139,
+        "Z": -77.59542,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before Escort",
+      "Order": 15,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveToUnitModel, WholesomeDungeonCrawler",
       "ExpectedPosition": {
         "X": -134.965,
@@ -3984,7 +4011,7 @@
       "Interactwithunit": false,
       "GossipIndex": 1,
       "Name": "TalkToDruid",
-      "Order": 15,
+      "Order": 16,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 7,
@@ -4021,7 +4048,7 @@
       "SkipIfNotFound": true,
       "UnitId": 3678,
       "Name": "Follow NPC",
-      "Order": 16,
+      "Order": 17,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -4041,16 +4068,16 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
       "DefendPosition": {
-        "X": 123.944611,
-        "Y": 243.582336,
-        "Z": -96.6747742,
+        "X": 111.7764,
+        "Y": 238.7206,
+        "Z": -96.10672,
         "Type": "None",
         "Action": ""
       },
       "Timer": 120000,
       "Precision": 1.0,
       "Name": "Defend Spot against Waves",
-      "Order": 17,
+      "Order": 18,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -4078,7 +4105,7 @@
         "Action": ""
       },
       "Name": "Approach Mutanos the Devourer",
-      "Order": 18,
+      "Order": 19,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 4,
