@@ -1,16 +1,87 @@
 {
   "StepModels": [
     {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1695.47668,
+          "Y": 1053.11292,
+          "Z": 18.4914856,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1703.57312,
+          "Y": 1055.586,
+          "Z": 18.4914856,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1704.25085,
+          "Y": 1064.40649,
+          "Z": 18.4914856,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1703.57556,
+          "Y": 1072.89172,
+          "Z": 15.87244,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1703.03577,
+          "Y": 1081.39307,
+          "Z": 11.6235638,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1702.32593,
+          "Y": 1089.88135,
+          "Z": 7.431208,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1701.86975,
+          "Y": 1098.15259,
+          "Z": 6.820012,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Move to the Regroup place",
+      "Order": 0,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": 1695.163,
-        "Y": 1053.516,
-        "Z": 18.49176,
+        "X": 1693.125,
+        "Y": 1098.157,
+        "Z": 6.820012,
         "Type": "None",
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
+      "Order": 1,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -30,62 +101,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 1688.99,
-          "Y": 1053.48,
-          "Z": 18.677412,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1695.98022,
-          "Y": 1053.84912,
-          "Z": 18.49103,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1701.21729,
-          "Y": 1054.19458,
-          "Z": 18.49103,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1703.127,
-          "Y": 1060.63977,
-          "Z": 18.49103,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1702.96216,
-          "Y": 1067.602,
-          "Z": 18.49103,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1702.62817,
-          "Y": 1075.75024,
-          "Z": 14.4442949,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1702.64233,
-          "Y": 1086.25024,
-          "Z": 9.194193,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1702.65784,
-          "Y": 1093.25012,
-          "Z": 6.82003069,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 1708.58862,
           "Y": 1097.28723,
@@ -690,8 +705,22 @@
         }
       ],
       "Name": "Boss 1",
-      "Order": 1,
-      "CompleteCondition": null
+      "Order": 2,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
     }
   ],
   "MapId": 189,
