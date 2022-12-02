@@ -3517,6 +3517,34 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
+          "X": -81.85905,
+          "Y": 27.1544628,
+          "Z": -31.0772266,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -77.09948,
+          "Y": 30.7945976,
+          "Z": -31.0772266,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -72.43038,
+          "Y": 34.2405472,
+          "Z": -31.0772266,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -66.93528,
+          "Y": 38.38156,
+          "Z": -30.7325249,
+          "Type": "None",
+          "Action": ""
+        },
+        {
           "X": -59.71742,
           "Y": 43.1141739,
           "Z": -28.7891541,
