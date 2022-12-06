@@ -690,16 +690,30 @@
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
       "ObjectId": "101854",
       "ExpectedPosition": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0,
+        "X": 1933.69,
+        "Y": -431.654,
+        "Z": 18.671,
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 0,
+      "InteractDistance": 4,
       "Name": "Open Door",
       "Order": 2,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
