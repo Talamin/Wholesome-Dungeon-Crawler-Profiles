@@ -338,22 +338,35 @@
       }
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -330.7548,
+        "Y": -2.604373,
+        "Z": -152.847,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup entrance 2",
+      "Order": 3,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": -327.8571,
-          "Y": -4.20947027,
-          "Z": -152.845337,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -333.1682,
-          "Y": -1.59166265,
-          "Z": -152.845337,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": -338.228729,
           "Y": 0.903030157,
@@ -839,7 +852,7 @@
         }
       ],
       "Name": "Going downstairs",
-      "Order": 3,
+      "Order": 4,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -1554,8 +1567,22 @@
         }
       ],
       "Name": "Path to second jump",
-      "Order": 4,
-      "CompleteCondition": null
+      "Order": 5,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "WaitTime": 0
+      }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2164,7 +2191,7 @@
         }
       ],
       "Name": "Path to last boss",
-      "Order": 5,
+      "Order": 6,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
@@ -2193,7 +2220,7 @@
       },
       "InteractDistance": 4,
       "Name": "Open door",
-      "Order": 6,
+      "Order": 7,
       "CompleteCondition": {
         "HasCompleteCondition": true,
         "ConditionType": 2,
@@ -2327,7 +2354,7 @@
         }
       ],
       "Name": "To last boss",
-      "Order": 7,
+      "Order": 8,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
