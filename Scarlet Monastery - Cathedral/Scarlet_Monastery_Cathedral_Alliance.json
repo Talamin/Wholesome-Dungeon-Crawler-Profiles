@@ -451,7 +451,7 @@
         "HasCompleteCondition": true,
         "ConditionType": 2,
         "GameObjectId": 104591,
-        "InitialFlags": 32,
+        "InitialFlags": 34,
         "ItemId": 0,
         "CSharpCondition": null,
         "DeadMobId": 0,
