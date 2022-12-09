@@ -3,9 +3,9 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": 260.9901,
-        "Y": -209.1668,
-        "Z": 19.20216,
+        "X": 279.0121,
+        "Y": -228.3992,
+        "Z": 18.53072,
         "Type": "None",
         "Action": ""
       },
@@ -30,20 +30,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 269.312347,
-          "Y": -220.69133,
-          "Z": 19.2013683,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 268.116119,
-          "Y": -226.006516,
-          "Z": 18.5307236,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 262.5685,
           "Y": -226.770874,
