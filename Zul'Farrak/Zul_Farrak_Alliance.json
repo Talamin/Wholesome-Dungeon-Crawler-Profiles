@@ -31,20 +31,6 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1212.67,
-          "Y": 842.04,
-          "Z": 8.93346,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1220.82751,
-          "Y": 842.110352,
-          "Z": 9.093421,
-          "Type": "None",
-          "Action": ""
-        },
-        {
           "X": 1229.26416,
           "Y": 842.1443,
           "Z": 8.993951,
@@ -1554,6 +1540,7 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Interact with Troll Cage",
       "Order": 5,
       "CompleteCondition": {
@@ -1588,7 +1575,6 @@
         "Type": "None",
         "Action": ""
       },
-      "FindClosest": false,
       "SkipIfNotFound": false,
       "UnitId": 7607,
       "Name": "Follow Weegli Blastfuse",
@@ -2502,6 +2488,7 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Interact with Gong",
       "Order": 11,
       "CompleteCondition": {
