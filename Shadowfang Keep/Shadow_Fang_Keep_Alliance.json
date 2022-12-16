@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -190,52 +192,47 @@
           "Z": 87.01196,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -251.344025,
+          "Y": 2138.20728,
+          "Z": 84.79864,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -253.1767,
+          "Y": 2133.09619,
+          "Z": 82.0851,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -254.496719,
+          "Y": 2123.76514,
+          "Z": 81.17959,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move to Rethilgore",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -254.474991,
-        "Y": 2120.71875,
-        "Z": 81.17966,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Rethillgore",
-      "Order": 2,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 3914,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -249,26 +246,29 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Interact with Cell Lever",
-      "Order": 3,
+      "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 18936,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 34,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 18936,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveToUnitModel, WholesomeDungeonCrawler",
+      "$type": "WholesomeDungeonCrawler.Models.TalkToUnitModel, WholesomeDungeonCrawler",
       "ExpectedPosition": {
         "X": -240.904,
         "Y": 2122.55,
@@ -276,189 +276,120 @@
         "Type": "None",
         "Action": ""
       },
-      "FindClosest": false,
       "SkipIfNotFound": true,
       "UnitId": 3850,
-      "Interactwithunit": false,
       "GossipIndex": 1,
       "Name": "Talk to Sorcerer Ashcrombe",
-      "Order": 4,
+      "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 7,
-        "GameObjectId": 0,
+        "ConditionType": 5,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 3850,
+        "CanGossipMustReturnTrue": false,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 3850,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 3850,
+        "MobAtPositionVector": {
+          "X": -240.904,
+          "Y": 2122.55,
+          "Z": 81.17965,
+          "Type": "None",
+          "Action": ""
+        },
+        "MobAtPositionMustReturnTrue": false,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -256.091736,
-          "Y": 2117.61035,
-          "Z": 81.17962,
+          "X": -253.407135,
+          "Y": 2126.0918,
+          "Z": 81.18008,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -254.651566,
-          "Y": 2126.34741,
-          "Z": 81.17962,
+          "X": -253.118225,
+          "Y": 2132.63257,
+          "Z": 81.87956,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -252.76535,
-          "Y": 2134.61646,
-          "Z": 82.8676453,
+          "X": -251.64064,
+          "Y": 2137.991,
+          "Z": 84.64337,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -249.834564,
-          "Y": 2142.61523,
-          "Z": 87.0131454,
+          "X": -249.346146,
+          "Y": 2142.875,
+          "Z": 87.01296,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -241.012527,
-          "Y": 2140.843,
-          "Z": 87.1932449,
+          "X": -244.344116,
+          "Y": 2142.79272,
+          "Z": 87.00723,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -233.945389,
-          "Y": 2144.78662,
-          "Z": 88.83319,
+          "X": -239.426041,
+          "Y": 2141.134,
+          "Z": 87.0126953,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -238.279831,
-          "Y": 2152.285,
-          "Z": 90.62411,
+          "X": -236.676208,
+          "Y": 2146.431,
+          "Z": 89.09381,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -241.688828,
-          "Y": 2157.98438,
-          "Z": 90.62411,
+          "X": -236.5637,
+          "Y": 2150.086,
+          "Z": 90.62448,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -238.107162,
-          "Y": 2149.39355,
-          "Z": 90.2106247,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -240.169571,
-          "Y": 2142.04565,
-          "Z": 87.012886,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -249.220612,
-          "Y": 2142.74316,
-          "Z": 87.01137,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -252.049133,
-          "Y": 2135.113,
-          "Z": 83.22985,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -253.431473,
-          "Y": 2127.057,
-          "Z": 81.1795959,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -251.366776,
-          "Y": 2118.346,
-          "Z": 81.1795959,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -254.8831,
-          "Y": 2126.35815,
-          "Z": 81.1795959,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -252.800842,
-          "Y": 2134.25024,
-          "Z": 82.6908951,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -250.181244,
-          "Y": 2141.11,
-          "Z": 86.36225,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -241.49231,
-          "Y": 2141.37183,
-          "Z": 87.242,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -237.877518,
-          "Y": 2148.53223,
-          "Z": 89.85186,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -242.545975,
-          "Y": 2155.435,
-          "Z": 90.62407,
+          "X": -241.4277,
+          "Y": 2155.42944,
+          "Z": 90.62448,
           "Type": "None",
           "Action": ""
         }
       ],
       "Name": "Move to Door to Yard",
-      "Order": 5,
+      "Order": 4,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 18895,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 34,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 18895,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -638,56 +569,61 @@
           "Z": 74.99953,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -254.637756,
+          "Y": 2283.71118,
+          "Z": 74.99953,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -261.386658,
+          "Y": 2287.7627,
+          "Z": 74.99953,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -265.539185,
+          "Y": 2290.01514,
+          "Z": 75.72149,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -271.022675,
+          "Y": 2290.72632,
+          "Z": 76.15323,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -274.754425,
+          "Y": 2293.57178,
+          "Z": 76.15323,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move to Baron Silverlaine",
-      "Order": 6,
+      "Order": 5,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveToUnitModel, WholesomeDungeonCrawler",
-      "ExpectedPosition": {
-        "X": -275.342,
-        "Y": 2297.35,
-        "Z": 76.15354,
-        "Type": "None",
-        "Action": ""
-      },
-      "FindClosest": false,
-      "SkipIfNotFound": true,
-      "UnitId": 3887,
-      "Interactwithunit": false,
-      "GossipIndex": 0,
-      "Name": "Approach Second Boss",
-      "Order": 7,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 3887,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -818,52 +754,75 @@
           "Z": 100.891846,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -239.092133,
+          "Y": 2259.06763,
+          "Z": 100.891975,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -234.250076,
+          "Y": 2261.17969,
+          "Z": 102.279343,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -228.177444,
+          "Y": 2263.10352,
+          "Z": 102.75428,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -223.015854,
+          "Y": 2263.47925,
+          "Z": 102.755569,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -222.282578,
+          "Y": 2257.98584,
+          "Z": 102.755569,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -221.951859,
+          "Y": 2254.23682,
+          "Z": 102.755684,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -226.736313,
+          "Y": 2254.06079,
+          "Z": 102.754288,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move to Commander Springvale",
-      "Order": 8,
+      "Order": 6,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 3.0,
-      "TargetPosition": {
-        "X": -229.798691,
-        "Y": 2259.98633,
-        "Z": 102.75647,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Commander Springvale",
-      "Order": 9,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 4278,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -975,9 +934,23 @@
           "Action": ""
         },
         {
+          "X": -254.110474,
+          "Y": 2161.72021,
+          "Z": 93.92396,
+          "Type": "None",
+          "Action": ""
+        },
+        {
           "X": -251.813309,
           "Y": 2160.584,
           "Z": 93.8325348,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -247.975281,
+          "Y": 2158.27954,
+          "Z": 92.5537,
           "Type": "None",
           "Action": ""
         },
@@ -996,6 +969,13 @@
           "Action": ""
         },
         {
+          "X": -258.617645,
+          "Y": 2146.587,
+          "Z": 92.80744,
+          "Type": "None",
+          "Action": ""
+        },
+        {
           "X": -263.6565,
           "Y": 2149.33057,
           "Z": 94.6954956,
@@ -1006,6 +986,13 @@
           "X": -268.2076,
           "Y": 2148.22559,
           "Z": 95.86533,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -269.185547,
+          "Y": 2143.496,
+          "Z": 95.9469452,
           "Type": "None",
           "Action": ""
         },
@@ -1022,52 +1009,68 @@
           "Z": 100.030731,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -252.218536,
+          "Y": 2140.62427,
+          "Z": 100.029259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -249.763229,
+          "Y": 2143.79419,
+          "Z": 100.029259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -247.876434,
+          "Y": 2146.41968,
+          "Z": 100.029259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -245.075409,
+          "Y": 2147.47778,
+          "Z": 100.029259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -241.576111,
+          "Y": 2146.43457,
+          "Z": 100.029259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -237.6162,
+          "Y": 2145.46436,
+          "Z": 100.029373,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move To Odo the Blindwatcher",
-      "Order": 10,
+      "Order": 7,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -241.86145,
-        "Y": 2143.30347,
-        "Z": 100.029312,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Odo the Blindwatcher",
-      "Order": 11,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 4279,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1254,52 +1257,61 @@
           "Z": 94.04164,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -159.565323,
+          "Y": 2168.262,
+          "Z": 94.0425339,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -154.9024,
+          "Y": 2166.54224,
+          "Z": 94.0425339,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -148.310364,
+          "Y": 2164.06543,
+          "Z": 94.0425339,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -142.600159,
+          "Y": 2162.414,
+          "Z": 94.0425339,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -138.82933,
+          "Y": 2160.286,
+          "Z": 94.04114,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move To Son of Arugal",
-      "Order": 12,
+      "Order": 8,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -136.5212,
-        "Y": 2161.99585,
-        "Z": 94.04164,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Son of Arugal",
-      "Order": 13,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 2529,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1337,6 +1349,13 @@
           "X": -154.185669,
           "Y": 2174.52563,
           "Z": 100.852318,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -158.415344,
+          "Y": 2176.64185,
+          "Z": 102.191132,
           "Type": "None",
           "Action": ""
         },
@@ -1393,6 +1412,13 @@
           "X": -107.81469,
           "Y": 2169.822,
           "Z": 106.447464,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -103.620163,
+          "Y": 2167.97021,
+          "Z": 105.012482,
           "Type": "None",
           "Action": ""
         },
@@ -1556,130 +1582,103 @@
           "Z": 128.943726,
           "Type": "None",
           "Action": ""
-        }
-      ],
-      "Name": "Move To Fenrus the Devourer",
-      "Order": 14,
-      "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -138.866135,
-        "Y": 2170.52075,
-        "Z": 128.448349,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Fenrus the Devourer",
-      "Order": 15,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 4274,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
+        },
         {
-          "X": -137.459274,
-          "Y": 2166.16431,
-          "Z": 128.696075,
+          "X": -154.992966,
+          "Y": 2176.13452,
+          "Z": 128.44841,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -145.796432,
-          "Y": 2163.63745,
-          "Z": 128.613373,
+          "X": -149.088,
+          "Y": 2173.464,
+          "Z": 127.95311,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -153.537064,
-          "Y": 2166.537,
-          "Z": 128.696136,
+          "X": -144.659866,
+          "Y": 2171.68018,
+          "Z": 127.95311,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -153.694977,
-          "Y": 2175.78662,
-          "Z": 128.4484,
+          "X": -136.063721,
+          "Y": 2167.8894,
+          "Z": 128.69606,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -147.5421,
-          "Y": 2181.228,
-          "Z": 128.4484,
+          "X": -145.320648,
+          "Y": 2164.849,
+          "Z": 128.448334,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -139.958221,
-          "Y": 2176.36279,
-          "Z": 128.44838,
+          "X": -149.531113,
+          "Y": 2165.23364,
+          "Z": 128.448334,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -135.824554,
-          "Y": 2168.91821,
-          "Z": 128.6961,
+          "X": -153.7056,
+          "Y": 2167.25049,
+          "Z": 128.51683,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -135.704468,
-          "Y": 2168.721,
-          "Z": 128.6961,
+          "X": -155.545532,
+          "Y": 2171.1814,
+          "Z": 128.463013,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -153.70607,
+          "Y": 2179.35815,
+          "Z": 128.695221,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -149.200623,
+          "Y": 2182.3916,
+          "Z": 128.695969,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -143.731171,
+          "Y": 2183.11353,
+          "Z": 128.695969,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Gather VoidWalker",
-      "Order": 16,
+      "Name": "Move To Fenrus the Devourer",
+      "Order": 9,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1943,52 +1942,47 @@
           "Z": 155.67868,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -138.072922,
+          "Y": 2169.13672,
+          "Z": 155.678574,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -133.0412,
+          "Y": 2167.16553,
+          "Z": 155.678574,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -127.306587,
+          "Y": 2164.841,
+          "Z": 155.678574,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move To Wolf Master Nandos",
-      "Order": 17,
+      "Order": 10,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -123.029228,
-        "Y": 2163.59253,
-        "Z": 155.67868,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Wolf Master Nandos",
-      "Order": 18,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 3927,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2070,52 +2064,61 @@
           "Z": 147.977844,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -81.2034454,
+          "Y": 2140.243,
+          "Z": 148.460114,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -80.3106155,
+          "Y": 2143.64,
+          "Z": 150.514114,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -79.1073,
+          "Y": 2147.286,
+          "Z": 153.197067,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -77.11949,
+          "Y": 2153.14063,
+          "Z": 155.707825,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -75.899025,
+          "Y": 2155.92261,
+          "Z": 155.697266,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move To Archmage Arugal",
-      "Order": 19,
+      "Order": 11,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.GoToModel, WholesomeDungeonCrawler",
-      "Precision": 0.0,
-      "TargetPosition": {
-        "X": -78.3499451,
-        "Y": 2149.69287,
-        "Z": 154.960068,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Approach Archmage Arugal",
-      "Order": 20,
-      "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 4275,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],

@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -752,23 +754,16 @@
           "Action": ""
         },
         {
-          "X": 186.1241,
-          "Y": -421.273621,
-          "Z": 18.863,
+          "X": 182.3248,
+          "Y": -419.943268,
+          "Z": 18.86091,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 184.636658,
-          "Y": -426.55954,
-          "Z": 18.5315342,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 184.705688,
-          "Y": -432.294769,
-          "Z": 18.5317268,
+          "X": 182.465942,
+          "Y": -428.037781,
+          "Z": 18.5316963,
           "Type": "None",
           "Action": ""
         },
@@ -825,19 +820,21 @@
       "Name": "Full Run",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 6487,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -855,19 +852,21 @@
       "Name": "Pick up key",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 3,
-        "GameObjectId": 0,
+        "HaveItemId": 7146,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 7146,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],

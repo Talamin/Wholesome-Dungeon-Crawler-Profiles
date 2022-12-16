@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -671,19 +673,21 @@
       "Name": "Part One",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -697,22 +701,37 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Open Door",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
-        "GameObjectId": 0,
+        "ConditionType": 6,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 1929.267,
+          "Y": -431.0243,
+          "Z": 21.00805,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 1939.799,
+          "Y": -431.4506,
+          "Z": 21.09402,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -740,16 +759,65 @@
           "Action": ""
         },
         {
-          "X": 1951.72314,
-          "Y": -431.470184,
-          "Z": 14.60889,
+          "X": 1947.40674,
+          "Y": -437.450043,
+          "Z": 15.9794455,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1954.49512,
-          "Y": -431.4784,
-          "Z": 10.4378443,
+          "X": 1954.106,
+          "Y": -447.352875,
+          "Z": 13.6523609,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1962.78882,
+          "Y": -450.437836,
+          "Z": 11.852272,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1971.75317,
+          "Y": -448.755646,
+          "Z": 11.2724133,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1979.81335,
+          "Y": -441.426025,
+          "Z": 11.2724133,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1977.98987,
+          "Y": -434.572357,
+          "Z": 11.272294,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1972.30322,
+          "Y": -440.907349,
+          "Z": 8.771671,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1963.12708,
+          "Y": -442.8405,
+          "Z": 6.177764,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1964.21265,
+          "Y": -432.858337,
+          "Z": 6.177764,
           "Type": "None",
           "Action": ""
         }
@@ -757,19 +825,21 @@
       "Name": "Part Two",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 3975,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],

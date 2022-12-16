@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -419,19 +421,21 @@
       "Name": "Go to Door",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -445,22 +449,25 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Open Door",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 104591,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 34,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 104591,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -729,19 +736,21 @@
       "Name": "Cathedral First Half",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -755,59 +764,114 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Secret Lever",
       "Order": 4,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 97701,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 97701,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1166.60461,
-          "Y": 1343.38049,
-          "Z": 31.54968,
+          "X": 1165.52246,
+          "Y": 1343.10352,
+          "Z": 31.5482082,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1167.25537,
-          "Y": 1351.98279,
-          "Z": 31.54968,
+          "X": 1167.2533,
+          "Y": 1345.9696,
+          "Z": 31.5482082,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1158.81274,
-          "Y": 1355.157,
-          "Z": 30.306303,
+          "X": 1167.90381,
+          "Y": 1348.693,
+          "Z": 31.5482082,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1166.989,
-          "Y": 1352.24939,
-          "Z": 31.5494366,
+          "X": 1167.42932,
+          "Y": 1351.50867,
+          "Z": 31.5482082,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1164.95935,
-          "Y": 1343.80811,
-          "Z": 31.5494366,
+          "X": 1165.79834,
+          "Y": 1354.137,
+          "Z": 31.5482082,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1163.01038,
+          "Y": 1356.20947,
+          "Z": 31.3324547,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1159.66406,
+          "Y": 1355.91809,
+          "Z": 30.3056774,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1159.821,
+          "Y": 1353.61548,
+          "Z": 30.3056774,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Go in Secret room",
+      "Order": 5,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1160.94739,
+          "Y": 1342.14465,
+          "Z": 30.562664,
           "Type": "None",
           "Action": ""
         },
@@ -1107,21 +1171,23 @@
         }
       ],
       "Name": "Cathedral Second Half",
-      "Order": 5,
+      "Order": 6,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],

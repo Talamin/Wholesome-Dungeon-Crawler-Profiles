@@ -12,19 +12,21 @@
       "Name": "Regroup  Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -38,22 +40,25 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Interact with Echomok Door",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 124370,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -399,19 +404,21 @@
       "Name": "Move To Boss 1",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -512,42 +519,65 @@
       "Name": "Boss 1",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -351.532532,
-          "Y": 114.583984,
-          "Z": -44.48481,
+          "X": -357.398926,
+          "Y": 126.798134,
+          "Z": -46.23271,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -344.4167,
-          "Y": 115.945938,
-          "Z": -48.8634224,
+          "X": -355.8011,
+          "Y": 135.948364,
+          "Z": -48.2146721,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -337.5382,
-          "Y": 117.262466,
-          "Z": -54.17814,
+          "X": -351.385437,
+          "Y": 136.51442,
+          "Z": -48.2157173,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -344.7017,
+          "Y": 140.162155,
+          "Z": -48.6392975,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -338.997467,
+          "Y": 133.379028,
+          "Z": -50.93149,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -335.592133,
+          "Y": 124.076027,
+          "Z": -52.89541,
           "Type": "None",
           "Action": ""
         },
@@ -667,19 +697,21 @@
       "Name": "Boss 2",
       "Order": 4,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -969,19 +1001,21 @@
       "Name": "Boss 3",
       "Order": 5,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1531,7 +1565,23 @@
       ],
       "Name": "Boss 6 Part 1",
       "Order": 8,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -1544,22 +1594,25 @@
         "Action": ""
       },
       "InteractDistance": 0,
+      "SkipIfNotFound": false,
       "Name": "Open Doors",
       "Order": 9,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 124368,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 124368,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1695,19 +1748,21 @@
       "Name": "Boss 6 Part 2",
       "Order": 10,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1721,22 +1776,25 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Click on Alter of The Keeprs",
       "Order": 11,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 4857,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1837,25 +1895,21 @@
       "Name": "Killin all Stone Keepers",
       "Order": 12,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 4857,
-        "MobPositionId": 4857,
-        "MobId": 0,
-        "MobPositionVector": {
-          "X": 109.357,
-          "Y": 286.115,
-          "Z": -26.5321445,
-          "Type": "None",
-          "Action": ""
-        },
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2026,19 +2080,21 @@
       "Name": "Boss 6 Part 3",
       "Order": 13,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2052,19 +2108,22 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Open Final  Doors",
       "Order": 14,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 6,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": {
           "X": 64.42464,
           "Y": 253.821,
@@ -2079,7 +2138,7 @@
           "Type": "None",
           "Action": ""
         },
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2093,22 +2152,25 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Click Alter of Archaedas",
       "Order": 15,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 133234,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 2748,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2174,19 +2236,21 @@
       "Name": "Goto Chest",
       "Order": 16,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2199,80 +2263,26 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 4,
+      "InteractDistance": 8,
+      "SkipIfNotFound": false,
       "Name": "Loot Chest",
       "Order": 17,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 66.12198,
-          "Y": 254.124176,
-          "Z": -52.1997871,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 74.98643,
-          "Y": 256.756378,
-          "Z": -52.2033844,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 82.88465,
-          "Y": 259.710968,
-          "Z": -52.2033844,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 90.98166,
-          "Y": 262.971558,
-          "Z": -51.7830544,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 98.565834,
-          "Y": 266.2534,
-          "Z": -52.1486969,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "New Boss 6 Path 4",
-      "Order": 18,
-      "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],

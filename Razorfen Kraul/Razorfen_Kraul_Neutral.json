@@ -14,14 +14,14 @@
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "FlagsChangedGameObjectId": 0,
         "InitialFlags": 0,
         "ItemId": 0,
         "CSharpCondition": null,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobAtPositionId": 0,
+        "CanGossipMobId": 0,
+        "MobAtPositionVector": null,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "WaitTime": 0

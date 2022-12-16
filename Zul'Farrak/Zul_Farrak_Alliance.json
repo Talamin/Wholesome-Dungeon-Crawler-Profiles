@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
-        "GameObjectId": 0,
+        "ConditionType": 2,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": false,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -776,19 +778,21 @@
       "Name": "Boss - Antu'sul",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 8127,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1113,19 +1117,21 @@
       "Name": "Boss - With Doctor Zum'rah",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 7271,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1478,35 +1484,79 @@
       "Name": "Boss - Sandfury Executioner",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 7274,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1880.64148,
-          "Y": 1286.1521,
-          "Z": 44.05312,
+          "X": 1890.09412,
+          "Y": 1279.93152,
+          "Z": 42.3122177,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1879.61572,
-          "Y": 1297.27136,
-          "Z": 46.35472,
+          "X": 1900.17517,
+          "Y": 1284.83191,
+          "Z": 41.9367065,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1906.04749,
+          "Y": 1293.1687,
+          "Z": 42.9078636,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1898.67419,
+          "Y": 1294.45618,
+          "Z": 45.7102432,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1892.39392,
+          "Y": 1291.66345,
+          "Z": 46.0341568,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1879.24768,
+          "Y": 1290.20532,
+          "Z": 45.9593964,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1876.70642,
+          "Y": 1295.23425,
+          "Z": 45.74922,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1878.9137,
+          "Y": 1296.64258,
+          "Z": 46.3185768,
           "Type": "None",
           "Action": ""
         }
@@ -1514,19 +1564,21 @@
       "Name": "Path to Troll Cage",
       "Order": 4,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1544,19 +1596,27 @@
       "Name": "Interact with Troll Cage",
       "Order": 5,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 2,
-        "GameObjectId": 141071,
+        "ConditionType": 5,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 7607,
+        "MobAtPositionVector": {
+          "X": 1881.05,
+          "Y": 1297.36,
+          "Z": 48.33573,
+          "Type": "None",
+          "Action": ""
+        },
+        "MobAtPositionMustReturnTrue": false,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1575,28 +1635,30 @@
         "Type": "None",
         "Action": ""
       },
-      "SkipIfNotFound": false,
+      "SkipIfNotFound": true,
       "UnitId": 7607,
       "Name": "Follow Weegli Blastfuse",
       "Order": 6,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveToUnitModel, WholesomeDungeonCrawler",
+      "$type": "WholesomeDungeonCrawler.Models.TalkToUnitModel, WholesomeDungeonCrawler",
       "ExpectedPosition": {
         "X": 1877.52,
         "Y": 1199.63,
@@ -1604,57 +1666,157 @@
         "Type": "None",
         "Action": ""
       },
-      "FindClosest": false,
       "SkipIfNotFound": true,
       "UnitId": 7607,
-      "Interactwithunit": false,
       "GossipIndex": 1,
       "Name": "Interact with Weegli Blastfuse",
       "Order": 7,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 0,
-        "GameObjectId": 0,
+        "ConditionType": 5,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 7607,
+        "MobAtPositionVector": {
+          "X": 1877.52,
+          "Y": 1199.63,
+          "Z": 8.876978,
+          "Type": "None",
+          "Action": ""
+        },
+        "MobAtPositionMustReturnTrue": false,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1870.431,
-          "Y": 1165.67346,
-          "Z": 9.806427,
+          "X": 1874.55627,
+          "Y": 1206.67822,
+          "Z": 8.877479,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1866.562,
-          "Y": 1158.16174,
-          "Z": 11.5781107,
+          "X": 1873.177,
+          "Y": 1197.25391,
+          "Z": 8.877479,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1861.64893,
-          "Y": 1151.211,
-          "Z": 13.4288816,
+          "X": 1871.83289,
+          "Y": 1187.99548,
+          "Z": 8.877479,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1855.91882,
-          "Y": 1144.8905,
-          "Z": 15.5966578,
+          "X": 1870.48608,
+          "Y": 1178.71973,
+          "Z": 8.897849,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1869.03845,
+          "Y": 1169.35522,
+          "Z": 9.405667,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1866.9115,
+          "Y": 1160.21973,
+          "Z": 11.1683445,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1863.22,
+          "Y": 1151.64185,
+          "Z": 13.0637045,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Move to Ukroz door",
+      "Order": 8,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Clear Gong area",
+      "Name": "Skip Ukroz if door closed",
+      "Order": 9,
+      "CompleteCondition": {
+        "ConditionType": 6,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 1858.678,
+          "Y": 1147.952,
+          "Z": 17.49694,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 1848.997,
+          "Y": 1138.392,
+          "Z": 21.5237,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": false
+      }
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1861.64209,
+          "Y": 1150.8772,
+          "Z": 13.4696264,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1857.16748,
+          "Y": 1146.1842,
+          "Z": 15.0936537,
           "Type": "None",
           "Action": ""
         },
@@ -1867,166 +2029,182 @@
           "Z": 52.8978,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 1727.09229,
+          "Y": 1018.41394,
+          "Z": 54.866333,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1729.72351,
+          "Y": 1026.15588,
+          "Z": 53.3490143,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1733.78748,
+          "Y": 1033.761,
+          "Z": 52.2866745,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1739.78906,
+          "Y": 1039.82507,
+          "Z": 50.30961,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1745.8916,
+          "Y": 1045.79919,
+          "Z": 49.1100159,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1751.96912,
+          "Y": 1051.7489,
+          "Z": 48.2687645,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1758.1217,
+          "Y": 1057.77209,
+          "Z": 47.62773,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1764.19421,
+          "Y": 1063.7168,
+          "Z": 46.69961,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1770.28174,
+          "Y": 1069.67627,
+          "Z": 45.2090645,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1776.31934,
+          "Y": 1075.69519,
+          "Z": 43.758194,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1782.57617,
+          "Y": 1081.66785,
+          "Z": 42.00939,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1788.853,
+          "Y": 1087.438,
+          "Z": 39.77412,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1795.10925,
+          "Y": 1093.18909,
+          "Z": 37.42245,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1801.39648,
+          "Y": 1098.96863,
+          "Z": 35.1497459,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1807.67554,
+          "Y": 1104.73621,
+          "Z": 32.97831,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1814.39246,
+          "Y": 1109.96118,
+          "Z": 30.5584888,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1821.06067,
+          "Y": 1115.42981,
+          "Z": 28.3368244,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1827.632,
+          "Y": 1120.81812,
+          "Z": 25.96952,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1834.84863,
+          "Y": 1126.9895,
+          "Z": 23.3603287,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1845.59558,
+          "Y": 1132.50854,
+          "Z": 20.47559,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1852.24927,
+          "Y": 1139.587,
+          "Z": 17.516943,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Boss - Chief Ukroz Sandscalp",
-      "Order": 8,
+      "Order": 10,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
-        "ConditionType": 4,
-        "GameObjectId": 0,
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 7267,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1736.53662,
-          "Y": 1026.37,
-          "Z": 52.9455757,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1741.97888,
-          "Y": 1034.541,
-          "Z": 50.87132,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1746.99231,
-          "Y": 1042.61963,
-          "Z": 49.3781662,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1752.642,
-          "Y": 1050.44067,
-          "Z": 48.3089027,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1758.97791,
-          "Y": 1057.845,
-          "Z": 47.55404,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1765.61938,
-          "Y": 1064.74634,
-          "Z": 46.4160538,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1772.48682,
-          "Y": 1071.527,
-          "Z": 44.72986,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1779.58948,
-          "Y": 1078.18323,
-          "Z": 43.08946,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1786.81079,
-          "Y": 1084.92163,
-          "Z": 40.6514359,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1794.2561,
-          "Y": 1091.62732,
-          "Z": 37.8989944,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1801.41235,
-          "Y": 1097.97693,
-          "Z": 35.32716,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1808.83655,
-          "Y": 1104.4552,
-          "Z": 32.65124,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1816.00476,
-          "Y": 1110.70178,
-          "Z": 30.0924034,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1823.57434,
-          "Y": 1116.89673,
-          "Z": 27.549614,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1830.91455,
-          "Y": 1122.884,
-          "Z": 24.95691,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1838.28528,
-          "Y": 1129.09534,
-          "Z": 22.3535862,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1845.91931,
-          "Y": 1135.54846,
-          "Z": 19.6816978,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1853.29041,
-          "Y": 1141.851,
-          "Z": 16.79736,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1859.83093,
-          "Y": 1148.90674,
-          "Z": 14.1132593,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1864.29077,
-          "Y": 1157.68,
-          "Z": 12.1179342,
+          "X": 1861.28113,
+          "Y": 1154.38879,
+          "Z": 13.1023207,
           "Type": "None",
           "Action": ""
         },
@@ -2402,22 +2580,24 @@
           "Action": ""
         }
       ],
-      "Name": "Clear Room before Boss",
-      "Order": 9,
+      "Name": "Clear Gong area",
+      "Order": 11,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2460,21 +2640,23 @@
         }
       ],
       "Name": "Path to Gong of Zul'Farrak",
-      "Order": 10,
+      "Order": 12,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 2,
-        "GameObjectId": 141832,
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2490,21 +2672,23 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Interact with Gong",
-      "Order": 11,
+      "Order": 13,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "GameObjectId": 141832,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 141832,
         "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -2516,24 +2700,54 @@
           "Z": 6.55465126,
           "Type": "Swimming",
           "Action": ""
+        },
+        {
+          "X": 1669.199,
+          "Y": 1187.7959,
+          "Z": 6.336925,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": 1676.68311,
+          "Y": 1195.8252,
+          "Z": 6.33786964,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": 1686.24182,
+          "Y": 1206.70557,
+          "Z": 9.465914,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1695.51953,
+          "Y": 1218.145,
+          "Z": 8.876879,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Boss - Gahz'rilla",
-      "Order": 12,
+      "Order": 14,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 4,
-        "GameObjectId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 7273,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     }
   ],
