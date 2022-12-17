@@ -1658,6 +1658,35 @@
       }
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 1867.903,
+        "Y": 1217.259,
+        "Z": 9.759263,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before Weegly",
+      "Order": 7,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.TalkToUnitModel, WholesomeDungeonCrawler",
       "ExpectedPosition": {
         "X": 1877.52,
@@ -1670,7 +1699,7 @@
       "UnitId": 7607,
       "GossipIndex": 1,
       "Name": "Interact with Weegli Blastfuse",
-      "Order": 7,
+      "Order": 8,
       "CompleteCondition": {
         "ConditionType": 5,
         "HaveItemId": 0,
@@ -1749,7 +1778,7 @@
         }
       ],
       "Name": "Move to Ukroz door",
-      "Order": 8,
+      "Order": 9,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1772,7 +1801,7 @@
       "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
       "StepToJumpTo": "Clear Gong area",
       "Name": "Skip Ukroz if door closed",
-      "Order": 9,
+      "Order": 10,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -2179,7 +2208,7 @@
         }
       ],
       "Name": "Boss - Chief Ukroz Sandscalp",
-      "Order": 10,
+      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2581,7 +2610,7 @@
         }
       ],
       "Name": "Clear Gong area",
-      "Order": 11,
+      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2640,7 +2669,7 @@
         }
       ],
       "Name": "Path to Gong of Zul'Farrak",
-      "Order": 12,
+      "Order": 13,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2672,7 +2701,7 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Interact with Gong",
-      "Order": 13,
+      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 2,
         "HaveItemId": 0,
@@ -2692,46 +2721,138 @@
       }
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 1661.051,
+        "Y": 1162.978,
+        "Z": 10.83565,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before Gha Zilla",
+      "Order": 15,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 1661.30127,
-          "Y": 1182.87415,
-          "Z": 6.55465126,
-          "Type": "Swimming",
-          "Action": ""
-        },
-        {
-          "X": 1669.199,
-          "Y": 1187.7959,
-          "Z": 6.336925,
-          "Type": "Swimming",
-          "Action": ""
-        },
-        {
-          "X": 1676.68311,
-          "Y": 1195.8252,
-          "Z": 6.33786964,
-          "Type": "Swimming",
-          "Action": ""
-        },
-        {
-          "X": 1686.24182,
-          "Y": 1206.70557,
-          "Z": 9.465914,
+          "X": 1661.05054,
+          "Y": 1162.97754,
+          "Z": 10.8356495,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1695.51953,
-          "Y": 1218.145,
-          "Z": 8.876879,
+          "X": 1669.1864,
+          "Y": 1159.60608,
+          "Z": 8.877116,
           "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1677.231,
+          "Y": 1160.81787,
+          "Z": 8.877116,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1683.10767,
+          "Y": 1166.98438,
+          "Z": 8.877116,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1688.915,
+          "Y": 1173.20752,
+          "Z": 8.878033,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1694.51208,
+          "Y": 1179.62842,
+          "Z": 8.878033,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1699.69958,
+          "Y": 1186.37524,
+          "Z": 8.878033,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1704.17957,
+          "Y": 1193.61243,
+          "Z": 9.05418,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1707.99414,
+          "Y": 1201.33044,
+          "Z": 9.043894,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1704.41785,
+          "Y": 1209.65967,
+          "Z": 8.876869,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1696.24243,
+          "Y": 1211.13135,
+          "Z": 8.897196,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1688.68481,
+          "Y": 1207.54907,
+          "Z": 10.1193027,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1682.92139,
+          "Y": 1202.58569,
+          "Z": 6.175419,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": 1676.14014,
+          "Y": 1196.87048,
+          "Z": 6.64181137,
+          "Type": "Swimming",
           "Action": ""
         }
       ],
       "Name": "Boss - Gahz'rilla",
-      "Order": 14,
+      "Order": 16,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -3730,28 +3851,5 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": [
-    {
-      "Path": [
-        {
-          "X": 1651.94873,
-          "Y": 1173.182,
-          "Z": 10.7985106,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1661.30127,
-          "Y": 1182.87415,
-          "Z": 6.55465126,
-          "Type": "Swimming",
-          "Action": ""
-        }
-      ],
-      "ContinentId": 209,
-      "Type": 0,
-      "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": "Jump into Water"
-    }
-  ]
+  "OffMeshConnections": []
 }
