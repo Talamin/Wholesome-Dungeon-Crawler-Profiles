@@ -478,7 +478,7 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
-      "ObjectId": "17153",
+      "ObjectId": "17153;16400",
       "ExpectedPosition": {
         "X": -290.294,
         "Y": -536.96,
