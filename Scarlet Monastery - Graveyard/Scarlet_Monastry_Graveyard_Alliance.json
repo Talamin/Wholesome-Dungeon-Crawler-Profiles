@@ -82,7 +82,7 @@
           "Action": ""
         }
       ],
-      "Name": "Move to the Regroup place",
+      "Name": "Move down the stairs",
       "Order": 1,
       "CompleteCondition": {
         "ConditionType": 0,
