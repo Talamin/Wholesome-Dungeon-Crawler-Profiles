@@ -3,9 +3,9 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": 1693.125,
-        "Y": 1098.157,
-        "Z": 6.820012,
+        "X": 1690.945,
+        "Y": 1053.75,
+        "Z": 18.67743,
         "Type": "None",
         "Action": ""
       },
