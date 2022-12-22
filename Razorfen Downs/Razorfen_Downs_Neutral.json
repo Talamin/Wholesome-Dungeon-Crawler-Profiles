@@ -12,19 +12,21 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -333,121 +335,56 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Hit Gong (1)",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 2546.819,
-          "Y": 857.784546,
-          "Z": 51.22602,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2540.64233,
-          "Y": 863.477,
-          "Z": 49.7731171,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2532.8103,
-          "Y": 866.8139,
-          "Z": 47.6782,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2524.176,
-          "Y": 866.440247,
-          "Z": 47.6782,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2515.89722,
-          "Y": 863.6948,
-          "Z": 47.6782,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2510.95752,
-          "Y": 857.3048,
-          "Z": 47.6782,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2513.3335,
-          "Y": 849.4023,
-          "Z": 47.6782,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2521.589,
-          "Y": 847.8591,
-          "Z": 47.56955,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2530.23657,
-          "Y": 849.1824,
-          "Z": 47.9450226,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2538.598,
-          "Y": 851.0092,
-          "Z": 49.3042755,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2546.32324,
-          "Y": 854.63855,
-          "Z": 51.2493,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Hang around",
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 2551.656,
+        "Y": 857.4319,
+        "Z": 51.24184,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10000,
+      "Precision": 0.0,
+      "Name": "Defend gong 1",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -461,136 +398,57 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Hit Gong (2)",
       "Order": 4,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 2549.742,
-          "Y": 856.415466,
-          "Z": 51.2418365,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2543.47437,
-          "Y": 862.7683,
-          "Z": 50.249836,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2537.31348,
-          "Y": 868.625244,
-          "Z": 47.67823,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2529.327,
-          "Y": 872.2084,
-          "Z": 47.67823,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2521.235,
-          "Y": 875.0233,
-          "Z": 47.67823,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2512.81958,
-          "Y": 875.7609,
-          "Z": 47.32389,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2507.15015,
-          "Y": 869.3494,
-          "Z": 47.2513847,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2503.37573,
-          "Y": 861.666748,
-          "Z": 47.678196,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2501.76343,
-          "Y": 853.1485,
-          "Z": 47.678196,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2506.22437,
-          "Y": 845.9025,
-          "Z": 47.3839874,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2514.49121,
-          "Y": 846.127747,
-          "Z": 47.67839,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2521.23267,
-          "Y": 851.3877,
-          "Z": 47.67342,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2529.771,
-          "Y": 851.048767,
-          "Z": 47.7996063,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2538.29785,
-          "Y": 850.8403,
-          "Z": 49.14699,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2546.31665,
-          "Y": 854.096863,
-          "Z": 51.2722168,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Hang Around",
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 2550.224,
+        "Y": 856.0436,
+        "Z": 51.24034,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10000,
+      "Precision": 0.0,
+      "Name": "Defend gong 2",
       "Order": 5,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      }
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -603,22 +461,56 @@
         "Action": ""
       },
       "InteractDistance": 4,
+      "SkipIfNotFound": false,
       "Name": "Hit Gong (3)",
       "Order": 6,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
+      }
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 2551.656,
+        "Y": 857.4319,
+        "Z": 51.24184,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10000,
+      "Precision": 0.0,
+      "Name": "Defend gong 3",
+      "Order": 7,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -689,21 +581,23 @@
         }
       ],
       "Name": "Boss 1",
-      "Order": 7,
+      "Order": 8,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1082,21 +976,23 @@
         }
       ],
       "Name": "Boss 2",
-      "Order": 8,
+      "Order": 9,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
+        "LOSMustReturnTrue": true
       }
     },
     {
@@ -1531,7 +1427,7 @@
         }
       ],
       "Name": "Boss 3",
-      "Order": 9,
+      "Order": 10,
       "CompleteCondition": null
     },
     {
@@ -1805,7 +1701,7 @@
         }
       ],
       "Name": "Boss 4",
-      "Order": 10,
+      "Order": 11,
       "CompleteCondition": null
     }
   ],
