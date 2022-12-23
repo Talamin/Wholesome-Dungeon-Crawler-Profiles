@@ -365,7 +365,7 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 10000,
+      "Timer": 10,
       "Precision": 0.0,
       "Name": "Defend gong 1",
       "Order": 3,
@@ -428,7 +428,7 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 10000,
+      "Timer": 10,
       "Precision": 0.0,
       "Name": "Defend gong 2",
       "Order": 5,
@@ -491,7 +491,7 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 10000,
+      "Timer": 10,
       "Precision": 0.0,
       "Name": "Defend gong 3",
       "Order": 7,

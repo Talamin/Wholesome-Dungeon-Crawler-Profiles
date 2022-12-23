@@ -27,7 +27,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -688,7 +689,38 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 1930.746,
+        "Y": -431.3657,
+        "Z": 18.008,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup at door",
+      "Order": 2,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -703,7 +735,75 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Open Door",
-      "Order": 2,
+      "Order": 3,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 1929.267,
+          "Y": -431.0243,
+          "Z": 21.00805,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 1939.799,
+          "Y": -431.4506,
+          "Z": 21.09402,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 1931.431,
+        "Y": -431.6675,
+        "Z": 18.00805,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 15,
+      "DefendSpotRadius": 5,
+      "Name": "Wait till door open",
+      "Order": 4,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Leave dungeon (end)",
+      "Name": "Leave if door closed",
+      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -731,8 +831,9 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -823,7 +924,7 @@
         }
       ],
       "Name": "Part Two",
-      "Order": 3,
+      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -840,7 +941,63 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 1963.558,
+        "Y": -432.2326,
+        "Z": 6.177998,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10,
+      "DefendSpotRadius": 10,
+      "Name": "Defend against wave",
+      "Order": 7,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.LeaveDungeonModel, WholesomeDungeonCrawler",
+      "Name": "Leave dungeon (end)",
+      "Order": 8,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 189,
@@ -1327,22 +1484,7 @@
   ],
   "OffMeshConnections": [
     {
-      "Path": [
-        {
-          "X": 1947.20117,
-          "Y": -431.456757,
-          "Z": 16.3674278,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1956.27026,
-          "Y": -431.483673,
-          "Z": 6.17757654,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
+      "Path": [],
       "ContinentId": 189,
       "Type": 0,
       "TryToUseEvenIfCanFindPathSuccess": true,
