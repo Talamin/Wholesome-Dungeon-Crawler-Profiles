@@ -27,7 +27,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -59,7 +60,38 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -228.878,
+        "Y": 47.87112,
+        "Z": -46.02619,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup entrance 2",
+      "Order": 2,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -402,7 +434,7 @@
         }
       ],
       "Name": "Move To Boss 1",
-      "Order": 2,
+      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -419,7 +451,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -517,7 +550,7 @@
         }
       ],
       "Name": "Boss 1",
-      "Order": 3,
+      "Order": 4,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -534,7 +567,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -695,7 +729,7 @@
         }
       ],
       "Name": "Boss 2",
-      "Order": 4,
+      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -712,7 +746,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -999,7 +1034,7 @@
         }
       ],
       "Name": "Boss 3",
-      "Order": 5,
+      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1016,7 +1051,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1205,8 +1241,9 @@
         }
       ],
       "Name": "Boss 4",
-      "Order": 6,
-      "CompleteCondition": null
+      "Order": 7,
+      "CompleteCondition": null,
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1346,8 +1383,9 @@
         }
       ],
       "Name": "Boss 5",
-      "Order": 7,
-      "CompleteCondition": null
+      "Order": 8,
+      "CompleteCondition": null,
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1564,7 +1602,7 @@
         }
       ],
       "Name": "Boss 6 Part 1",
-      "Order": 8,
+      "Order": 9,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1581,7 +1619,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -1596,7 +1635,7 @@
       "InteractDistance": 0,
       "SkipIfNotFound": false,
       "Name": "Open Doors",
-      "Order": 9,
+      "Order": 10,
       "CompleteCondition": {
         "ConditionType": 2,
         "HaveItemId": 0,
@@ -1613,7 +1652,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1746,7 +1786,7 @@
         }
       ],
       "Name": "Boss 6 Part 2",
-      "Order": 10,
+      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1763,7 +1803,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -1778,7 +1819,7 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Click on Alter of The Keeprs",
-      "Order": 11,
+      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -1795,7 +1836,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1893,7 +1935,7 @@
         }
       ],
       "Name": "Killin all Stone Keepers",
-      "Order": 12,
+      "Order": 13,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -1910,7 +1952,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2078,7 +2121,7 @@
         }
       ],
       "Name": "Boss 6 Part 3",
-      "Order": 13,
+      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2095,7 +2138,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2110,7 +2154,7 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Open Final  Doors",
-      "Order": 14,
+      "Order": 15,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -2139,7 +2183,8 @@
           "Action": ""
         },
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2154,7 +2199,7 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Click Alter of Archaedas",
-      "Order": 15,
+      "Order": 16,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -2171,7 +2216,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2234,38 +2280,6 @@
         }
       ],
       "Name": "Goto Chest",
-      "Order": 16,
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
-      "ObjectId": "131474",
-      "ExpectedPosition": {
-        "X": 161.826,
-        "Y": 298.283,
-        "Z": -51.3698,
-        "Type": "None",
-        "Action": ""
-      },
-      "InteractDistance": 8,
-      "SkipIfNotFound": false,
-      "Name": "Loot Chest",
       "Order": 17,
       "CompleteCondition": {
         "ConditionType": 0,
@@ -2283,7 +2297,41 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
+      "ObjectId": "131474",
+      "ExpectedPosition": {
+        "X": 161.826,
+        "Y": 298.283,
+        "Z": -51.3698,
+        "Type": "None",
+        "Action": ""
+      },
+      "InteractDistance": 8,
+      "SkipIfNotFound": false,
+      "Name": "Loot Chest",
+      "Order": 18,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 70,
