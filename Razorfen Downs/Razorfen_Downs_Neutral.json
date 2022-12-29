@@ -27,7 +27,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -322,7 +323,24 @@
       ],
       "Name": "Go to Gong",
       "Order": 1,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -354,7 +372,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
@@ -366,7 +385,7 @@
         "Action": ""
       },
       "Timer": 10,
-      "Precision": 0.0,
+      "DefendSpotRadius": 30,
       "Name": "Defend gong 1",
       "Order": 3,
       "CompleteCondition": {
@@ -385,7 +404,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -417,7 +437,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
@@ -429,7 +450,7 @@
         "Action": ""
       },
       "Timer": 10,
-      "Precision": 0.0,
+      "DefendSpotRadius": 30,
       "Name": "Defend gong 2",
       "Order": 5,
       "CompleteCondition": {
@@ -448,7 +469,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -480,7 +502,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
@@ -492,7 +515,7 @@
         "Action": ""
       },
       "Timer": 10,
-      "Precision": 0.0,
+      "DefendSpotRadius": 30,
       "Name": "Defend gong 3",
       "Order": 7,
       "CompleteCondition": {
@@ -511,7 +534,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -571,13 +595,6 @@
           "Z": 47.67819,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 2516.03052,
-          "Y": 854.778748,
-          "Z": 47.67819,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Boss 1",
@@ -598,7 +615,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -863,16 +881,9 @@
           "Action": ""
         },
         {
-          "X": 2461.85059,
-          "Y": 699.4659,
-          "Z": 54.6074181,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2453.58081,
-          "Y": 700.570435,
-          "Z": 54.46032,
+          "X": 2456.48779,
+          "Y": 692.1095,
+          "Z": 55.05214,
           "Type": "None",
           "Action": ""
         },
@@ -993,7 +1004,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1428,7 +1440,8 @@
       ],
       "Name": "Boss 3",
       "Order": 10,
-      "CompleteCondition": null
+      "CompleteCondition": null,
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1702,7 +1715,8 @@
       ],
       "Name": "Boss 4",
       "Order": 11,
-      "CompleteCondition": null
+      "CompleteCondition": null,
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 129,

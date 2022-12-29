@@ -12,20 +12,23 @@
       "Name": "Regroup Entrance",
       "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -192,58 +195,86 @@
           "Action": ""
         },
         {
-          "X": 992.037,
-          "Y": -311.691925,
-          "Z": -45.4922028,
+          "X": 990.0791,
+          "Y": -321.75705,
+          "Z": -45.62822,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 982.7191,
-          "Y": -302.021545,
-          "Z": -45.6722946,
+          "X": 980.738342,
+          "Y": -318.048279,
+          "Z": -46.0578346,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 972.041443,
-          "Y": -292.9671,
-          "Z": -45.4155579,
+          "X": 974.572449,
+          "Y": -314.093933,
+          "Z": -45.8594475,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 962.5179,
-          "Y": -285.268341,
-          "Z": -45.4446373,
+          "X": 967.772339,
+          "Y": -308.1516,
+          "Z": -45.47889,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 951.087463,
-          "Y": -276.197052,
-          "Z": -45.8641243,
+          "X": 962.1549,
+          "Y": -302.135834,
+          "Z": -45.364296,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 941.4123,
-          "Y": -265.304169,
-          "Z": -45.70102,
+          "X": 956.289063,
+          "Y": -295.874725,
+          "Z": -45.2172737,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 933.2844,
-          "Y": -253.951187,
-          "Z": -46.3039474,
+          "X": 950.575439,
+          "Y": -290.374,
+          "Z": -45.6128349,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 926.0811,
-          "Y": -247.692,
-          "Z": -46.59334,
+          "X": 945.5545,
+          "Y": -280.090149,
+          "Z": -46.08588,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 938.7435,
+          "Y": -274.330231,
+          "Z": -45.87368,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 935.1269,
+          "Y": -269.5618,
+          "Z": -45.7582664,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 932.2643,
+          "Y": -262.366669,
+          "Z": -45.81763,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 927.7587,
+          "Y": -254.111511,
+          "Z": -46.5467834,
           "Type": "None",
           "Action": ""
         },
@@ -276,44 +307,72 @@
           "Action": ""
         },
         {
-          "X": 893.568054,
-          "Y": -284.017,
-          "Z": -45.9251175,
+          "X": 886.282043,
+          "Y": -279.4144,
+          "Z": -45.929512,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 897.7525,
-          "Y": -292.949249,
-          "Z": -46.2577934,
+          "X": 886.86145,
+          "Y": -283.852722,
+          "Z": -45.929512,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 898.426331,
-          "Y": -305.1744,
-          "Z": -46.3343048,
+          "X": 888.342163,
+          "Y": -291.2178,
+          "Z": -45.929512,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 900.063232,
-          "Y": -313.175568,
-          "Z": -48.65239,
+          "X": 890.4997,
+          "Y": -297.683746,
+          "Z": -45.9718666,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 905.170044,
-          "Y": -320.992,
-          "Z": -49.3978081,
+          "X": 892.374451,
+          "Y": -303.784332,
+          "Z": -45.9637375,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 913.2009,
-          "Y": -330.957916,
-          "Z": -49.402298,
+          "X": 894.5695,
+          "Y": -311.17215,
+          "Z": -46.9432526,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 897.8746,
+          "Y": -320.534729,
+          "Z": -49.3092346,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 900.1419,
+          "Y": -326.481934,
+          "Z": -49.6545372,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 903.7972,
+          "Y": -331.0852,
+          "Z": -49.4820976,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 910.575562,
+          "Y": -333.41217,
+          "Z": -49.3111877,
           "Type": "None",
           "Action": ""
         },
@@ -507,23 +566,58 @@
           "Action": ""
         },
         {
-          "X": 1119.99475,
-          "Y": -246.675247,
-          "Z": -79.26431,
+          "X": 1118.40137,
+          "Y": -255.804245,
+          "Z": -78.7971649,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1130.17126,
-          "Y": -237.009979,
-          "Z": -79.26431,
+          "X": 1126.056,
+          "Y": -254.142166,
+          "Z": -79.26437,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1131.3783,
-          "Y": -223.103119,
-          "Z": -79.26431,
+          "X": 1134.5105,
+          "Y": -249.8755,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1141.52051,
+          "Y": -245.4121,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1144.50061,
+          "Y": -240.477737,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1144.695,
+          "Y": -232.876038,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1142.68665,
+          "Y": -226.241058,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1139.50293,
+          "Y": -217.999588,
+          "Z": -79.26437,
           "Type": "None",
           "Action": ""
         },
@@ -545,20 +639,23 @@
       "Name": "Boss1",
       "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -819,20 +916,23 @@
       "Name": "Boss2",
       "Order": 2,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1069,205 +1169,275 @@
           "Action": ""
         },
         {
-          "X": 783.3621,
-          "Y": -206.165115,
-          "Z": -66.0825958,
+          "X": 775.868164,
+          "Y": -208.217743,
+          "Z": -65.86315,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 781.2585,
-          "Y": -195.6298,
-          "Z": -70.1923447,
+          "X": 775.3915,
+          "Y": -196.282257,
+          "Z": -69.58824,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 787.2764,
-          "Y": -182.995377,
-          "Z": -74.58619,
+          "X": 778.9827,
+          "Y": -187.332428,
+          "Z": -72.06416,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 793.483459,
-          "Y": -177.243973,
-          "Z": -74.93672,
+          "X": 784.91,
+          "Y": -178.640411,
+          "Z": -74.57482,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 797.6773,
-          "Y": -170.2107,
-          "Z": -74.8377151,
+          "X": 785.4212,
+          "Y": -170.397491,
+          "Z": -73.73415,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 806.5524,
-          "Y": -168.835846,
-          "Z": -77.3047562,
+          "X": 788.026062,
+          "Y": -162.708817,
+          "Z": -73.70107,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 815.0435,
-          "Y": -168.794586,
-          "Z": -77.24495,
+          "X": 791.4011,
+          "Y": -154.306091,
+          "Z": -74.3816,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 822.5753,
-          "Y": -166.310165,
-          "Z": -84.24091,
+          "X": 794.933167,
+          "Y": -147.635788,
+          "Z": -74.20066,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 829.6558,
-          "Y": -163.744278,
-          "Z": -88.30631,
+          "X": 799.4344,
+          "Y": -144.304291,
+          "Z": -74.16565,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 835.033142,
-          "Y": -157.16391,
-          "Z": -88.29661,
+          "X": 803.0427,
+          "Y": -143.13298,
+          "Z": -74.28257,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 840.314,
-          "Y": -150.618,
-          "Z": -88.2720947,
+          "X": 809.027161,
+          "Y": -144.002625,
+          "Z": -75.07283,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 843.9881,
-          "Y": -143.017639,
-          "Z": -88.30536,
+          "X": 820.7439,
+          "Y": -143.595932,
+          "Z": -87.56625,
+          "Type": "Flying",
+          "Action": ""
+        },
+        {
+          "X": 825.1914,
+          "Y": -143.305817,
+          "Z": -87.5662155,
+          "Type": "Flying",
+          "Action": ""
+        },
+        {
+          "X": 830.916565,
+          "Y": -142.895218,
+          "Z": -87.56625,
+          "Type": "Flying",
+          "Action": ""
+        },
+        {
+          "X": 833.434631,
+          "Y": -133.697845,
+          "Z": -88.42909,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 846.424255,
-          "Y": -134.617538,
-          "Z": -88.41872,
+          "X": 834.740845,
+          "Y": -125.222923,
+          "Z": -88.54582,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 849.0863,
-          "Y": -126.624,
-          "Z": -88.48706,
+          "X": 835.8487,
+          "Y": -115.749481,
+          "Z": -88.67674,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 851.2479,
-          "Y": -117.845207,
-          "Z": -88.58029,
+          "X": 834.886841,
+          "Y": -110.684937,
+          "Z": -88.7361145,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 850.1705,
-          "Y": -109.507309,
-          "Z": -88.6882858,
+          "X": 830.2008,
+          "Y": -104.513733,
+          "Z": -88.7125,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 849.1925,
-          "Y": -100.8172,
-          "Z": -88.6834641,
+          "X": 825.198547,
+          "Y": -99.86615,
+          "Z": -88.73746,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 847.772339,
-          "Y": -92.18792,
-          "Z": -87.26223,
+          "X": 820.553162,
+          "Y": -95.0784454,
+          "Z": -88.73887,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 846.233154,
-          "Y": -83.39664,
-          "Z": -87.4041443,
+          "X": 814.4115,
+          "Y": -89.8349457,
+          "Z": -88.75715,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 844.752,
-          "Y": -74.93632,
-          "Z": -87.50346,
+          "X": 806.9931,
+          "Y": -86.09892,
+          "Z": -88.65093,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 842.454163,
-          "Y": -61.8114471,
-          "Z": -87.4105148,
+          "X": 803.0049,
+          "Y": -82.1027145,
+          "Z": -88.5330048,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 840.039856,
-          "Y": -48.0211945,
-          "Z": -87.2160339,
+          "X": 802.146057,
+          "Y": -75.8466,
+          "Z": -88.43525,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 837.5229,
-          "Y": -33.64486,
-          "Z": -86.97113,
+          "X": 801.4817,
+          "Y": -69.3776245,
+          "Z": -88.32713,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 835.1085,
-          "Y": -19.85461,
-          "Z": -87.12014,
+          "X": 800.0136,
+          "Y": -62.5172768,
+          "Z": -88.203804,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 832.5916,
-          "Y": -5.47827148,
-          "Z": -87.02195,
+          "X": 798.641541,
+          "Y": -56.68144,
+          "Z": -88.12454,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 830.08075,
-          "Y": 8.863594,
-          "Z": -86.98591,
+          "X": 797.3408,
+          "Y": -47.2180634,
+          "Z": -88.18551,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 827.6664,
-          "Y": 22.6538467,
-          "Z": -86.96954,
+          "X": 797.74884,
+          "Y": -37.513504,
+          "Z": -88.25616,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 826.4567,
-          "Y": 36.7386932,
-          "Z": -87.07673,
+          "X": 800.34906,
+          "Y": -26.0969849,
+          "Z": -88.32812,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 817.9587,
-          "Y": 48.5642624,
-          "Z": -87.0430756,
+          "X": 802.1634,
+          "Y": -14.8812752,
+          "Z": -88.3381,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 803.6766,
+          "Y": -1.500391,
+          "Z": -88.34102,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 803.302551,
+          "Y": 8.922442,
+          "Z": -88.2554,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 799.3931,
+          "Y": 20.2777729,
+          "Z": -88.15056,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 792.439758,
+          "Y": 28.0546761,
+          "Z": -88.15056,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 794.7702,
+          "Y": 38.49509,
+          "Z": -88.15056,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 799.3424,
+          "Y": 43.85735,
+          "Z": -88.15056,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 804.5004,
+          "Y": 50.8922157,
+          "Z": -86.77818,
           "Type": "None",
           "Action": ""
         },
@@ -1324,20 +1494,23 @@
       "Name": "Boss3",
       "Order": 3,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 349,
@@ -3065,16 +3238,16 @@
     {
       "Path": [
         {
-          "X": 815.0435,
-          "Y": -168.794586,
-          "Z": -77.24495,
+          "X": 808.668,
+          "Y": -144.3574,
+          "Z": -74.96065,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 824.082153,
-          "Y": -165.813141,
-          "Z": -88.30523,
+          "X": 821.5801,
+          "Y": -143.094986,
+          "Z": -88.28618,
           "Type": "None",
           "Action": ""
         }
@@ -3082,7 +3255,7 @@
       "ContinentId": 349,
       "Type": 0,
       "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": "Foulspore Cavern Jump 1"
+      "Name": "Poison Falls"
     }
   ]
 }

@@ -2653,30 +2653,37 @@
           "Action": ""
         },
         {
-          "X": 1667.92444,
-          "Y": 1161.92529,
-          "Z": 8.932256,
+          "X": 1666.37341,
+          "Y": 1153.073,
+          "Z": 8.875283,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1666.92749,
-          "Y": 1173.20959,
-          "Z": 9.581588,
+          "X": 1660.5448,
+          "Y": 1154.7511,
+          "Z": 9.2239,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1658.48083,
-          "Y": 1165.19165,
-          "Z": 10.8563137,
+          "X": 1656.13062,
+          "Y": 1157.83325,
+          "Z": 9.900258,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1651.58948,
-          "Y": 1172.42664,
-          "Z": 10.8535318,
+          "X": 1653.04346,
+          "Y": 1162.70532,
+          "Z": 9.410981,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1647.417,
+          "Y": 1168.73425,
+          "Z": 8.952524,
           "Type": "None",
           "Action": ""
         }
@@ -2712,7 +2719,7 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 4,
+      "InteractDistance": 8,
       "SkipIfNotFound": false,
       "Name": "Interact with Gong",
       "Order": 14,
@@ -2738,9 +2745,9 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": 1661.051,
-        "Y": 1162.978,
-        "Z": 10.83565,
+        "X": 1683.024,
+        "Y": 1167.05,
+        "Z": 8.877034,
         "Type": "None",
         "Action": ""
       },
@@ -2768,27 +2775,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 1661.05054,
-          "Y": 1162.97754,
-          "Z": 10.8356495,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1669.1864,
-          "Y": 1159.60608,
-          "Z": 8.877116,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1677.231,
-          "Y": 1160.81787,
-          "Z": 8.877116,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 1683.10767,
           "Y": 1166.98438,
