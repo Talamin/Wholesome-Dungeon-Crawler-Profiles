@@ -1994,231 +1994,14 @@
           "Action": ""
         },
         {
-          "X": 1771.48877,
-          "Y": 1039.07727,
-          "Z": 52.00336,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1765.95276,
-          "Y": 1045.53967,
-          "Z": 49.4187355,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1760.1333,
-          "Y": 1051.91382,
-          "Z": 47.8762169,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1754.304,
-          "Y": 1058.05542,
-          "Z": 47.9850349,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1747.82324,
-          "Y": 1063.75232,
-          "Z": 49.7400436,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1739.86743,
-          "Y": 1066.28955,
-          "Z": 52.2484131,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1742.13928,
-          "Y": 1058.75208,
-          "Z": 48.3608932,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1744.85046,
-          "Y": 1050.84229,
-          "Z": 48.5242577,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1743.07959,
-          "Y": 1042.60974,
-          "Z": 49.69792,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1739.4646,
-          "Y": 1034.94189,
-          "Z": 51.1992264,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1734.65332,
-          "Y": 1027.94653,
-          "Z": 52.8978,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1727.09229,
-          "Y": 1018.41394,
-          "Z": 54.866333,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1729.72351,
-          "Y": 1026.15588,
-          "Z": 53.3490143,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1733.78748,
-          "Y": 1033.761,
-          "Z": 52.2866745,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1739.78906,
-          "Y": 1039.82507,
-          "Z": 50.30961,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1745.8916,
-          "Y": 1045.79919,
-          "Z": 49.1100159,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1751.96912,
-          "Y": 1051.7489,
-          "Z": 48.2687645,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1758.1217,
-          "Y": 1057.77209,
-          "Z": 47.62773,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1764.19421,
-          "Y": 1063.7168,
-          "Z": 46.69961,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1770.28174,
-          "Y": 1069.67627,
-          "Z": 45.2090645,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1776.31934,
-          "Y": 1075.69519,
-          "Z": 43.758194,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1782.57617,
-          "Y": 1081.66785,
-          "Z": 42.00939,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1788.853,
-          "Y": 1087.438,
-          "Z": 39.77412,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1795.10925,
-          "Y": 1093.18909,
-          "Z": 37.42245,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1801.39648,
-          "Y": 1098.96863,
-          "Z": 35.1497459,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1807.67554,
-          "Y": 1104.73621,
-          "Z": 32.97831,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1814.39246,
-          "Y": 1109.96118,
-          "Z": 30.5584888,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1821.06067,
-          "Y": 1115.42981,
-          "Z": 28.3368244,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1827.632,
-          "Y": 1120.81812,
-          "Z": 25.96952,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1834.84863,
-          "Y": 1126.9895,
-          "Z": 23.3603287,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1845.59558,
-          "Y": 1132.50854,
-          "Z": 20.47559,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1852.24927,
-          "Y": 1139.587,
-          "Z": 17.516943,
+          "X": 1770.85181,
+          "Y": 1027.61914,
+          "Z": 54.06008,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Boss - Chief Ukroz Sandscalp",
+      "Name": "Boss - Chief Ukroz Sandscalp 1",
       "Order": 11,
       "CompleteCondition": {
         "ConditionType": 0,
@@ -2229,6 +2012,308 @@
         "InitialFlags": 0,
         "FlagsChangedGameObjectId": 0,
         "DeadMobId": 7267,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1770.86865,
+          "Y": 1028.96765,
+          "Z": 54.1996956,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1770.36877,
+          "Y": 1038.05981,
+          "Z": 52.0712242,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1766.82483,
+          "Y": 1045.59106,
+          "Z": 49.5926666,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1760.52979,
+          "Y": 1051.65894,
+          "Z": 47.9040527,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1754.00415,
+          "Y": 1057.12866,
+          "Z": 48.009903,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1747.70239,
+          "Y": 1062.86108,
+          "Z": 49.5576477,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1740.68579,
+          "Y": 1067.43518,
+          "Z": 52.27182,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1732.49915,
+          "Y": 1066.14734,
+          "Z": 53.8175354,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1726.03113,
+          "Y": 1060.00464,
+          "Z": 54.29688,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1724.29736,
+          "Y": 1052.07751,
+          "Z": 53.17092,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1725.21667,
+          "Y": 1043.62439,
+          "Z": 54.7315674,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1726.45581,
+          "Y": 1035.19226,
+          "Z": 53.5221062,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1727.11841,
+          "Y": 1026.7074,
+          "Z": 53.430294,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1728.44006,
+          "Y": 1018.19757,
+          "Z": 54.2500534,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Boss - Chief Ukroz Sandscalp 2",
+      "Order": 12,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1729.93115,
+          "Y": 1018.57605,
+          "Z": 54.2583961,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1738.43811,
+          "Y": 1019.525,
+          "Z": 53.3733673,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1743.35535,
+          "Y": 1026.0033,
+          "Z": 52.3228073,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1748.8407,
+          "Y": 1032.66711,
+          "Z": 49.28641,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1753.09741,
+          "Y": 1040.02234,
+          "Z": 48.8689232,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1756.40552,
+          "Y": 1047.8728,
+          "Z": 48.2280655,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1759.70349,
+          "Y": 1055.72742,
+          "Z": 47.5863571,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1764.777,
+          "Y": 1062.39478,
+          "Z": 46.7246857,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1770.8855,
+          "Y": 1068.49231,
+          "Z": 45.30476,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1776.90979,
+          "Y": 1074.50586,
+          "Z": 43.91652,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1783.26782,
+          "Y": 1080.18262,
+          "Z": 42.21382,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1789.66492,
+          "Y": 1085.80847,
+          "Z": 39.96347,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1796.05481,
+          "Y": 1091.43188,
+          "Z": 37.630455,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1802.53418,
+          "Y": 1097.13379,
+          "Z": 35.28518,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1808.92419,
+          "Y": 1102.7572,
+          "Z": 33.0000458,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1815.31934,
+          "Y": 1108.38525,
+          "Z": 30.656929,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1821.7146,
+          "Y": 1114.01318,
+          "Z": 28.4260883,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1828.27808,
+          "Y": 1119.78918,
+          "Z": 26.0693836,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1834.67322,
+          "Y": 1125.41724,
+          "Z": 23.75072,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1841.07373,
+          "Y": 1131.0498,
+          "Z": 21.50673,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1847.46375,
+          "Y": 1136.67322,
+          "Z": 19.1473579,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1853.859,
+          "Y": 1142.30115,
+          "Z": 16.57782,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Boss - Chief Ukroz Sandscalp 3",
+      "Order": 13,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
@@ -2622,7 +2707,7 @@
         }
       ],
       "Name": "Clear Gong area",
-      "Order": 12,
+      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2689,7 +2774,7 @@
         }
       ],
       "Name": "Path to Gong of Zul'Farrak",
-      "Order": 13,
+      "Order": 15,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2722,7 +2807,7 @@
       "InteractDistance": 8,
       "SkipIfNotFound": false,
       "Name": "Interact with Gong",
-      "Order": 14,
+      "Order": 16,
       "CompleteCondition": {
         "ConditionType": 2,
         "HaveItemId": 0,
@@ -2752,7 +2837,7 @@
         "Action": ""
       },
       "Name": "Regroup before Gha Zilla",
-      "Order": 15,
+      "Order": 17,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2854,7 +2939,7 @@
         }
       ],
       "Name": "Boss - Gahz'rilla",
-      "Order": 16,
+      "Order": 18,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
