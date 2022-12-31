@@ -45,7 +45,7 @@
       "Name": "Interact with Echomok Door",
       "Order": 1,
       "CompleteCondition": {
-        "ConditionType": 2,
+        "ConditionType": 6,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -57,8 +57,20 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": -186.7075,
+          "Y": 389.9746,
+          "Z": -37.53337,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": -181.5914,
+          "Y": 389.5013,
+          "Z": -36.40136,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true
       },
       "HasCompleteCondition": true
