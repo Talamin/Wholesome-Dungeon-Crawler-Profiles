@@ -27,7 +27,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -72,7 +73,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -572,7 +574,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -736,7 +739,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1313,7 +1317,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2730,7 +2735,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2992,7 +2998,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -3451,6 +3458,20 @@
           "Z": -31.0770454,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -78.49113,
+          "Y": 31.0569973,
+          "Z": -31.0772228,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -69.6154,
+          "Y": 34.9549141,
+          "Z": -31.0772228,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Move Along Path to Verdan",
@@ -3471,43 +3492,46 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -54.51461,
+        "Y": 42.76543,
+        "Z": -29.62482,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "regroup before jump",
+      "Order": 8,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -81.85905,
-          "Y": 27.1544628,
-          "Z": -31.0772266,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -77.09948,
-          "Y": 30.7945976,
-          "Z": -31.0772266,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -72.43038,
-          "Y": 34.2405472,
-          "Z": -31.0772266,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -66.93528,
-          "Y": 38.38156,
-          "Z": -30.7325249,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -59.71742,
-          "Y": 43.1141739,
-          "Z": -28.7891541,
+          "X": -52.5236931,
+          "Y": 42.982563,
+          "Z": -30.51091,
           "Type": "None",
           "Action": ""
         },
@@ -3821,35 +3845,6 @@
         }
       ],
       "Name": "GoingBackToNPC",
-      "Order": 8,
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -135.2459,
-        "Y": 134.7139,
-        "Z": -77.59542,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup before Escort",
       "Order": 9,
       "CompleteCondition": {
         "ConditionType": 0,
@@ -3867,7 +3862,38 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -135.2459,
+        "Y": 134.7139,
+        "Z": -77.59542,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before Escort",
+      "Order": 10,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.TalkToUnitModel, WholesomeDungeonCrawler",
@@ -3882,7 +3908,7 @@
       "UnitId": 3678,
       "GossipIndex": 1,
       "Name": "TalkToDruid",
-      "Order": 10,
+      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 5,
         "HaveItemId": 0,
@@ -3905,7 +3931,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.FollowUnitModel, WholesomeDungeonCrawler",
@@ -3926,7 +3953,7 @@
       "SkipIfNotFound": true,
       "UnitId": 3678,
       "Name": "Follow NPC",
-      "Order": 11,
+      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -3943,7 +3970,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
@@ -3955,9 +3983,9 @@
         "Action": ""
       },
       "Timer": 0,
-      "Precision": 5.0,
+      "DefendSpotRadius": 30,
       "Name": "Defend druid",
-      "Order": 12,
+      "Order": 13,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -3974,7 +4002,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -4051,7 +4080,7 @@
         }
       ],
       "Name": "Approach Mutanos the Devourer",
-      "Order": 13,
+      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -4068,7 +4097,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 43,

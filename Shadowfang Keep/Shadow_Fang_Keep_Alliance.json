@@ -27,7 +27,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -233,7 +234,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -265,7 +267,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.TalkToUnitModel, WholesomeDungeonCrawler",
@@ -303,7 +306,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -375,22 +379,35 @@
       "Name": "Move to Door to Yard",
       "Order": 4,
       "CompleteCondition": {
-        "ConditionType": 2,
+        "ConditionType": 6,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
-        "InitialFlags": 34,
-        "FlagsChangedGameObjectId": 18895,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": -242.1001,
+          "Y": 2154.984,
+          "Z": 92.0,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": -239.0101,
+          "Y": 2163.898,
+          "Z": 92.0,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -624,7 +641,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -823,7 +841,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1071,7 +1090,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1312,7 +1332,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1679,7 +1700,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1983,7 +2005,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2119,7 +2142,8 @@
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
         "LOSMustReturnTrue": true
-      }
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 33,
