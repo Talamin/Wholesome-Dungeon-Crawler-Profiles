@@ -3498,9 +3498,9 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": -54.51461,
-        "Y": 42.76543,
-        "Z": -29.62482,
+        "X": -65.4287,
+        "Y": 37.50608,
+        "Z": -30.50986,
         "Type": "None",
         "Action": ""
       },
@@ -3529,16 +3529,51 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -52.5236931,
-          "Y": 42.982563,
-          "Z": -30.51091,
+          "X": -65.4287,
+          "Y": 37.5060768,
+          "Z": -30.5098648,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -43.2176132,
-          "Y": 49.68209,
-          "Z": -107.592232,
+          "X": -61.55187,
+          "Y": 39.0793953,
+          "Z": -29.7412529,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -57.47188,
+          "Y": 41.00183,
+          "Z": -28.9447613,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -54.59073,
+          "Y": 42.48936,
+          "Z": -29.6515656,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -31.4399681,
+          "Y": 49.0483971,
+          "Z": -107.193886,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -35.4423447,
+          "Y": 48.19255,
+          "Z": -107.168282,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -40.9008064,
+          "Y": 47.7082558,
+          "Z": -107.252365,
           "Type": "Swimming",
           "Action": ""
         },
