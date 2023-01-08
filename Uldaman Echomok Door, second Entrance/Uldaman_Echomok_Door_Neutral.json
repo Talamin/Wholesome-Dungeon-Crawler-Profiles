@@ -10,7 +10,6 @@
         "Action": ""
       },
       "Name": "Regroup  Entrance",
-      "Order": 0,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -26,7 +25,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -43,7 +45,6 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Interact with Echomok Door",
-      "Order": 1,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -71,7 +72,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -85,7 +89,6 @@
         "Action": ""
       },
       "Name": "Regroup entrance 2",
-      "Order": 2,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -101,7 +104,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -446,7 +452,6 @@
         }
       ],
       "Name": "Move To Boss 1",
-      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -462,7 +467,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -562,7 +570,6 @@
         }
       ],
       "Name": "Boss 1",
-      "Order": 4,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -578,7 +585,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -741,7 +751,6 @@
         }
       ],
       "Name": "Boss 2",
-      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -757,7 +766,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1046,7 +1058,6 @@
         }
       ],
       "Name": "Boss 3",
-      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1062,7 +1073,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1253,7 +1267,6 @@
         }
       ],
       "Name": "Boss 4",
-      "Order": 7,
       "CompleteCondition": null,
       "HasCompleteCondition": false
     },
@@ -1395,7 +1408,6 @@
         }
       ],
       "Name": "Boss 5",
-      "Order": 8,
       "CompleteCondition": null,
       "HasCompleteCondition": false
     },
@@ -1614,7 +1626,6 @@
         }
       ],
       "Name": "Boss 6 Part 1",
-      "Order": 9,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1630,7 +1641,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1647,7 +1661,6 @@
       "InteractDistance": 0,
       "SkipIfNotFound": false,
       "Name": "Open Doors",
-      "Order": 10,
       "CompleteCondition": {
         "ConditionType": 2,
         "HaveItemId": 0,
@@ -1663,7 +1676,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -1798,7 +1814,6 @@
         }
       ],
       "Name": "Boss 6 Part 2",
-      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1814,7 +1829,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1831,7 +1849,6 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Click on Alter of The Keeprs",
-      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -1847,7 +1864,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -1947,7 +1967,6 @@
         }
       ],
       "Name": "Killin all Stone Keepers",
-      "Order": 13,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -1963,7 +1982,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -2133,7 +2155,6 @@
         }
       ],
       "Name": "Boss 6 Part 3",
-      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2149,7 +2170,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2166,7 +2190,6 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Open Final  Doors",
-      "Order": 15,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -2194,7 +2217,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -2211,9 +2237,8 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Click Alter of Archaedas",
-      "Order": 16,
       "CompleteCondition": {
-        "ConditionType": 4,
+        "ConditionType": 8,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2227,7 +2252,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 2748,
+        "MobAttackableMustReturnTrue": true,
+        "MobAttackableSkipIfAbsent": true
       },
       "HasCompleteCondition": true
     },
@@ -2292,7 +2320,6 @@
         }
       ],
       "Name": "Goto Chest",
-      "Order": 17,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2308,13 +2335,16 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
-      "ObjectId": "131474",
+      "ObjectId": "141979",
       "ExpectedPosition": {
         "X": 161.826,
         "Y": 298.283,
@@ -2322,10 +2352,9 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 8,
-      "SkipIfNotFound": false,
+      "InteractDistance": 6,
+      "SkipIfNotFound": true,
       "Name": "Loot Chest",
-      "Order": 18,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2341,7 +2370,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     }

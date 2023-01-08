@@ -10,7 +10,6 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -672,7 +671,6 @@
         }
       ],
       "Name": "Part One",
-      "Order": 1,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -702,7 +700,6 @@
         "Action": ""
       },
       "Name": "Regroup at door",
-      "Order": 2,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -735,7 +732,6 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Open Door",
-      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -779,7 +775,6 @@
       "Timer": 15,
       "DefendSpotRadius": 5,
       "Name": "Wait till door open",
-      "Order": 4,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -803,7 +798,6 @@
       "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
       "StepToJumpTo": "Leave dungeon (end)",
       "Name": "Leave if door closed",
-      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 6,
         "HaveItemId": 0,
@@ -924,7 +918,6 @@
         }
       ],
       "Name": "Part Two",
-      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 4,
         "HaveItemId": 0,
@@ -956,7 +949,6 @@
       "Timer": 10,
       "DefendSpotRadius": 10,
       "Name": "Defend against wave",
-      "Order": 7,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -979,7 +971,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.LeaveDungeonModel, WholesomeDungeonCrawler",
       "Name": "Leave dungeon (end)",
-      "Order": 8,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1482,13 +1473,5 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": [
-    {
-      "Path": [],
-      "ContinentId": 189,
-      "Type": 0,
-      "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": "Hall of Champions"
-    }
-  ]
+  "OffMeshConnections": []
 }
