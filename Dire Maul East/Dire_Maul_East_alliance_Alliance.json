@@ -2268,7 +2268,7 @@
         "Type": "None",
         "Action": ""
       },
-      "SkipIfNotFound": false,
+      "SkipIfNotFound": true,
       "UnitId": 14241,
       "GossipIndex": 1,
       "Name": "Talk to Ironbark",
