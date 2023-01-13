@@ -2270,7 +2270,7 @@
       },
       "SkipIfNotFound": false,
       "UnitId": 14241,
-      "GossipIndex": 0,
+      "GossipIndex": 1,
       "Name": "Talk to Ironbark",
       "CompleteCondition": {
         "ConditionType": 5,
