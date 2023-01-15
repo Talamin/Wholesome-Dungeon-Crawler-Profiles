@@ -517,13 +517,6 @@
           "Z": 109.972229,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 260.6313,
-          "Y": 131.250244,
-          "Z": 109.972374,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Clear Summoner Room",
@@ -577,6 +570,92 @@
         "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 269.8195,
+        "Y": 128.3242,
+        "Z": 109.9727,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 5,
+      "ZoneToClearPosition": {
+        "X": 269.2694,
+        "Y": 153.4451,
+        "Z": 109.7781,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 12,
+      "Name": "Pull Rattlegore room",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 256.4688,
+        "Y": 130.1428,
+        "Z": 109.9733,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 5,
+      "ZoneToClearPosition": {
+        "X": 242.719,
+        "Y": 153.2325,
+        "Z": 109.6554,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 14,
+      "Name": "Pull ballroom",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
