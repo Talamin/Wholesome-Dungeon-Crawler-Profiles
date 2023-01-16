@@ -1,6 +1,32 @@
 {
   "StepModels": [
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": null,
+      "Name": "Start",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
@@ -11,82 +37,16 @@
           "Action": ""
         },
         {
-          "X": 199.629532,
-          "Y": 119.553062,
-          "Z": 133.996979,
+          "X": 198.759155,
+          "Y": 119.887253,
+          "Z": 134.186966,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 199.8239,
-          "Y": 112.324753,
-          "Z": 130.05864,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Enter",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": 199.807,
-        "Y": 109.2308,
-        "Z": 128.4086,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup at Start",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 200.49202,
-          "Y": 105.276985,
-          "Z": 128.412659,
+          "X": 200.782913,
+          "Y": 102.571877,
+          "Z": 128.42218,
           "Type": "None",
           "Action": ""
         },
@@ -2883,7 +2843,7 @@
   "MapId": 289,
   "ProfileName": "Scholomance",
   "DungeonName": "Scholomance",
-  "Faction": 0,
+  "Faction": 2,
   "DeathRunPath": [
     {
       "X": 1236.89,
