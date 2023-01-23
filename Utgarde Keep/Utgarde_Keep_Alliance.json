@@ -579,7 +579,13 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": null,
+      "RegroupSpot": {
+        "X": 331.853821,
+        "Y": 234.487549,
+        "Z": 30.7419968,
+        "Type": "None",
+        "Action": ""
+      },
       "Name": "Regroup 1",
       "CompleteCondition": {
         "ConditionType": 0,
@@ -912,7 +918,13 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": null,
+      "RegroupSpot": {
+        "X": 192.820236,
+        "Y": 205.1836,
+        "Z": 40.8312,
+        "Type": "None",
+        "Action": ""
+      },
       "Name": "Regroup 2",
       "CompleteCondition": {
         "ConditionType": 0,
