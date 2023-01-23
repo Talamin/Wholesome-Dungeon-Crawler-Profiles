@@ -2,7 +2,13 @@
   "StepModels": [
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": null,
+      "RegroupSpot": {
+        "X": 196.3281,
+        "Y": 127.1794,
+        "Z": 134.9117,
+        "Type": "None",
+        "Action": ""
+      },
       "Name": "Start",
       "CompleteCondition": {
         "ConditionType": 0,
