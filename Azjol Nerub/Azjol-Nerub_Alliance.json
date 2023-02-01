@@ -1,0 +1,279 @@
+{
+  "StepModels": [
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 423.9007,
+        "Y": 786.4703,
+        "Z": 828.0082,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup at Entrance",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 423.900665,
+          "Y": 786.470337,
+          "Z": 828.0082,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 433.9756,
+          "Y": 777.79126,
+          "Z": 827.672852,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 443.295929,
+          "Y": 771.587036,
+          "Z": 827.4371,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 453.6639,
+          "Y": 766.2313,
+          "Z": 826.0529,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 464.13327,
+          "Y": 761.661133,
+          "Z": 824.7498,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 474.819519,
+          "Y": 758.350342,
+          "Z": 822.062866,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 485.809937,
+          "Y": 756.2061,
+          "Z": 818.4633,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 497.427765,
+          "Y": 755.8892,
+          "Z": 813.8006,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 508.845551,
+          "Y": 755.242859,
+          "Z": 808.3121,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 519.6152,
+          "Y": 752.4107,
+          "Z": 801.7849,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 530.0767,
+          "Y": 747.822,
+          "Z": 794.55835,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 540.0831,
+          "Y": 742.3647,
+          "Z": 786.265747,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 546.620361,
+          "Y": 739.7512,
+          "Z": 782.3466,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 552.2064,
+          "Y": 733.527954,
+          "Z": 777.738342,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 550.034546,
+          "Y": 721.3529,
+          "Z": 777.0354,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 545.096,
+          "Y": 711.337158,
+          "Z": 777.0966,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 545.4668,
+          "Y": 703.174438,
+          "Z": 776.982,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 546.6852,
+          "Y": 694.663147,
+          "Z": 775.6222,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 546.2279,
+          "Y": 686.2467,
+          "Z": 775.0131,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 544.123169,
+          "Y": 677.999,
+          "Z": 775.394531,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 537.3214,
+          "Y": 684.3348,
+          "Z": 775.431946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 529.5255,
+          "Y": 687.2713,
+          "Z": 775.4814,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 521.0652,
+          "Y": 686.7836,
+          "Z": 775.533264,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 515.6169,
+          "Y": 680.4755,
+          "Z": 775.5767,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 519.0356,
+          "Y": 672.617737,
+          "Z": 775.6238,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 525.730957,
+          "Y": 667.492859,
+          "Z": 775.6549,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 528.200439,
+          "Y": 659.488647,
+          "Z": 776.148865,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 528.8703,
+          "Y": 651.007446,
+          "Z": 777.3509,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 529.2618,
+          "Y": 642.443054,
+          "Z": 777.327148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 529.606445,
+          "Y": 633.9417,
+          "Z": 777.331238,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "To first boss",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 28684,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    }
+  ],
+  "MapId": 601,
+  "ProfileName": "Azjol-Nerub",
+  "DungeonName": "Azjol Nerub",
+  "Faction": 2,
+  "DeathRunPath": [],
+  "OffMeshConnections": []
+}
