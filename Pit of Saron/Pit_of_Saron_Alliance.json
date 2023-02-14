@@ -1,0 +1,2101 @@
+{
+  "StepModels": [
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 441.4046,
+        "Y": 211.8988,
+        "Z": 528.7099,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Entrance Regroup",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 452.1157,
+          "Y": 204.459366,
+          "Z": 528.7087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 461.491425,
+          "Y": 198.284683,
+          "Z": 528.7087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 469.86026,
+          "Y": 192.370026,
+          "Z": 528.7087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 479.102753,
+          "Y": 185.996918,
+          "Z": 528.7087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 488.9406,
+          "Y": 180.617035,
+          "Z": 528.7087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 499.9323,
+          "Y": 176.8687,
+          "Z": 528.7071,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 510.63266,
+          "Y": 172.869492,
+          "Z": 528.6792,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 520.928833,
+          "Y": 168.469345,
+          "Z": 528.459656,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 531.2244,
+          "Y": 162.968536,
+          "Z": 527.251465,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 540.808,
+          "Y": 157.172653,
+          "Z": 524.5263,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 550.312744,
+          "Y": 151.248886,
+          "Z": 520.5987,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 559.9245,
+          "Y": 144.624832,
+          "Z": 516.251648,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 569.1552,
+          "Y": 138.331314,
+          "Z": 512.614258,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 578.2456,
+          "Y": 131.74324,
+          "Z": 510.0921,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 587.6079,
+          "Y": 124.813332,
+          "Z": 508.272247,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 596.646057,
+          "Y": 118.198784,
+          "Z": 507.3947,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 605.7978,
+          "Y": 111.707092,
+          "Z": 507.976776,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 616.1643,
+          "Y": 106.598526,
+          "Z": 509.617523,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 623.5449,
+          "Y": 98.65698,
+          "Z": 511.4087,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 625.1305,
+          "Y": 87.77803,
+          "Z": 512.1489,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 622.7319,
+          "Y": 76.38906,
+          "Z": 512.4401,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 619.1439,
+          "Y": 65.81089,
+          "Z": 512.4401,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 615.348267,
+          "Y": 54.77057,
+          "Z": 512.4282,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 612.937134,
+          "Y": 43.8162766,
+          "Z": 512.4287,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 613.3768,
+          "Y": 32.70936,
+          "Z": 512.6292,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 615.887451,
+          "Y": 21.3107014,
+          "Z": 513.4306,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 618.974731,
+          "Y": 10.5740852,
+          "Z": 513.7303,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 622.6468,
+          "Y": -0.533795,
+          "Z": 513.74,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 626.6713,
+          "Y": -10.98571,
+          "Z": 513.74,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 630.7586,
+          "Y": -21.3914413,
+          "Z": 513.740845,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 635.6066,
+          "Y": -31.9819126,
+          "Z": 513.7414,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 640.201538,
+          "Y": -42.1920433,
+          "Z": 513.7419,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 643.899963,
+          "Y": -52.7637825,
+          "Z": 513.7419,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 647.8968,
+          "Y": -63.7335777,
+          "Z": 513.7419,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 652.530762,
+          "Y": -73.92021,
+          "Z": 513.738647,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 658.4439,
+          "Y": -83.4517441,
+          "Z": 513.737,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 666.2919,
+          "Y": -92.05015,
+          "Z": 513.737,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 674.356567,
+          "Y": -99.85889,
+          "Z": 513.737,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 682.8136,
+          "Y": -107.867355,
+          "Z": 513.7364,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 690.178162,
+          "Y": -117.181267,
+          "Z": 513.8765,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 694.6069,
+          "Y": -127.38401,
+          "Z": 517.054932,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 695.6293,
+          "Y": -138.45343,
+          "Z": 522.393738,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 694.959656,
+          "Y": -149.857773,
+          "Z": 527.8871,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 694.3317,
+          "Y": -161.5162,
+          "Z": 527.7458,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 694.376,
+          "Y": -172.743881,
+          "Z": 526.7187,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 694.493042,
+          "Y": -183.91507,
+          "Z": 526.7187,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 695.4314,
+          "Y": -195.550308,
+          "Z": 526.7187,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 696.755249,
+          "Y": -206.670715,
+          "Z": 526.7187,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "To Garfrost",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 696.4301,
+        "Y": -207.2595,
+        "Z": 526.7187,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 696.4301,
+        "Y": -207.2595,
+        "Z": 526.7187,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 56,
+      "Name": "Pull Garfrost",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 36494,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 696.430054,
+          "Y": -207.25946,
+          "Z": 526.7187,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 700.4532,
+          "Y": -200.059967,
+          "Z": 526.7296,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 701.2062,
+          "Y": -191.416763,
+          "Z": 526.7649,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 701.2864,
+          "Y": -180.423187,
+          "Z": 526.7176,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 701.0143,
+          "Y": -172.223816,
+          "Z": 526.7945,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 700.8607,
+          "Y": -162.406815,
+          "Z": 527.573,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 701.31604,
+          "Y": -150.069122,
+          "Z": 527.9758,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 702.0742,
+          "Y": -138.445877,
+          "Z": 522.4174,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 703.1494,
+          "Y": -127.073151,
+          "Z": 516.941162,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 705.8324,
+          "Y": -116.217438,
+          "Z": 513.8766,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 712.927063,
+          "Y": -107.269295,
+          "Z": 513.7347,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 722.000854,
+          "Y": -99.96605,
+          "Z": 513.7347,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 730.8091,
+          "Y": -93.0483551,
+          "Z": 513.0499,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 739.4877,
+          "Y": -85.9347458,
+          "Z": 512.61084,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 746.7048,
+          "Y": -76.89,
+          "Z": 512.319031,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 750.2447,
+          "Y": -66.26948,
+          "Z": 510.996033,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 754.7435,
+          "Y": -55.5142174,
+          "Z": 509.3963,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 760.611267,
+          "Y": -45.92445,
+          "Z": 508.3375,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 768.355835,
+          "Y": -37.9698143,
+          "Z": 508.353668,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 777.525757,
+          "Y": -30.7876129,
+          "Z": 508.283264,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 786.597656,
+          "Y": -23.8444424,
+          "Z": 508.303558,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 793.4654,
+          "Y": -18.6283512,
+          "Z": 508.397919,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 802.524841,
+          "Y": -12.0083838,
+          "Z": 509.236237,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 811.665344,
+          "Y": -6.898958,
+          "Z": 509.528839,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 816.788635,
+          "Y": -0.59929657,
+          "Z": 509.5974,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 823.0227,
+          "Y": 8.991392,
+          "Z": 509.812225,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 828.2848,
+          "Y": 18.8734856,
+          "Z": 510.117523,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 831.7634,
+          "Y": 29.6838913,
+          "Z": 510.234283,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 831.1948,
+          "Y": 40.960228,
+          "Z": 510.039459,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 826.650757,
+          "Y": 51.0723343,
+          "Z": 509.935547,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 819.886169,
+          "Y": 60.5794258,
+          "Z": 510.038635,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 812.5165,
+          "Y": 68.9651642,
+          "Z": 509.9297,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 804.17,
+          "Y": 76.251,
+          "Z": 509.922882,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 806.8842,
+          "Y": 86.4036,
+          "Z": 509.20755,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 813.8619,
+          "Y": 95.44889,
+          "Z": 509.090637,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 820.832642,
+          "Y": 104.2063,
+          "Z": 509.296753,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 829.5272,
+          "Y": 111.437935,
+          "Z": 509.584351,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 839.344238,
+          "Y": 117.75901,
+          "Z": 509.736359,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "To Ick and Krick",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 840.3565,
+        "Y": 118.4108,
+        "Z": 509.7497,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 840.3565,
+        "Y": 118.4108,
+        "Z": 509.7497,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 35,
+      "Name": "Pull Ick",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 36476,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 844.1196,
+          "Y": 117.369453,
+          "Z": 509.866028,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 835.3613,
+          "Y": 108.675583,
+          "Z": 509.8481,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 827.5505,
+          "Y": 99.92429,
+          "Z": 509.690765,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 820.703552,
+          "Y": 90.57168,
+          "Z": 509.469849,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 817.2493,
+          "Y": 80.11473,
+          "Z": 509.822021,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 822.9929,
+          "Y": 68.7777,
+          "Z": 510.243317,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 829.6708,
+          "Y": 59.7862549,
+          "Z": 510.302917,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 836.7494,
+          "Y": 51.1713066,
+          "Z": 510.5529,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 846.275635,
+          "Y": 44.6264839,
+          "Z": 511.7186,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 857.214355,
+          "Y": 42.98898,
+          "Z": 514.122559,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 867.8041,
+          "Y": 47.65544,
+          "Z": 518.887268,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 877.753967,
+          "Y": 52.7972374,
+          "Z": 524.9762,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 887.5611,
+          "Y": 58.16145,
+          "Z": 531.8467,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 897.538,
+          "Y": 64.1725,
+          "Z": 539.584961,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 907.1857,
+          "Y": 69.88337,
+          "Z": 547.027,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 917.4768,
+          "Y": 75.3258362,
+          "Z": 555.1464,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 928.3611,
+          "Y": 77.72235,
+          "Z": 561.7342,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 939.5267,
+          "Y": 77.4242249,
+          "Z": 565.0388,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 949.2426,
+          "Y": 71.7619,
+          "Z": 566.0254,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 953.108459,
+          "Y": 61.4614677,
+          "Z": 566.5034,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 952.5556,
+          "Y": 50.3676872,
+          "Z": 567.8906,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 947.416748,
+          "Y": 39.8912735,
+          "Z": 570.1382,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 942.196655,
+          "Y": 30.0141373,
+          "Z": 572.657837,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 937.061157,
+          "Y": 20.029604,
+          "Z": 574.8266,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 932.542664,
+          "Y": 9.281426,
+          "Z": 577.2212,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 930.150757,
+          "Y": -1.68301821,
+          "Z": 580.3136,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 928.2415,
+          "Y": -13.1179867,
+          "Z": 583.731445,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 926.914734,
+          "Y": -24.2380085,
+          "Z": 586.8951,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 926.159851,
+          "Y": -35.35619,
+          "Z": 589.4795,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 926.1869,
+          "Y": -46.99742,
+          "Z": 591.068848,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 927.744,
+          "Y": -58.06684,
+          "Z": 591.843262,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 931.198669,
+          "Y": -68.7477646,
+          "Z": 591.939453,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 935.9843,
+          "Y": -79.2082,
+          "Z": 592.2859,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 942.345947,
+          "Y": -88.69682,
+          "Z": 595.0914,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 948.7059,
+          "Y": -98.52197,
+          "Z": 595.1892,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 955.335,
+          "Y": -107.540031,
+          "Z": 595.1189,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 963.2381,
+          "Y": -115.426895,
+          "Z": 596.6014,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 972.5007,
+          "Y": -122.484116,
+          "Z": 599.7051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 982.3679,
+          "Y": -127.82576,
+          "Z": 606.6397,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 992.7505,
+          "Y": -131.923431,
+          "Z": 612.332336,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1004.144,
+          "Y": -133.941467,
+          "Z": 618.592834,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1015.1416,
+          "Y": -132.35611,
+          "Z": 622.559448,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1025.33276,
+          "Y": -127.728127,
+          "Z": 625.3428,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1033.593,
+          "Y": -119.494034,
+          "Z": 627.378967,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1041.32544,
+          "Y": -111.15873,
+          "Z": 629.1629,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1048.64587,
+          "Y": -102.652588,
+          "Z": 631.3844,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1054.9187,
+          "Y": -92.8892059,
+          "Z": 632.824036,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1057.969,
+          "Y": -82.11781,
+          "Z": 633.290344,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1060.79553,
+          "Y": -71.22265,
+          "Z": 633.8416,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1062.95129,
+          "Y": -59.80736,
+          "Z": 633.9437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1064.71838,
+          "Y": -48.7476349,
+          "Z": 634.051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1066.53967,
+          "Y": -37.69675,
+          "Z": 633.8835,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1068.47229,
+          "Y": -26.1818123,
+          "Z": 633.535156,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1070.32617,
+          "Y": -15.1363049,
+          "Z": 633.2676,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1072.2959,
+          "Y": -3.62764549,
+          "Z": 634.3308,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1074.27258,
+          "Y": 7.908201,
+          "Z": 634.8995,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1075.37463,
+          "Y": 18.981308,
+          "Z": 633.081238,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1074.22888,
+          "Y": 30.5701275,
+          "Z": 630.1485,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1072.816,
+          "Y": 41.70775,
+          "Z": 629.915344,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1071.01282,
+          "Y": 52.7615929,
+          "Z": 631.1963,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1069.16833,
+          "Y": 64.26258,
+          "Z": 631.8439,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1067.43127,
+          "Y": 75.32705,
+          "Z": 630.8518,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1065.69788,
+          "Y": 86.37411,
+          "Z": 631.3308,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1062.83289,
+          "Y": 97.6506348,
+          "Z": 631.0076,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1059.53674,
+          "Y": 108.354568,
+          "Z": 629.134766,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1055.97888,
+          "Y": 118.972359,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1049.68323,
+          "Y": 128.7936,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1044.70117,
+          "Y": 135.5561,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1037.75708,
+          "Y": 144.296417,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1029.77612,
+          "Y": 152.467178,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1021.13123,
+          "Y": 160.30368,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1012.08722,
+          "Y": 166.856613,
+          "Z": 628.1561,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "To Rimefang",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 1006.319,
+        "Y": 170.8225,
+        "Z": 628.1561,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 1006.319,
+        "Y": 170.8225,
+        "Z": 628.1561,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 50,
+      "Name": "Pull Rimefang",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 36661,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    }
+  ],
+  "MapId": 658,
+  "ProfileName": "Pit of Saron",
+  "DungeonName": "Pit of Saron",
+  "Faction": 2,
+  "DeathRunPath": [
+    {
+      "X": 6447.49,
+      "Y": 2060.86,
+      "Z": 564.03,
+      "Type": "None",
+      "Action": ""
+    },
+    {
+      "X": 6438.50049,
+      "Y": 2058.85474,
+      "Z": 563.297058,
+      "Type": "None",
+      "Action": ""
+    },
+    {
+      "X": 6429.27148,
+      "Y": 2056.971,
+      "Z": 561.577148,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6418.281,
+      "Y": 2055.12939,
+      "Z": 559.685547,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6407.244,
+      "Y": 2054.92725,
+      "Z": 559.1183,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6396.667,
+      "Y": 2055.94946,
+      "Z": 559.5857,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6386.31055,
+      "Y": 2057.944,
+      "Z": 560.7501,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6375.77441,
+      "Y": 2060.77954,
+      "Z": 562.7222,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6365.41162,
+      "Y": 2063.90137,
+      "Z": 565.14856,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6355.385,
+      "Y": 2067.49268,
+      "Z": 568.1402,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6346.075,
+      "Y": 2071.94751,
+      "Z": 571.5694,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6337.02148,
+      "Y": 2076.63818,
+      "Z": 575.8573,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6328.301,
+      "Y": 2081.1687,
+      "Z": 580.993,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6319.867,
+      "Y": 2085.03027,
+      "Z": 586.6721,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6311.35352,
+      "Y": 2088.57373,
+      "Z": 592.787964,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6302.80566,
+      "Y": 2092.10376,
+      "Z": 598.9607,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6294.483,
+      "Y": 2095.54053,
+      "Z": 604.971,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6286.303,
+      "Y": 2098.91846,
+      "Z": 610.878,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6277.93945,
+      "Y": 2102.372,
+      "Z": 616.917847,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6269.76,
+      "Y": 2105.75,
+      "Z": 622.8248,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6261.4165,
+      "Y": 2109.19531,
+      "Z": 628.8499,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6252.909,
+      "Y": 2112.70825,
+      "Z": 634.993164,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6244.21826,
+      "Y": 2116.297,
+      "Z": 641.2693,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6235.691,
+      "Y": 2119.8186,
+      "Z": 647.4273,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6227.327,
+      "Y": 2123.27222,
+      "Z": 653.467163,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6219.168,
+      "Y": 2126.6416,
+      "Z": 659.3594,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6210.31348,
+      "Y": 2130.298,
+      "Z": 665.753662,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6202.11328,
+      "Y": 2133.68433,
+      "Z": 671.675354,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6193.60645,
+      "Y": 2137.19727,
+      "Z": 677.8186,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6185.24268,
+      "Y": 2140.65112,
+      "Z": 683.858459,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6176.89941,
+      "Y": 2144.09644,
+      "Z": 689.883545,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6170.58057,
+      "Y": 2146.70581,
+      "Z": 694.446655,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6162.03271,
+      "Y": 2150.2356,
+      "Z": 700.619446,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6153.853,
+      "Y": 2153.61353,
+      "Z": 706.5264,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6145.38672,
+      "Y": 2157.10938,
+      "Z": 712.640137,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6136.67529,
+      "Y": 2160.70679,
+      "Z": 718.931,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6128.12744,
+      "Y": 2164.23657,
+      "Z": 725.1038,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6119.641,
+      "Y": 2167.74121,
+      "Z": 731.2323,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6111.46143,
+      "Y": 2171.119,
+      "Z": 737.1392,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6102.934,
+      "Y": 2174.64038,
+      "Z": 743.297241,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6094.059,
+      "Y": 2178.30518,
+      "Z": 749.7063,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6085.9,
+      "Y": 2181.67456,
+      "Z": 755.5985,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6077.536,
+      "Y": 2185.12842,
+      "Z": 761.6383,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6068.86572,
+      "Y": 2188.70874,
+      "Z": 767.8997,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6060.33838,
+      "Y": 2192.23022,
+      "Z": 774.057739,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6052.15869,
+      "Y": 2195.608,
+      "Z": 779.964661,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6043.97852,
+      "Y": 2198.98584,
+      "Z": 785.871643,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6035.63525,
+      "Y": 2202.43115,
+      "Z": 791.8967,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6027.27148,
+      "Y": 2205.885,
+      "Z": 797.9366,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6018.76465,
+      "Y": 2209.398,
+      "Z": 804.079834,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 6008.87744,
+      "Y": 2213.38452,
+      "Z": 806.6237,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5998.68,
+      "Y": 2217.3208,
+      "Z": 808.5082,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5988.37549,
+      "Y": 2220.928,
+      "Z": 810.466553,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5977.608,
+      "Y": 2224.45776,
+      "Z": 812.5265,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5967.57471,
+      "Y": 2227.41016,
+      "Z": 814.4786,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5956.862,
+      "Y": 2230.29248,
+      "Z": 816.5092,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5946.444,
+      "Y": 2232.77979,
+      "Z": 818.4146,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5935.771,
+      "Y": 2235.119,
+      "Z": 820.32666,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5925.07861,
+      "Y": 2237.2522,
+      "Z": 822.21875,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5914.288,
+      "Y": 2239.04614,
+      "Z": 824.0518,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5903.2334,
+      "Y": 2240.60474,
+      "Z": 825.832153,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5892.34,
+      "Y": 2241.8833,
+      "Z": 827.4794,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5881.64551,
+      "Y": 2242.94971,
+      "Z": 828.990662,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5870.682,
+      "Y": 2243.85864,
+      "Z": 830.4085,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5859.69531,
+      "Y": 2244.63159,
+      "Z": 831.7099,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5848.903,
+      "Y": 2245.1416,
+      "Z": 832.7333,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5838.32,
+      "Y": 2245.10278,
+      "Z": 833.5095,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5827.20166,
+      "Y": 2244.90234,
+      "Z": 834.2604,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5816.16162,
+      "Y": 2244.306,
+      "Z": 834.721252,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5804.91553,
+      "Y": 2243.49878,
+      "Z": 834.978943,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5793.866,
+      "Y": 2242.534,
+      "Z": 835.079163,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5782.85645,
+      "Y": 2241.20532,
+      "Z": 834.8919,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5771.7417,
+      "Y": 2239.22974,
+      "Z": 834.3536,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5761.36865,
+      "Y": 2237.08472,
+      "Z": 833.6935,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5750.84863,
+      "Y": 2234.47827,
+      "Z": 832.7778,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5740.34961,
+      "Y": 2231.23315,
+      "Z": 831.49585,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5730.515,
+      "Y": 2227.39966,
+      "Z": 829.977966,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5721.30225,
+      "Y": 2222.37915,
+      "Z": 828.264648,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5713.20752,
+      "Y": 2215.60059,
+      "Z": 825.9525,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5707.22949,
+      "Y": 2207.312,
+      "Z": 823.0204,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5703.36426,
+      "Y": 2197.60352,
+      "Z": 820.0608,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5700.887,
+      "Y": 2187.26245,
+      "Z": 817.0175,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5699.25928,
+      "Y": 2177.15356,
+      "Z": 814.130859,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5697.867,
+      "Y": 2166.99048,
+      "Z": 811.305664,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5696.34229,
+      "Y": 2156.34937,
+      "Z": 808.6812,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5695.08154,
+      "Y": 2145.97241,
+      "Z": 806.5717,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5693.926,
+      "Y": 2135.48022,
+      "Z": 805.2996,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5692.639,
+      "Y": 2124.49219,
+      "Z": 805.243164,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5690.641,
+      "Y": 2114.03613,
+      "Z": 805.6947,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5686.537,
+      "Y": 2103.839,
+      "Z": 806.4812,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5678.15967,
+      "Y": 2097.84985,
+      "Z": 807.2977,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5667.516,
+      "Y": 2097.72314,
+      "Z": 807.642,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5656.487,
+      "Y": 2097.62476,
+      "Z": 807.937561,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5646.141,
+      "Y": 2095.37427,
+      "Z": 808.252869,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5637.335,
+      "Y": 2089.59277,
+      "Z": 808.6385,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5634.57275,
+      "Y": 2077.295,
+      "Z": 808.883545,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5633.61035,
+      "Y": 2066.70264,
+      "Z": 808.706238,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5633.18652,
+      "Y": 2055.888,
+      "Z": 808.445862,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5632.24,
+      "Y": 2044.82288,
+      "Z": 808.133667,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5628.60938,
+      "Y": 2034.42969,
+      "Z": 807.882935,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5621.462,
+      "Y": 2026.66638,
+      "Z": 807.3979,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5612.957,
+      "Y": 2020.74036,
+      "Z": 805.0186,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5603.944,
+      "Y": 2016.30066,
+      "Z": 800.347839,
+      "Type": "Flying",
+      "Action": ""
+    },
+    {
+      "X": 5595.03662,
+      "Y": 2012.05481,
+      "Z": 798.0414,
+      "Type": "None",
+      "Action": ""
+    },
+    {
+      "X": 5587.451,
+      "Y": 2007.9845,
+      "Z": 798.157043,
+      "Type": "None",
+      "Action": ""
+    },
+    {
+      "X": 5579.451,
+      "Y": 2002.9845,
+      "Z": 798.157043,
+      "Type": "None",
+      "Action": ""
+    }
+  ],
+  "OffMeshConnections": []
+}
