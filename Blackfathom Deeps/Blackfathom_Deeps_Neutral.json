@@ -10,22 +10,27 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -501,8 +506,27 @@
         }
       ],
       "Name": "Boss 1",
-      "Order": 1,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -747,8 +771,27 @@
         }
       ],
       "Name": "Boss 2",
-      "Order": 2,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1440,234 +1483,147 @@
           "Action": ""
         },
         {
-          "X": -487.964966,
-          "Y": -4.418647,
-          "Z": -47.1300163,
+          "X": -511.935822,
+          "Y": -16.758215,
+          "Z": -44.0231743,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -482.5418,
-          "Y": -1.715262,
-          "Z": -47.6100044,
+          "X": -513.393,
+          "Y": -29.5068,
+          "Z": -43.70417,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -475.685516,
-          "Y": 0.769668162,
-          "Z": -48.0123329,
+          "X": -511.141022,
+          "Y": -52.2617378,
+          "Z": -41.76576,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -469.327576,
-          "Y": 3.69697976,
-          "Z": -48.09983,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -464.10556,
-          "Y": 7.70811844,
-          "Z": -48.0521,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -457.613922,
-          "Y": 11.0410833,
-          "Z": -48.110096,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -451.2112,
-          "Y": 13.7884512,
-          "Z": -48.0661736,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -444.355927,
-          "Y": 16.2379723,
-          "Z": -48.01401,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -438.726837,
-          "Y": 15.949049,
-          "Z": -48.0216942,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -434.519,
-          "Y": 10.7670107,
-          "Z": -48.11667,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -428.088531,
-          "Y": 7.529473,
-          "Z": -48.1772575,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -421.6332,
-          "Y": 7.982322,
-          "Z": -48.05928,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -416.75473,
-          "Y": 12.3359385,
-          "Z": -48.1959457,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -415.333771,
-          "Y": 20.6855621,
-          "Z": -48.3640747,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -414.26062,
-          "Y": 27.6025963,
-          "Z": -48.3624878,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -413.552826,
-          "Y": 34.84758,
-          "Z": -48.4256363,
+          "X": -475.621826,
+          "Y": -39.66617,
+          "Z": -39.3846436,
           "Type": "None",
           "Action": ""
         }
       ],
       "Name": "Boss 3",
-      "Order": 3,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -492.4999,
+        "Y": -35.88178,
+        "Z": -43.60273,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before murlock room",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -488.4862,
+        "Y": -36.50388,
+        "Z": -43.20852,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 9,
+      "ZoneToClearPosition": {
+        "X": -417.9012,
+        "Y": 26.56674,
+        "Z": -48.27435,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull murlocks to safe spot",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -436.406158,
-          "Y": 21.5972271,
-          "Z": -48.0489578,
+          "X": -511.582367,
+          "Y": -18.3265572,
+          "Z": -44.1876068,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -442.5924,
-          "Y": 18.3590984,
-          "Z": -48.0160942,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -449.073273,
-          "Y": 14.9667749,
-          "Z": -48.05421,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -455.259521,
-          "Y": 11.7286463,
-          "Z": -48.09057,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -461.4613,
-          "Y": 8.482403,
-          "Z": -48.0411339,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -467.926636,
-          "Y": 5.098194,
-          "Z": -48.08934,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -474.1129,
-          "Y": 1.86006546,
-          "Z": -48.0254745,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -480.578827,
-          "Y": -0.8102515,
-          "Z": -47.79553,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -487.1289,
-          "Y": -3.279351,
-          "Z": -47.0738945,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -493.957367,
-          "Y": -5.85338736,
-          "Z": -46.67285,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -500.507446,
-          "Y": -8.322487,
-          "Z": -45.96044,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -508.4167,
-          "Y": -11.3039255,
-          "Z": -44.7611427,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -511.351135,
-          "Y": -18.335762,
-          "Z": -44.21999,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -511.325684,
-          "Y": -25.63289,
-          "Z": -44.18,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -511.276428,
-          "Y": -32.61522,
-          "Z": -43.47454,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -511.23114,
-          "Y": -39.03756,
-          "Z": -42.9038849,
+          "X": -512.0089,
+          "Y": -29.0979366,
+          "Z": -43.9005661,
           "Type": "None",
           "Action": ""
         },
@@ -2359,8 +2315,27 @@
         }
       ],
       "Name": "Boss 4",
-      "Order": 4,
-      "CompleteCondition": null
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2373,23 +2348,29 @@
         "Action": ""
       },
       "InteractDistance": 0,
+      "SkipIfNotFound": false,
       "Name": "Click on Fire of Aku'mai 1",
-      "Order": 5,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "FlagsChangedGameObjectId": 21121,
-        "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 32,
+        "FlagsChangedGameObjectId": 21121,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2402,23 +2383,29 @@
         "Action": ""
       },
       "InteractDistance": 0,
+      "SkipIfNotFound": false,
       "Name": "Click on Fire of Aku'mai 2",
-      "Order": 6,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "FlagsChangedGameObjectId": 21118,
-        "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 32,
+        "FlagsChangedGameObjectId": 21118,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2431,23 +2418,29 @@
         "Action": ""
       },
       "InteractDistance": 0,
+      "SkipIfNotFound": false,
       "Name": "Click on Fire of Aku'mai 3",
-      "Order": 7,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "FlagsChangedGameObjectId": 21119,
-        "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 32,
+        "FlagsChangedGameObjectId": 21119,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -2460,23 +2453,73 @@
         "Action": ""
       },
       "InteractDistance": 0,
+      "SkipIfNotFound": false,
       "Name": "Click on Fire of Aku'mai 4",
-      "Order": 8,
       "CompleteCondition": {
-        "HasCompleteCondition": true,
         "ConditionType": 2,
-        "FlagsChangedGameObjectId": 21120,
-        "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 32,
+        "FlagsChangedGameObjectId": 21120,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -818.1242,
+        "Y": -159.8875,
+        "Z": -24.50672,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": -817.9531,
+        "Y": -155.0488,
+        "Z": -25.8811,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 69,
+      "ZoneToClearZLimit": 5,
+      "Name": "Make sure all mobs are cleared",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2763,8 +2806,8 @@
         }
       ],
       "Name": "Boss 5",
-      "Order": 9,
-      "CompleteCondition": null
+      "CompleteCondition": null,
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 48,
