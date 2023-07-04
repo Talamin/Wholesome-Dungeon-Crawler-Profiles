@@ -12,6 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -298,6 +300,8 @@
       "Name": "Going downstairs to first door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -333,6 +337,8 @@
       "Name": "Open first Door",
       "CompleteCondition": {
         "ConditionType": 2,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -354,17 +360,196 @@
       "HasCompleteCondition": true
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -330.7548,
-        "Y": -2.604373,
-        "Z": -152.847,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup entrance 2",
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -764.1183,
+          "Y": 266.657166,
+          "Z": -273.079742,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -770.7719,
+          "Y": 275.66452,
+          "Z": -272.883484,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -776.859863,
+          "Y": 284.488556,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -774.179443,
+          "Y": 295.382324,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -771.9603,
+          "Y": 303.263916,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -768.8502,
+          "Y": 317.125641,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -766.615051,
+          "Y": 331.366547,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -764.9407,
+          "Y": 345.5128,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -763.0855,
+          "Y": 360.906372,
+          "Z": -272.598053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -761.389648,
+          "Y": 374.768036,
+          "Z": -272.578735,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -759.7802,
+          "Y": 388.6734,
+          "Z": -272.578735,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -760.2572,
+          "Y": 402.657471,
+          "Z": -272.578735,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -759.471252,
+          "Y": 410.7831,
+          "Z": -272.578735,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -753.9829,
+          "Y": 418.7249,
+          "Z": -272.672882,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -747.7755,
+          "Y": 423.7717,
+          "Z": -273.06427,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -735.818237,
+          "Y": 431.8292,
+          "Z": -273.06427,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -724.3934,
+          "Y": 440.244781,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -715.1062,
+          "Y": 447.286682,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -704.0186,
+          "Y": 437.455536,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -695.0624,
+          "Y": 426.700958,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -687.881653,
+          "Y": 418.1517,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -680.326538,
+          "Y": 411.0226,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -662.2796,
+          "Y": 414.0429,
+          "Z": -273.062775,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -655.711853,
+          "Y": 418.907928,
+          "Z": -273.064,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -630.9332,
+          "Y": 440.551056,
+          "Z": -273.063171,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -603.4924,
+          "Y": 464.071381,
+          "Z": -273.08905,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Rejoin step",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -384,6 +569,68 @@
         "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Path to last boss",
+      "Name": "Skip Regroup 2",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -330.7548,
+        "Y": -2.604373,
+        "Z": -152.847,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup entrance 2",
+      "CompleteCondition": {
+        "ConditionType": 5,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -875,6 +1122,8 @@
       "Name": "Going downstairs",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1595,6 +1844,8 @@
       "Name": "Path to second jump",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2224,6 +2475,8 @@
       "Name": "Path to last boss",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2259,6 +2512,8 @@
       "Name": "Open door",
       "CompleteCondition": {
         "ConditionType": 2,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2398,6 +2653,8 @@
       "Name": "To last boss",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2422,7 +2679,7 @@
   "MapId": 90,
   "ProfileName": "Gnomregan",
   "DungeonName": "Gnomeregan",
-  "Faction": 2,
+  "Faction": 0,
   "DeathRunPath": [],
   "OffMeshConnections": []
 }
