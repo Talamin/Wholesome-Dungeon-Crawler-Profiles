@@ -10,7 +10,6 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -26,7 +25,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -56,7 +58,6 @@
         }
       ],
       "Name": "WalkToNPCDruid",
-      "Order": 1,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -72,7 +73,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -557,7 +561,6 @@
         }
       ],
       "Name": "Move Along Path to Lady Anaconda",
-      "Order": 2,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -573,7 +576,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -722,7 +728,6 @@
         }
       ],
       "Name": "Move Back to crosspath",
-      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -738,7 +743,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1300,7 +1308,6 @@
         }
       ],
       "Name": "Move Along Path to Lord Cobrahn",
-      "Order": 4,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -1316,7 +1323,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2718,7 +2728,6 @@
         }
       ],
       "Name": "Move Along Path to Lord Pythas",
-      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2734,7 +2743,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2981,7 +2993,6 @@
         }
       ],
       "Name": "Move Along Path to Skun",
-      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -2997,7 +3008,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3475,7 +3489,6 @@
         }
       ],
       "Name": "Move Along Path to Verdan",
-      "Order": 7,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -3491,7 +3504,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3505,7 +3521,6 @@
         "Action": ""
       },
       "Name": "regroup before jump",
-      "Order": 8,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -3521,7 +3536,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3880,7 +3898,6 @@
         }
       ],
       "Name": "GoingBackToNPC",
-      "Order": 9,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -3896,7 +3913,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3910,7 +3930,6 @@
         "Action": ""
       },
       "Name": "Regroup before Escort",
-      "Order": 10,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -3926,7 +3945,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3943,7 +3965,6 @@
       "UnitId": 3678,
       "GossipIndex": 1,
       "Name": "TalkToDruid",
-      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 5,
         "HaveItemId": 0,
@@ -3965,7 +3986,10 @@
         "MobAtPositionMustReturnTrue": false,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -3988,7 +4012,6 @@
       "SkipIfNotFound": true,
       "UnitId": 3678,
       "Name": "Follow NPC",
-      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -4004,7 +4027,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -4017,12 +4043,11 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 0,
+      "Timer": 180,
       "DefendSpotRadius": 30,
       "Name": "Defend druid",
-      "Order": 13,
       "CompleteCondition": {
-        "ConditionType": 4,
+        "ConditionType": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -4036,9 +4061,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": true
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -4115,7 +4143,6 @@
         }
       ],
       "Name": "Approach Mutanos the Devourer",
-      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 0,
         "HaveItemId": 0,
@@ -4131,7 +4158,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     }

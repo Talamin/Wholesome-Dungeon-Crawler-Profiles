@@ -25,7 +25,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -581,7 +584,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -612,7 +618,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1157,6 +1166,20 @@
           "Z": -70.3861847,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 312.131958,
+          "Y": -144.775955,
+          "Z": -70.38616,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 312.920074,
+          "Y": -159.1743,
+          "Z": -70.38616,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Boss Gerstahn",
@@ -1175,7 +1198,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1437,7 +1463,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1481,7 +1510,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -1743,7 +1775,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1956,7 +1991,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2000,7 +2038,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -2059,7 +2100,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2103,7 +2147,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -2176,7 +2223,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2208,7 +2258,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -2554,7 +2607,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -2991,7 +3047,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -3337,7 +3396,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -4474,7 +4536,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -4687,7 +4752,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5194,7 +5262,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5232,7 +5303,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5276,7 +5350,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -5440,7 +5517,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5793,7 +5873,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5825,7 +5908,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -5856,7 +5942,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5901,7 +5990,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -5933,7 +6025,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -6055,7 +6150,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -6099,7 +6197,10 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -6543,7 +6644,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -6637,7 +6741,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -6669,7 +6776,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
     },
@@ -6770,7 +6880,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -7284,7 +7397,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -7306,7 +7422,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     }

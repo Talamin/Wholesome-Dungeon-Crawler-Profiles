@@ -12,6 +12,8 @@
       "Name": "Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -417,6 +419,8 @@
       "Name": "1",
       "CompleteCondition": {
         "ConditionType": 4,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -682,6 +686,8 @@
       "Name": "2",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -714,6 +720,8 @@
       "Name": "Regroup",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -749,67 +757,14 @@
       "Name": "Pull Lever",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
         "FlagsChangedGameObjectId": 181982,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 455.96283,
-          "Y": 56.62874,
-          "Z": 9.616125,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 455.122955,
-          "Y": 64.98603,
-          "Z": 9.616125,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 454.5534,
-          "Y": 77.12163,
-          "Z": 9.616125,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 454.670715,
-          "Y": 85.88417,
-          "Z": 9.616125,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Move to middle",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
         "MobAtPositionId": 0,
@@ -833,11 +788,13 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 60,
+      "Timer": 10,
       "DefendSpotRadius": 46,
       "Name": "Defend room",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1180,6 +1137,8 @@
       "Name": "3",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1209,11 +1168,13 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 30,
+      "Timer": 1,
       "DefendSpotRadius": 30,
       "Name": "Last Boss",
       "CompleteCondition": {
         "ConditionType": 4,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,

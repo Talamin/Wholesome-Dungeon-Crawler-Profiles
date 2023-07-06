@@ -25,7 +25,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -525,7 +528,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -626,7 +632,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -657,7 +666,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1034,6 +1046,20 @@
           "Z": -70.38618,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 312.517273,
+          "Y": -151.730362,
+          "Z": -70.38616,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 312.606964,
+          "Y": -161.80954,
+          "Z": -70.38616,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Boss Gerstahn",
@@ -1052,7 +1078,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1074,7 +1103,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     }
