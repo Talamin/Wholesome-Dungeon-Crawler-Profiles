@@ -1115,13 +1115,6 @@
           "Z": 12.01284,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 1912.10022,
-          "Y": 1014.83093,
-          "Z": 11.51552,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Boss - With Doctor Zum'rah",
@@ -1403,109 +1396,109 @@
           "Z": 8.87690449,
           "Type": "None",
           "Action": ""
-        },
+        }
+      ],
+      "Name": "Move to Sandfury Executioner",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 7274,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 1888.264,
+        "Y": 1226.592,
+        "Z": 9.902694,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup at the bottom of pyramid",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
         {
-          "X": 1908.21362,
-          "Y": 1193.92529,
-          "Z": 8.87690449,
+          "X": 1888.3584,
+          "Y": 1236.94324,
+          "Z": 16.7952557,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1909.16711,
-          "Y": 1202.32324,
-          "Z": 8.87787151,
+          "X": 1888.09851,
+          "Y": 1249.75061,
+          "Z": 29.020443,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1903.45874,
-          "Y": 1209.35156,
-          "Z": 8.881319,
+          "X": 1887.7832,
+          "Y": 1257.444,
+          "Z": 36.8389931,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1898.71094,
-          "Y": 1216.47266,
-          "Z": 8.877949,
+          "X": 1887.36011,
+          "Y": 1265.202,
+          "Z": 41.49757,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1893.9436,
-          "Y": 1223.49048,
-          "Z": 9.035732,
+          "X": 1886.28223,
+          "Y": 1279.24292,
+          "Z": 42.19906,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 1889.592,
-          "Y": 1230.76465,
-          "Z": 10.9687386,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1888.6825,
-          "Y": 1237.86462,
-          "Z": 17.6496067,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1888.26086,
-          "Y": 1244.02417,
-          "Z": 23.4607449,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1887.87622,
-          "Y": 1249.7583,
-          "Z": 29.0356159,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1887.526,
-          "Y": 1256.7915,
-          "Z": 36.1809235,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1887.28076,
-          "Y": 1263.90637,
-          "Z": 41.482502,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1886.99927,
-          "Y": 1272.43469,
-          "Z": 41.73223,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1886.52832,
-          "Y": 1280.86768,
-          "Z": 42.5891228,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1885.64563,
-          "Y": 1284.51,
-          "Z": 43.576252,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 1886.38037,
-          "Y": 1287.99255,
-          "Z": 44.5241623,
+          "X": 1886.28308,
+          "Y": 1286.70813,
+          "Z": 44.1742859,
           "Type": "None",
           "Action": ""
         }
@@ -1521,7 +1514,7 @@
         "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
         "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 7274,
+        "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
@@ -1718,40 +1711,6 @@
       "Timer": 5,
       "DefendSpotRadius": 30,
       "Name": "Clear bottom pyramid",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "Timer": null,
-        "TimerTimeInSeconds": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": 1867.903,
-        "Y": 1217.259,
-        "Z": 9.759263,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup before Weegly",
       "CompleteCondition": {
         "ConditionType": 0,
         "Timer": null,
