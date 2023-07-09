@@ -10,9 +10,10 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -26,7 +27,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -637,9 +641,10 @@
         }
       ],
       "Name": "Boss1",
-      "Order": 1,
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -653,7 +658,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -914,9 +922,10 @@
         }
       ],
       "Name": "Boss2",
-      "Order": 2,
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -930,7 +939,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     },
@@ -1197,304 +1209,235 @@
           "Action": ""
         },
         {
-          "X": 785.4212,
-          "Y": -170.397491,
-          "Z": -73.73415,
+          "X": 799.552551,
+          "Y": -191.780548,
+          "Z": -77.1488953,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 788.026062,
-          "Y": -162.708817,
-          "Z": -73.70107,
+          "X": 815.9238,
+          "Y": -213.231522,
+          "Z": -77.1488953,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 791.4011,
-          "Y": -154.306091,
-          "Z": -74.3816,
+          "X": 827.2901,
+          "Y": -227.606384,
+          "Z": -74.80039,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 794.933167,
-          "Y": -147.635788,
-          "Z": -74.20066,
+          "X": 846.8947,
+          "Y": -208.393112,
+          "Z": -76.20012,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 799.4344,
-          "Y": -144.304291,
-          "Z": -74.16565,
+          "X": 853.0062,
+          "Y": -202.364029,
+          "Z": -77.66376,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 803.0427,
-          "Y": -143.13298,
-          "Z": -74.28257,
+          "X": 858.7854,
+          "Y": -191.727676,
+          "Z": -82.40798,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 809.027161,
-          "Y": -144.002625,
-          "Z": -75.07283,
+          "X": 863.1534,
+          "Y": -183.2698,
+          "Z": -85.26373,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 820.7439,
-          "Y": -143.595932,
-          "Z": -87.56625,
-          "Type": "Flying",
-          "Action": ""
-        },
-        {
-          "X": 825.1914,
-          "Y": -143.305817,
-          "Z": -87.5662155,
-          "Type": "Flying",
-          "Action": ""
-        },
-        {
-          "X": 830.916565,
-          "Y": -142.895218,
-          "Z": -87.56625,
-          "Type": "Flying",
-          "Action": ""
-        },
-        {
-          "X": 833.434631,
-          "Y": -133.697845,
-          "Z": -88.42909,
+          "X": 867.6039,
+          "Y": -170.011353,
+          "Z": -87.19467,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 834.740845,
-          "Y": -125.222923,
-          "Z": -88.54582,
+          "X": 870.029236,
+          "Y": -155.266235,
+          "Z": -87.05185,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 835.8487,
-          "Y": -115.749481,
-          "Z": -88.67674,
+          "X": 870.9454,
+          "Y": -141.334808,
+          "Z": -87.08921,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 834.886841,
-          "Y": -110.684937,
-          "Z": -88.7361145,
+          "X": 870.6641,
+          "Y": -128.808777,
+          "Z": -87.09332,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 830.2008,
-          "Y": -104.513733,
-          "Z": -88.7125,
+          "X": 869.861755,
+          "Y": -114.84063,
+          "Z": -86.98912,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 825.198547,
-          "Y": -99.86615,
-          "Z": -88.73746,
+          "X": 867.253845,
+          "Y": -101.068878,
+          "Z": -87.17029,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 820.553162,
-          "Y": -95.0784454,
-          "Z": -88.73887,
+          "X": 864.1687,
+          "Y": -92.77555,
+          "Z": -87.3291245,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 814.4115,
-          "Y": -89.8349457,
-          "Z": -88.75715,
+          "X": 857.903748,
+          "Y": -80.26757,
+          "Z": -87.24592,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 806.9931,
-          "Y": -86.09892,
-          "Z": -88.65093,
+          "X": 851.1114,
+          "Y": -68.05507,
+          "Z": -86.97364,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 803.0049,
-          "Y": -82.1027145,
-          "Z": -88.5330048,
+          "X": 847.7866,
+          "Y": -54.0041656,
+          "Z": -86.69207,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 802.146057,
-          "Y": -75.8466,
-          "Z": -88.43525,
+          "X": 844.5197,
+          "Y": -40.3549042,
+          "Z": -87.1204,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 801.4817,
-          "Y": -69.3776245,
-          "Z": -88.32713,
+          "X": 841.030945,
+          "Y": -26.0749035,
+          "Z": -87.20193,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 800.0136,
-          "Y": -62.5172768,
-          "Z": -88.203804,
+          "X": 837.7083,
+          "Y": -12.4749031,
+          "Z": -87.17968,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 798.641541,
-          "Y": -56.68144,
-          "Z": -88.12454,
+          "X": 834.19696,
+          "Y": 1.11304116,
+          "Z": -87.07176,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 797.3408,
-          "Y": -47.2180634,
-          "Z": -88.18551,
+          "X": 831.010132,
+          "Y": 12.9412432,
+          "Z": -87.02555,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 797.74884,
-          "Y": -37.513504,
-          "Z": -88.25616,
+          "X": 826.432739,
+          "Y": 26.1554966,
+          "Z": -86.94878,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 800.34906,
-          "Y": -26.0969849,
-          "Z": -88.32812,
+          "X": 820.1722,
+          "Y": 38.7163,
+          "Z": -86.9512253,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 802.1634,
-          "Y": -14.8812752,
-          "Z": -88.3381,
+          "X": 812.9736,
+          "Y": 51.2075424,
+          "Z": -86.9628,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 803.6766,
-          "Y": -1.500391,
-          "Z": -88.34102,
+          "X": 804.5926,
+          "Y": 62.70574,
+          "Z": -87.0094757,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 803.302551,
-          "Y": 8.922442,
-          "Z": -88.2554,
+          "X": 794.8876,
+          "Y": 72.44349,
+          "Z": -87.01625,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 799.3931,
-          "Y": 20.2777729,
-          "Z": -88.15056,
+          "X": 784.2678,
+          "Y": 78.3101349,
+          "Z": -86.90923,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 792.439758,
-          "Y": 28.0546761,
-          "Z": -88.15056,
+          "X": 771.7814,
+          "Y": 79.2966843,
+          "Z": -88.14911,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 794.7702,
-          "Y": 38.49509,
-          "Z": -88.15056,
+          "X": 757.369934,
+          "Y": 79.31921,
+          "Z": -88.14911,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 799.3424,
-          "Y": 43.85735,
-          "Z": -88.15056,
+          "X": 743.144958,
+          "Y": 78.11508,
+          "Z": -86.85816,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 804.5004,
-          "Y": 50.8922157,
-          "Z": -86.77818,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 808.2422,
-          "Y": 59.40757,
-          "Z": -87.0139,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 798.456238,
-          "Y": 70.23579,
-          "Z": -87.04058,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 786.7925,
-          "Y": 75.74527,
-          "Z": -86.94254,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 772.2734,
-          "Y": 76.26453,
-          "Z": -88.1489639,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 757.6837,
-          "Y": 76.6579361,
-          "Z": -88.1489639,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 743.128967,
-          "Y": 77.0504,
-          "Z": -86.68306,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 732.6328,
-          "Y": 77.33343,
-          "Z": -86.4913559,
+          "X": 724.833069,
+          "Y": 78.5534,
+          "Z": -86.74372,
           "Type": "None",
           "Action": ""
         }
       ],
       "Name": "Boss3",
-      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1508,7 +1451,10 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
     }
@@ -3234,28 +3180,5 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": [
-    {
-      "Path": [
-        {
-          "X": 808.668,
-          "Y": -144.3574,
-          "Z": -74.96065,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 821.5801,
-          "Y": -143.094986,
-          "Z": -88.28618,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "ContinentId": 349,
-      "Type": 0,
-      "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": "Poison Falls"
-    }
-  ]
+  "OffMeshConnections": []
 }

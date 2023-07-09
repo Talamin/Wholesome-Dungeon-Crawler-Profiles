@@ -12,6 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -515,6 +517,8 @@
       "Name": "Boss Lord Roccor",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -619,6 +623,8 @@
       "Name": "Boss Arena",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -653,6 +659,8 @@
       "Name": "Waiting for Boss and Hang around",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1065,6 +1073,8 @@
       "Name": "Boss Gerstahn",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1090,6 +1100,8 @@
       "Name": "Leave Dungeon",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1114,7 +1126,7 @@
   "MapId": 230,
   "ProfileName": "Blackrock Depths Prison",
   "DungeonName": "Blackrock Depths - Prison",
-  "Faction": 2,
+  "Faction": 0,
   "DeathRunPath": [
     {
       "X": -6450.61,

@@ -12,6 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -571,6 +573,8 @@
       "Name": "Boss Lord Roccor",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -605,6 +609,8 @@
       "Name": "Waiting for  Boss and Hang  Around",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1185,6 +1191,8 @@
       "Name": "Boss Gerstahn",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1450,6 +1458,8 @@
       "Name": "Path to Gate",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1485,6 +1495,8 @@
       "Name": "Interact with Gate",
       "CompleteCondition": {
         "ConditionType": 6,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1762,6 +1774,8 @@
       "Name": "Boss Bael Gar",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1978,6 +1992,8 @@
       "Name": "Path to Gate",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2013,6 +2029,8 @@
       "Name": "Interact with Gate",
       "CompleteCondition": {
         "ConditionType": 6,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2087,6 +2105,8 @@
       "Name": "Path to East Garrison Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2122,6 +2142,8 @@
       "Name": "Open East Garrison Door",
       "CompleteCondition": {
         "ConditionType": 6,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2210,6 +2232,8 @@
       "Name": "Path to Shadowforge Lock",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2245,6 +2269,8 @@
       "Name": "Interact With Shadowforge Lock",
       "CompleteCondition": {
         "ConditionType": 2,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2594,6 +2620,8 @@
       "Name": "Boss Pyromancer Loregrain",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -3034,6 +3062,8 @@
       "Name": "Boss Warden Stillgiss",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -3383,6 +3413,8 @@
       "Name": "Boss Lord Incendius",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -4523,6 +4555,8 @@
       "Name": "Boss General Angerforge",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -4739,6 +4773,8 @@
       "Name": "Boss Golem Lord Argelmach",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5249,6 +5285,8 @@
       "Name": "Boss Plugger Spazzring",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5290,6 +5328,8 @@
       "Name": "Path to Bar Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5325,6 +5365,8 @@
       "Name": "Interact with Bar Door",
       "CompleteCondition": {
         "ConditionType": 6,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5504,6 +5546,8 @@
       "Name": "Boss Ambassador Flamelash",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5860,6 +5904,8 @@
       "Name": "Path to Domrel",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5895,6 +5941,8 @@
       "Name": "Talk to DomRel",
       "CompleteCondition": {
         "ConditionType": 7,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 9039,
@@ -5929,6 +5977,8 @@
       "Name": "Waiting for Chest to Spawn(30sec)",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -5977,6 +6027,8 @@
       "Name": "Path to Chest",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6012,6 +6064,8 @@
       "Name": "Interact with Chest",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6137,6 +6191,8 @@
       "Name": "Path to Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6172,6 +6228,8 @@
       "Name": "Interact with Door",
       "CompleteCondition": {
         "ConditionType": 6,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6631,6 +6689,8 @@
       "Name": "Getting Shadowforge Torch for Later",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6728,6 +6788,8 @@
       "Name": "Path to Shadowforge Brazier",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6763,6 +6825,8 @@
       "Name": "Interact with Shadowforge Brazier",
       "CompleteCondition": {
         "ConditionType": 2,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -6867,6 +6931,8 @@
       "Name": "Boss Magmus",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -7384,6 +7450,8 @@
       "Name": "Clean Room and Kill Boss - Emperor Dagran  Thaurissan",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -7409,6 +7477,8 @@
       "Name": "Leave Dungeon",
       "CompleteCondition": {
         "ConditionType": 0,
+        "Timer": null,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -7433,7 +7503,7 @@
   "MapId": 230,
   "ProfileName": "Blackrock Depths Upper City",
   "DungeonName": "Blackrock Depths - Upper City",
-  "Faction": 2,
+  "Faction": 0,
   "DeathRunPath": [
     {
       "X": -6450.61,
