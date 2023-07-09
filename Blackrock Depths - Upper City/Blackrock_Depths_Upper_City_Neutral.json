@@ -1381,7 +1381,7 @@
       "SkipIfNotFound": false,
       "Name": "Interact with Gate",
       "CompleteCondition": {
-        "ConditionType": 6,
+        "ConditionType": 0,
         "Timer": null,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
@@ -1414,7 +1414,7 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": true
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
