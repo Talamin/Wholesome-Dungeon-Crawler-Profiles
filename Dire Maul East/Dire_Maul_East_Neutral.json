@@ -12,7 +12,8 @@
       "Name": "Entrance regourp",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -902,7 +903,8 @@
       "Name": "Boss - Lethtendris",
       "CompleteCondition": {
         "ConditionType": 4,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1274,7 +1276,8 @@
       "Name": "Boss - Hydraspawn",
       "CompleteCondition": {
         "ConditionType": 4,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1359,7 +1362,8 @@
       "Name": "Jump Up",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1647,7 +1651,8 @@
       "Name": "Boss - Zevrim Thornhoof",
       "CompleteCondition": {
         "ConditionType": 4,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2187,7 +2192,8 @@
       "Name": "Path to Old Ironbark",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2224,7 +2230,8 @@
       "Name": "Talk to Ironbark",
       "CompleteCondition": {
         "ConditionType": 5,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2883,7 +2890,8 @@
       "Name": "Boss - Alzzin the Wildshaper",
       "CompleteCondition": {
         "ConditionType": 4,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2907,7 +2915,7 @@
     }
   ],
   "MapId": 429,
-  "ProfileName": "Dire_Maul_East_alliance",
+  "ProfileName": "Dire_Maul_East",
   "DungeonName": "Dire Maul East",
   "Faction": 0,
   "DeathRunPath": [
