@@ -12,6 +12,9 @@
       "Name": "Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -403,6 +406,9 @@
       "Name": "1",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -948,6 +954,9 @@
       "Name": "2",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1031,27 +1040,6 @@
           "X": 335.277222,
           "Y": -475.634583,
           "Z": 51.9537239,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 311.322174,
-          "Y": -470.0186,
-          "Z": 48.9418869,
-          "Type": "Swimming",
-          "Action": ""
-        },
-        {
-          "X": 319.687836,
-          "Y": -472.081055,
-          "Z": 48.9418869,
-          "Type": "Swimming",
-          "Action": ""
-        },
-        {
-          "X": 328.147949,
-          "Y": -474.215851,
-          "Z": 50.3232765,
           "Type": "None",
           "Action": ""
         },
@@ -1360,6 +1348,9 @@
       "Name": "3",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1585,11 +1576,28 @@
           "Z": 26.8803253,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 150.534317,
+          "Y": 10.42054,
+          "Z": 26.816391,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 136.191132,
+          "Y": 6.34890652,
+          "Z": 26.792017,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "4",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
