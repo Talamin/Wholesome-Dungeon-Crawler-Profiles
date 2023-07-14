@@ -12,7 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -783,7 +784,8 @@
       "Name": "Boss1",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1145,24 +1147,55 @@
           "Action": ""
         },
         {
-          "X": 22.7723465,
-          "Y": 52.33777,
-          "Z": -126.035408,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 15.0493574,
-          "Y": 64.17938,
-          "Z": -126.277557,
+          "X": 28.73298,
+          "Y": 49.6382179,
+          "Z": -126.16449,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Boss2",
+      "Name": "Path to Boss 2",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 28.73298,
+        "Y": 49.63822,
+        "Z": -126.1645,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 5,
+      "DefendSpotRadius": 46,
+      "Name": "Kill Boss 2",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
