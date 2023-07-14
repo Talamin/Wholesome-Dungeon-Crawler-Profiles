@@ -375,7 +375,7 @@
           "Action": ""
         }
       ],
-      "Name": "1",
+      "Name": "To Hydromancer",
       "CompleteCondition": {
         "ConditionType": 4,
         "ConditionTimer": null,
@@ -411,7 +411,7 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 3,
+      "InteractDistance": 9,
       "SkipIfNotFound": true,
       "Name": "Click console",
       "CompleteCondition": {
@@ -423,7 +423,7 @@
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
-        "InitialFlags": 48,
+        "InitialFlags": 32,
         "FlagsChangedGameObjectId": 184125,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
@@ -1010,7 +1010,7 @@
           "Action": ""
         }
       ],
-      "Name": "2",
+      "Name": "To Mekengineer",
       "CompleteCondition": {
         "ConditionType": 4,
         "ConditionTimer": null,
@@ -1046,7 +1046,7 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 3,
+      "InteractDistance": 9,
       "SkipIfNotFound": true,
       "Name": "Click console",
       "CompleteCondition": {
@@ -1058,7 +1058,7 @@
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
-        "InitialFlags": 48,
+        "InitialFlags": 32,
         "FlagsChangedGameObjectId": 184126,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
@@ -1433,130 +1433,11 @@
           "Z": -6.35304976,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": -95.6163254,
-          "Y": -422.155334,
-          "Z": -3.2452426,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.66434,
-          "Y": -429.358154,
-          "Z": 0.6712281,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -96.72708,
-          "Y": -440.5766,
-          "Z": 3.63092375,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.47502,
-          "Y": -448.259766,
-          "Z": 7.083802,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.99614,
-          "Y": -456.842438,
-          "Z": 7.63582,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.57231,
-          "Y": -465.385132,
-          "Z": 7.85798931,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.5017853,
-          "Y": -473.896851,
-          "Z": 8.07935,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.2233658,
-          "Y": -482.42926,
-          "Z": 8.193835,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.494545,
-          "Y": -490.922729,
-          "Z": 8.219625,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.5477142,
-          "Y": -499.4456,
-          "Z": 8.243544,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -94.86764,
-          "Y": -508.007568,
-          "Z": 8.260879,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.1983948,
-          "Y": -516.520142,
-          "Z": 8.236891,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.016655,
-          "Y": -525.029236,
-          "Z": 8.21317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.00707,
-          "Y": -533.5898,
-          "Z": 8.19116,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.0373,
-          "Y": -542.2417,
-          "Z": 8.188049,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -95.0694351,
-          "Y": -551.4397,
-          "Z": 8.188049,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 2867.12,
-          "Y": 1549.42,
-          "Z": 252.159,
-          "Type": "None",
-          "Action": ""
         }
       ],
-      "Name": "3",
+      "Name": "To Door",
       "CompleteCondition": {
-        "ConditionType": 4,
+        "ConditionType": 0,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -1578,7 +1459,142 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": true
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -95.5989151,
+          "Y": -446.700439,
+          "Z": 6.46241951,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -96.07947,
+          "Y": -455.086182,
+          "Z": 7.589653,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -96.98539,
+          "Y": -463.491638,
+          "Z": 7.80825663,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -100.332855,
+          "Y": -471.3451,
+          "Z": 8.012499,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -104.740417,
+          "Y": -478.617645,
+          "Z": 8.185806,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -107.853081,
+          "Y": -486.5328,
+          "Z": 8.197152,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -102.493347,
+          "Y": -492.7548,
+          "Z": 8.21526051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -94.97647,
+          "Y": -496.9893,
+          "Z": 8.236394,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -87.65374,
+          "Y": -501.155884,
+          "Z": 8.257063,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -87.1033249,
+          "Y": -509.801971,
+          "Z": 8.269562,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -89.34388,
+          "Y": -518.056763,
+          "Z": 8.241851,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -91.42165,
+          "Y": -526.330261,
+          "Z": 8.211321,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -92.98887,
+          "Y": -534.711,
+          "Z": 8.188607,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -94.4703751,
+          "Y": -543.0559,
+          "Z": 8.187169,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -95.0838852,
+          "Y": -551.6606,
+          "Z": 8.187169,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "To Last Boss",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 545,
@@ -2560,5 +2576,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
