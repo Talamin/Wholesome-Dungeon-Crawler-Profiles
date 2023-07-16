@@ -12,6 +12,9 @@
       "Name": "Regroup at Start",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -90,25 +93,14 @@
           "Z": 24.6785927,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 232.147675,
-          "Y": -61.3225937,
-          "Z": 24.6785927,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 240.352554,
-          "Y": -58.8575745,
-          "Z": 24.6785927,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Move in",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -149,9 +141,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear danger",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -627,6 +623,9 @@
       "Name": "Prince Keleseth",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -801,6 +800,9 @@
       "Name": "Prince K 3",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -833,6 +835,9 @@
       "Name": "Regroup 2",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1399,6 +1404,9 @@
       "Name": "Skarvald and Dalronn",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1431,6 +1439,9 @@
       "Name": "Regoup",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1780,6 +1791,9 @@
       "Name": "Head Outside",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1812,6 +1826,9 @@
       "Name": "Mount up",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1993,6 +2010,9 @@
       "Name": "Clear roof",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2025,6 +2045,9 @@
       "Name": "Group up",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2157,6 +2180,9 @@
       "Name": "Ingvar the Plunderer",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2191,6 +2217,9 @@
       "Name": "Ingvar Round Two",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2386,5 +2415,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
