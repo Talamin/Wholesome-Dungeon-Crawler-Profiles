@@ -12,6 +12,9 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -169,65 +172,51 @@
           "Action": ""
         },
         {
-          "X": -244.33342,
-          "Y": 30.8996124,
-          "Z": -55.230217,
+          "X": -244.397415,
+          "Y": 37.5040741,
+          "Z": -55.1134872,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -249.332581,
-          "Y": 31.26709,
-          "Z": -55.2995148,
+          "X": -248.5865,
+          "Y": 43.08214,
+          "Z": -55.0288239,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -256.146637,
-          "Y": 30.1404037,
-          "Z": -56.1944733,
+          "X": -254.256714,
+          "Y": 49.03213,
+          "Z": -54.2194366,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -263.528534,
-          "Y": 25.8621616,
-          "Z": -57.0545959,
+          "X": -258.920715,
+          "Y": 49.9874535,
+          "Z": -54.97592,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -270.056122,
-          "Y": 23.3834686,
-          "Z": -57.09685,
+          "X": -267.172577,
+          "Y": 48.8064842,
+          "Z": -58.8507271,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -277.117645,
-          "Y": 21.59524,
-          "Z": -57.3661461,
-          "Type": "None",
+          "X": -275.197845,
+          "Y": 48.3419876,
+          "Z": -60.83786,
+          "Type": "Swimming",
           "Action": ""
         },
         {
-          "X": -282.596344,
-          "Y": 20.7395153,
-          "Z": -57.40705,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -289.855743,
-          "Y": 20.125433,
-          "Z": -59.3505554,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -294.949768,
-          "Y": 20.3136787,
-          "Z": -59.8077049,
+          "X": -289.324554,
+          "Y": 39.48783,
+          "Z": -60.1999321,
           "Type": "Swimming",
           "Action": ""
         },
@@ -508,6 +497,9 @@
       "Name": "Boss 1",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -773,6 +765,9 @@
       "Name": "Boss 2",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1514,38 +1509,9 @@
       "Name": "Boss 3",
       "CompleteCondition": {
         "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -492.4999,
-        "Y": -35.88178,
-        "Z": -43.60273,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup before murlock room",
-      "CompleteCondition": {
-        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1571,13 +1537,13 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -488.4862,
-        "Y": -36.50388,
-        "Z": -43.20852,
+        "X": -489.9711,
+        "Y": -36.02327,
+        "Z": -43.36193,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 9,
+      "SafeSpotRadius": 16,
       "ZoneToClearPosition": {
         "X": -417.9012,
         "Y": 26.56674,
@@ -1590,6 +1556,9 @@
       "Name": "Pull murlocks to safe spot",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2317,6 +2286,9 @@
       "Name": "Boss 4",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2352,6 +2324,9 @@
       "Name": "Click on Fire of Aku'mai 1",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2387,6 +2362,9 @@
       "Name": "Click on Fire of Aku'mai 2",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2422,6 +2400,9 @@
       "Name": "Click on Fire of Aku'mai 3",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2457,6 +2438,9 @@
       "Name": "Click on Fire of Aku'mai 4",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2488,7 +2472,7 @@
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 10,
+      "SafeSpotRadius": 15,
       "ZoneToClearPosition": {
         "X": -817.9531,
         "Y": -155.0488,
@@ -2501,6 +2485,9 @@
       "Name": "Make sure all mobs are cleared",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2806,7 +2793,29 @@
         }
       ],
       "Name": "Boss 5",
-      "CompleteCondition": null,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
       "HasCompleteCondition": false
     }
   ],
@@ -4352,5 +4361,6 @@
       "TryToUseEvenIfCanFindPathSuccess": true,
       "Name": ""
     }
-  ]
+  ],
+  "DungeonModel": null
 }
