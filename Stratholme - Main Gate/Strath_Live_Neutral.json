@@ -1,26 +1,20 @@
 {
   "StepModels": [
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 3395.09,
-          "Y": -3380.25,
-          "Z": 142.7025,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3403.151,
-          "Y": -3379.39136,
-          "Z": 142.620148,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Entrance",
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 3395.09,
+        "Y": -3380.25,
+        "Z": 142.702,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup at Start",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -42,17 +36,57 @@
       "HasCompleteCondition": false
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": 3403.151,
-        "Y": -3379.391,
-        "Z": 142.6201,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup at Start",
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 3394.34082,
+          "Y": -3380.30566,
+          "Z": 142.707047,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3403.22974,
+          "Y": -3379.50781,
+          "Z": 142.617584,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3411.733,
+          "Y": -3379.04614,
+          "Z": 142.328613,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3420.23877,
+          "Y": -3378.77271,
+          "Z": 141.842148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3428.74146,
+          "Y": -3378.71118,
+          "Z": 141.3664,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3438.15332,
+          "Y": -3379.195,
+          "Z": 140.996841,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Entrance hall",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -78,24 +112,28 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": 3403.151,
-        "Y": -3379.391,
-        "Z": 142.6201,
+        "X": 3436.493,
+        "Y": -3379.175,
+        "Z": 141.0491,
         "Type": "None",
         "Action": ""
       },
       "SafeSpotRadius": 10,
       "ZoneToClearPosition": {
-        "X": 3445.022,
-        "Y": -3379.424,
-        "Z": 140.7313,
+        "X": 3463.753,
+        "Y": -3379.454,
+        "Z": 138.1203,
         "Type": "None",
         "Action": ""
       },
       "ZoneToClearRadius": 30,
-      "Name": "Clear corridor",
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear street",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -120,93 +158,61 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 3403.251,
-          "Y": -3379.312,
-          "Z": 142.616425,
+          "X": 3438.41846,
+          "Y": -3379.3042,
+          "Z": 140.988068,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3411.41,
-          "Y": -3379.42676,
-          "Z": 142.339371,
+          "X": 3447.66382,
+          "Y": -3378.51465,
+          "Z": 140.60318,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3419.92139,
-          "Y": -3379.34839,
-          "Z": 141.860962,
+          "X": 3456.17017,
+          "Y": -3377.84937,
+          "Z": 139.586441,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3428.61548,
-          "Y": -3379.348,
-          "Z": 141.373215,
+          "X": 3464.806,
+          "Y": -3377.45947,
+          "Z": 137.863831,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3437.11084,
-          "Y": -3379.07153,
-          "Z": 141.030762,
+          "X": 3473.33154,
+          "Y": -3377.43726,
+          "Z": 135.821,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3445.63159,
-          "Y": -3378.67334,
-          "Z": 140.700729,
+          "X": 3481.82153,
+          "Y": -3377.51025,
+          "Z": 135.09201,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 3454.79053,
-          "Y": -3378.26929,
-          "Z": 139.810623,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3463.196,
-          "Y": -3378.613,
-          "Z": 138.268829,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3471.62671,
-          "Y": -3379.396,
-          "Z": 136.034042,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3480.17139,
-          "Y": -3380.61377,
-          "Z": 135.4368,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3488.60474,
-          "Y": -3382.00586,
-          "Z": 135.370148,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 3497.02319,
-          "Y": -3383.29932,
-          "Z": 135.2593,
+          "X": 3490.269,
+          "Y": -3378.204,
+          "Z": 135.250153,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Enter",
+      "Name": "Move up",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -247,9 +253,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear Junction",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -354,6 +364,9 @@
       "Name": "Move to road",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -394,9 +407,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear Next Junction",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -494,6 +511,9 @@
       "Name": "Move to Trap",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -526,6 +546,9 @@
       "Name": "Regroup for trap",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -595,6 +618,9 @@
       "Name": "Enter trap",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -635,9 +661,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 35,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear Junction",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -812,6 +842,9 @@
       "Name": "To Timmy Again",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -852,9 +885,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 45,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear Crusaders Square",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -945,6 +982,9 @@
       "Name": "Enter ",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -980,6 +1020,9 @@
       "Name": "Open Bastion Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1063,6 +1106,9 @@
       "Name": "Move in",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1103,9 +1149,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 34,
+      "ZoneToClearZLimit": 5,
       "Name": "Clear Corridor",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1217,6 +1267,9 @@
       "Name": "Malor the Zealous",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1328,6 +1381,9 @@
       "Name": "Next",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1363,6 +1419,9 @@
       "Name": "Open Hoard Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1565,6 +1624,9 @@
       "Name": "Cannon Master Willey",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1795,6 +1857,9 @@
       "Name": "Back",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1830,6 +1895,9 @@
       "Name": "Open Hall Door",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2046,6 +2114,9 @@
       "Name": "Archivist Galford",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2136,6 +2207,9 @@
       "Name": "Grand Crusader Dathrohan",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2161,6 +2235,9 @@
       "Name": "Leave",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -3175,12 +3252,13 @@
       "Action": ""
     },
     {
-      "X": 3389.75462,
+      "X": 3389.75464,
       "Y": -3366.22388,
       "Z": 142.25592,
       "Type": "None",
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
