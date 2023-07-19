@@ -12,6 +12,9 @@
       "Name": "Start",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -95,6 +98,9 @@
       "Name": "To Front Gate",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -124,6 +130,9 @@
       "Name": "Open gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -148,9 +157,9 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 200.80867,
-          "Y": 62.16528,
-          "Z": 128.534073,
+          "X": 201.334122,
+          "Y": 58.74206,
+          "Z": 128.7046,
           "Type": "None",
           "Action": ""
         },
@@ -214,6 +223,9 @@
       "Name": "Clear ground floor",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -243,6 +255,9 @@
       "Name": "Open basement gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -267,9 +282,9 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 245.070236,
-          "Y": 37.07571,
-          "Z": 115.708458,
+          "X": 246.975876,
+          "Y": 37.3483047,
+          "Z": 115.717834,
           "Type": "None",
           "Action": ""
         },
@@ -305,6 +320,9 @@
       "Name": "Move downstairs",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -334,6 +352,9 @@
       "Name": "Open another gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -374,9 +395,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 14,
+      "ZoneToClearZLimit": 5,
       "Name": "Pull Summoner Room",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -488,6 +513,9 @@
       "Name": "Clear Summoner Room",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -517,6 +545,9 @@
       "Name": "Another door",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -557,9 +588,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 12,
-      "Name": "Pull Rattlegore room",
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Candle Area",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -600,9 +635,13 @@
         "Action": ""
       },
       "ZoneToClearRadius": 14,
+      "ZoneToClearZLimit": 5,
       "Name": "Pull ballroom",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -627,9 +666,9 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 260.6779,
-          "Y": 131.379944,
-          "Z": 109.97364,
+          "X": 260.005676,
+          "Y": 136.137024,
+          "Z": 109.969658,
           "Type": "None",
           "Action": ""
         },
@@ -644,20 +683,6 @@
           "X": 265.069458,
           "Y": 147.4487,
           "Z": 109.777443,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 272.493774,
-          "Y": 151.63649,
-          "Z": 109.780075,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 265.592621,
-          "Y": 156.745117,
-          "Z": 109.780075,
           "Type": "None",
           "Action": ""
         },
@@ -683,19 +708,89 @@
           "Action": ""
         },
         {
-          "X": 237.318253,
-          "Y": 147.909256,
-          "Z": 109.646561,
-          "Type": "None",
-          "Action": ""
-        },
-        {
           "X": 234.274582,
           "Y": 155.88916,
           "Z": 109.643715,
           "Type": "None",
           "Action": ""
-        },
+        }
+      ],
+      "Name": "Clear to Rattlgeore Part 1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 235.7866,
+        "Y": 161.2692,
+        "Z": 109.6455,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 199.4691,
+        "Y": 159.4292,
+        "Z": 109.7953,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear Ballroom",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
         {
           "X": 228.978928,
           "Y": 162.791016,
@@ -746,12 +841,89 @@
           "Action": ""
         },
         {
-          "X": 171.66452,
-          "Y": 155.898956,
-          "Z": 109.524,
+          "X": 174.864563,
+          "Y": 157.029358,
+          "Z": 109.549309,
           "Type": "None",
           "Action": ""
-        },
+        }
+      ],
+      "Name": "Clear to Rattlgeore Part II",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 177.871,
+        "Y": 160.6413,
+        "Z": 109.5729,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 138.8524,
+        "Y": 161.7498,
+        "Z": 109.5797,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear Ossuary",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
         {
           "X": 163.386261,
           "Y": 153.423828,
@@ -921,9 +1093,12 @@
           "Action": ""
         }
       ],
-      "Name": "Clear to Rattlgeore",
+      "Name": "Clear to Rattlgeore Part III",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1147,6 +1322,9 @@
       "Name": "Back upstairs",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1176,6 +1354,9 @@
       "Name": "Open a Gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 32,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1197,19 +1378,175 @@
       "HasCompleteCondition": true
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 210.6786,
+        "Y": 130.8824,
+        "Z": 109.7212,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 7,
+      "ZoneToClearPosition": {
+        "X": 199.8796,
+        "Y": 90.93246,
+        "Z": 104.2437,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear Ghoul Room",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 206.973984,
+          "Y": 133.078568,
+          "Z": 109.79454,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 200.759186,
+          "Y": 127.839653,
+          "Z": 109.79454,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 199.271286,
+          "Y": 119.678391,
+          "Z": 109.317352,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 199.369751,
+          "Y": 111.154243,
+          "Z": 106.04715,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 199.1099,
+          "Y": 102.648026,
+          "Z": 104.714882,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 197.534134,
+          "Y": 94.31,
+          "Z": 104.24369,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 194.852112,
+          "Y": 86.22506,
+          "Z": 104.24369,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 190.6214,
+          "Y": 78.8122,
+          "Z": 104.24369,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 183.203537,
+          "Y": 75.0237045,
+          "Z": 104.714951,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 175.62561,
+          "Y": 74.89973,
+          "Z": 104.715279,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Move to VIewing Room Door",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
       "ObjectId": "175167",
-      "ExpectedPosition": null,
+      "ExpectedPosition": {
+        "X": 174.378,
+        "Y": 77.9398,
+        "Z": 104.802,
+        "Type": "None",
+        "Action": ""
+      },
       "InteractDistance": 3,
       "SkipIfNotFound": false,
       "Name": "Open Viewing Room Door",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
-        "InitialFlags": 32,
+        "InitialFlags": 34,
         "FlagsChangedGameObjectId": 175167,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
@@ -1304,11 +1641,21 @@
           "Z": 97.79914,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 175.62561,
+          "Y": 74.89973,
+          "Z": 104.715279,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Continue through Viewing Room",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1338,6 +1685,9 @@
       "Name": "Open Gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1519,6 +1869,9 @@
       "Name": "Path to Ras Frostwhisperer",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1538,6 +1891,64 @@
         "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -17.5299835,
+          "Y": 136.832748,
+          "Z": 83.90067,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -25.8860283,
+          "Y": 133.3989,
+          "Z": 83.9314957,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -34.42482,
+          "Y": 132.9253,
+          "Z": 83.9272,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -42.2064934,
+          "Y": 136.315735,
+          "Z": 83.92924,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Ras FrostWhisoerer",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 10508,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1721,6 +2132,9 @@
       "Name": "Back up",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1750,6 +2164,9 @@
       "Name": "Open Gate",
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1875,6 +2292,9 @@
       "Name": "To Headmasters Study",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1972,6 +2392,9 @@
       "Name": "Lady Illucia Barov",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2266,6 +2689,9 @@
       "Name": "Lord Alexei Barov",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2388,9 +2814,9 @@
           "Action": ""
         },
         {
-          "X": 174.1028,
-          "Y": 23.6873665,
-          "Z": 88.89017,
+          "X": 181.562485,
+          "Y": 21.93983,
+          "Z": 88.95308,
           "Type": "None",
           "Action": ""
         },
@@ -2430,9 +2856,9 @@
           "Action": ""
         },
         {
-          "X": 142.6093,
-          "Y": -7.047836,
-          "Z": 88.95093,
+          "X": 142.0898,
+          "Y": -10.3333006,
+          "Z": 88.95109,
           "Type": "None",
           "Action": ""
         },
@@ -2482,6 +2908,9 @@
       "Name": "Instructor Malicia",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2663,6 +3092,9 @@
       "Name": "Dr Theolen Krastinov",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -3328,5 +3760,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
