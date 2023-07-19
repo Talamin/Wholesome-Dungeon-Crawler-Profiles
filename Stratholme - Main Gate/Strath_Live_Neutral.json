@@ -1019,7 +1019,7 @@
       "SkipIfNotFound": true,
       "Name": "Open Bastion Door",
       "CompleteCondition": {
-        "ConditionType": 0,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -1034,14 +1034,26 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3647.289,
+          "Y": -3139.259,
+          "Z": 134.7781,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3643.03,
+          "Y": -3133.335,
+          "Z": 134.7806,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": false
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1418,7 +1430,7 @@
       "SkipIfNotFound": true,
       "Name": "Open Hoard Door",
       "CompleteCondition": {
-        "ConditionType": 0,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -1433,14 +1445,26 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3568.157,
+          "Y": -3052.58,
+          "Z": 135.2198,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3566.743,
+          "Y": -3050.736,
+          "Z": 135.6673,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": false
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1894,7 +1918,7 @@
       "SkipIfNotFound": true,
       "Name": "Open Hall Door",
       "CompleteCondition": {
-        "ConditionType": 0,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -1909,14 +1933,26 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3543.31,
+          "Y": -3071.126,
+          "Z": 134.9973,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3540.369,
+          "Y": -3066.898,
+          "Z": 135.6676,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": false
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",

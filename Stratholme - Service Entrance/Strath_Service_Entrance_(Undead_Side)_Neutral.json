@@ -114,7 +114,7 @@
       "SkipIfNotFound": false,
       "Name": "Open Service Gate",
       "CompleteCondition": {
-        "ConditionType": 2,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -129,8 +129,20 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3728.851,
+          "Y": -3597.846,
+          "Z": 142.3677,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3720.473,
+          "Y": -3601.999,
+          "Z": 142.139,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
@@ -371,7 +383,7 @@
       "SkipIfNotFound": false,
       "Name": "Open gate",
       "CompleteCondition": {
-        "ConditionType": 2,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -386,8 +398,20 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3722.451,
+          "Y": -3601.187,
+          "Z": 142.3489,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3732.788,
+          "Y": -3596.877,
+          "Z": 142.3674,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
@@ -495,7 +519,7 @@
       "SkipIfNotFound": false,
       "Name": "Open Another Gate",
       "CompleteCondition": {
-        "ConditionType": 2,
+        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -510,8 +534,20 @@
         "MobAtPositionId": 0,
         "MobAtPositionVector": null,
         "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
+        "LOSPositionVectorFrom": {
+          "X": 3780.517,
+          "Y": -3587.208,
+          "Z": 143.5122,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3784.943,
+          "Y": -3596.729,
+          "Z": 144.5778,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSMustReturnTrue": true,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
