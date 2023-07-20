@@ -3276,6 +3276,134 @@
       "Name": "Lorekeeper Polket",
       "CompleteCondition": null,
       "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 263.335449,
+          "Y": -2.9383,
+          "Z": 84.8408051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 251.8633,
+          "Y": -5.12642431,
+          "Z": 84.8408051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 240.2381,
+          "Y": -7.355663,
+          "Z": 85.2287,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 229.428986,
+          "Y": -8.695335,
+          "Z": 85.2287,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 220.044922,
+          "Y": -9.670293,
+          "Z": 88.95132,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 216.001373,
+          "Y": 0.3937353,
+          "Z": 88.95132,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 205.155029,
+          "Y": -0.665728,
+          "Z": 88.9910049,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 204.349579,
+          "Y": 11.3733,
+          "Z": 88.99808,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 203.008118,
+          "Y": 23.4413853,
+          "Z": 89.0059357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 190.834778,
+          "Y": 23.79149,
+          "Z": 88.99962,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 179.612991,
+          "Y": 23.2002678,
+          "Z": 88.89936,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 180.539581,
+          "Y": 15.5029478,
+          "Z": 85.9630661,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 180.826843,
+          "Y": 6.29127073,
+          "Z": 78.43376,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 181.193,
+          "Y": -4.37134171,
+          "Z": 75.48154,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Darkmaster Gandling",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 1853,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     }
   ],
   "MapId": 289,
