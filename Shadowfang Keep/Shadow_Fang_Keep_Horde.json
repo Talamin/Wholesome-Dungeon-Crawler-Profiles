@@ -12,6 +12,9 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -228,6 +231,9 @@
       "Name": "Move to Rethilgore",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -263,6 +269,9 @@
       "Name": "Interact with Cell Lever",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -298,6 +307,9 @@
       "Name": "Talk to Deathstalker Adamant",
       "CompleteCondition": {
         "ConditionType": 5,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 3850,
@@ -380,6 +392,9 @@
       "Name": "Move to Door to Yard",
       "CompleteCondition": {
         "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -423,51 +438,22 @@
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 2,
+      "SafeSpotRadius": 9,
       "ZoneToClearPosition": {
-        "X": -220.4653,
-        "Y": 2162.409,
-        "Z": 79.76485,
+        "X": -215.7675,
+        "Y": 2176.172,
+        "Z": 79.76585,
         "Type": "None",
         "Action": ""
       },
-      "ZoneToClearRadius": 32,
+      "ZoneToClearRadius": 34,
       "ZoneToClearZLimit": 5,
       "Name": "Safe-pull mobs close to stairs",
       "CompleteCondition": {
         "ConditionType": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -221.4604,
-        "Y": 2199.524,
-        "Z": 79.76488,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup before moving to Baron Silverlaine",
-      "CompleteCondition": {
-        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -492,9 +478,58 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -218.800674,
-          "Y": 2206.15381,
-          "Z": 79.76281,
+          "X": -238.301559,
+          "Y": 2153.13916,
+          "Z": 90.62341,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -241.529236,
+          "Y": 2158.68677,
+          "Z": 90.62341,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -238.3544,
+          "Y": 2167.22949,
+          "Z": 88.4970856,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -234.482376,
+          "Y": 2177.597,
+          "Z": 82.37104,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -231.841522,
+          "Y": 2184.668,
+          "Z": 79.761055,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -229.31987,
+          "Y": 2189.6123,
+          "Z": 79.761055,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -225.315918,
+          "Y": 2197.21069,
+          "Z": 79.761055,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -221.526184,
+          "Y": 2205.14282,
+          "Z": 79.761055,
           "Type": "None",
           "Action": ""
         },
@@ -663,6 +698,9 @@
       "Name": "Move to Baron Silverlaine",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -781,6 +819,9 @@
       "Name": "Move to Commander Springvale",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -813,6 +854,9 @@
       "Name": "Regroup before Commander Springvale",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -857,6 +901,9 @@
       "Name": "Safely clear the Commander Springvale room",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1108,6 +1155,9 @@
       "Name": "Move To Odo the Blindwatcher",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1352,6 +1402,9 @@
       "Name": "Move To Son of Arugal",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1722,6 +1775,9 @@
       "Name": "Move To Fenrus the Devourer",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2029,6 +2085,9 @@
       "Name": "Move To Wolf Master Nandos",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -2168,6 +2227,9 @@
       "Name": "Move To Archmage Arugal",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -3960,5 +4022,6 @@
       "TryToUseEvenIfCanFindPathSuccess": true,
       "Name": ""
     }
-  ]
+  ],
+  "DungeonModel": null
 }
