@@ -882,13 +882,13 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -267.4468,
-        "Y": 2270.669,
-        "Z": 95.86662,
+        "X": -265.8486,
+        "Y": 2265.063,
+        "Z": 97.46894,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 3,
+      "SafeSpotRadius": 15,
       "ZoneToClearPosition": {
         "X": -250.2738,
         "Y": 2253.011,
