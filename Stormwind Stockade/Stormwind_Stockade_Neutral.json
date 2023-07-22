@@ -10,725 +10,657 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 63.57759,
+        "Y": 0.7981043,
+        "Z": -21.85805,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 84.0012,
+        "Y": 13.91287,
+        "Z": -26.52288,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 15,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 63.57759,
+        "Y": 0.7981043,
+        "Z": -21.85805,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 83.28757,
+        "Y": -14.09314,
+        "Z": -26.52288,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 18,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 2",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 79.94335,
+        "Y": 0.7075216,
+        "Z": -25.60598,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 107.1623,
+        "Y": 17.0068,
+        "Z": -26.52289,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 16,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 3",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 79.94335,
+        "Y": 0.7075216,
+        "Z": -25.60598,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 106.0234,
+        "Y": -15.44662,
+        "Z": -26.52289,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 18,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 4",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 59.4784622,
-          "Y": 0.2658261,
-          "Z": -20.34035,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 65.8972549,
-          "Y": 0.472163469,
-          "Z": -22.7147274,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 72.8908539,
-          "Y": 0.769247,
-          "Z": -25.361475,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 80.02922,
-          "Y": 1.32989037,
-          "Z": -25.6062164,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.48879,
-          "Y": 5.6675,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.47221,
-          "Y": 12.6671047,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.27484,
-          "Y": 19.6643181,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.37409,
-          "Y": 29.4845562,
-          "Z": -26.5290585,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.8628845,
-          "Y": 12.6967325,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.61141,
-          "Y": 5.701618,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.41869,
-          "Y": -1.57559991,
-          "Z": -25.6062317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.44846,
-          "Y": -8.572745,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.68175,
-          "Y": -15.8661118,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.7831039,
-          "Y": -28.0794163,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.4921951,
-          "Y": -8.313227,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 84.5832,
-          "Y": -1.29686284,
-          "Z": -25.6062317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 91.9063339,
-          "Y": 0.6419783,
-          "Z": -25.6062317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 98.88591,
-          "Y": 0.8264917,
-          "Z": -25.6062317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 105.483315,
-          "Y": 1.81729567,
-          "Z": -25.6062317,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.937737,
-          "Y": 8.894108,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.912285,
-          "Y": 15.8936834,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.318367,
-          "Y": 22.8817883,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.679306,
-          "Y": 31.3679752,
-          "Z": -26.5228977,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.805176,
-          "Y": 14.442318,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.38839,
-          "Y": 7.15719557,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.97789,
-          "Y": 0.187390834,
-          "Z": -25.6062241,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.69416,
-          "Y": -7.10459137,
-          "Z": -26.5228786,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.47921,
-          "Y": -14.1011419,
-          "Z": -26.5228786,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.682457,
-          "Y": -21.0883865,
-          "Z": -26.5228786,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 106.556725,
-          "Y": -30.11929,
-          "Z": -26.522892,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.587029,
-          "Y": -15.0512228,
-          "Z": -26.5228786,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.355125,
-          "Y": -8.062412,
-          "Z": -26.5228786,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.275322,
-          "Y": -1.41857111,
+          "X": 110.090111,
+          "Y": 0.712079048,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 112.8218,
-          "Y": 0.728678,
+          "X": 119.091064,
+          "Y": 0.765666842,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 119.802658,
-          "Y": 0.8545086,
+          "X": 127.611053,
+          "Y": 0.505331933,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 125.943474,
-          "Y": 0.9773433,
+          "X": 136.1218,
+          "Y": 0.6210433,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 132.64917,
-          "Y": 0.748201132,
+          "X": 144.9836,
+          "Y": 0.561711848,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 140.7952,
-          "Y": 0.5293251,
-          "Z": -25.6062279,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 146.91983,
-          "Y": 0.5166461,
-          "Z": -25.6062279,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 153.292923,
-          "Y": 1.00813508,
-          "Z": -25.6062279,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 159.104538,
-          "Y": 1.43545985,
+          "X": 153.4977,
+          "Y": 0.707814336,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         }
       ],
       "Name": "Boss 1",
-      "Order": 1,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 150.63829,
-          "Y": 1.15353739,
+          "X": 151.241272,
+          "Y": -0.0402335823,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 143.359985,
-          "Y": 0.996424139,
+          "X": 142.652832,
+          "Y": 0.7527212,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 135.749268,
-          "Y": 0.832135,
+          "X": 134.266281,
+          "Y": 0.664450765,
           "Z": -25.6062279,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 130.70549,
-          "Y": -2.18963027,
+          "X": 128.741562,
+          "Y": -6.15023947,
           "Z": -25.6062279,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 130.014221,
-          "Y": -8.792609,
-          "Z": -25.6062279,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 130.2106,
-          "Y": -14.056447,
-          "Z": -26.9675827,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 130.1213,
-          "Y": -21.0530777,
-          "Z": -29.6157379,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 129.308014,
-          "Y": -28.6214619,
-          "Z": -32.47155,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 128.743683,
-          "Y": -34.719696,
-          "Z": -33.93954,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 129.180008,
-          "Y": -41.7938156,
-          "Z": -33.93954,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 135.246185,
-          "Y": -44.43031,
-          "Z": -34.855957,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 142.11232,
-          "Y": -45.79047,
-          "Z": -34.855957,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 156.519,
-          "Y": -47.06517,
-          "Z": -34.8560944,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 135.2174,
-          "Y": -44.5712242,
-          "Z": -34.855957,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 128.233734,
-          "Y": -44.09383,
-          "Z": -33.9395676,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 121.369476,
-          "Y": -42.7795067,
-          "Z": -34.8560677,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 114.203476,
-          "Y": -41.4060249,
-          "Z": -34.8560677,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.248886,
-          "Y": -40.6291656,
-          "Z": -34.8560677,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 99.86568,
-          "Y": -40.3315544,
-          "Z": -34.8561859,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 115.220436,
-          "Y": -42.2678,
-          "Z": -34.8560677,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 122.195381,
-          "Y": -42.858345,
-          "Z": -34.8560677,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 127.866219,
-          "Y": -44.0451927,
-          "Z": -33.93955,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 128.331375,
-          "Y": -49.7077637,
-          "Z": -33.93955,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 125.247116,
-          "Y": -55.77953,
-          "Z": -33.93955,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 124.163773,
-          "Y": -62.6601372,
-          "Z": -33.93955,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 129.319946,
-          "Y": -67.21221,
-          "Z": -34.856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 135.865524,
-          "Y": -69.69314,
-          "Z": -34.856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 142.90744,
-          "Y": -71.49995,
-          "Z": -34.856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 151.6382,
-          "Y": -74.04445,
-          "Z": -34.8561935,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 136.720673,
-          "Y": -69.0549545,
-          "Z": -34.856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 129.929184,
-          "Y": -67.37145,
-          "Z": -34.856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 123.240829,
-          "Y": -65.24873,
-          "Z": -33.93956,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 116.338913,
-          "Y": -62.9331741,
-          "Z": -34.8560524,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 109.659729,
-          "Y": -60.8387,
-          "Z": -34.8560524,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 102.930862,
-          "Y": -58.911335,
-          "Z": -34.8560524,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 95.04472,
-          "Y": -56.8691635,
-          "Z": -34.856205,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 109.035461,
-          "Y": -60.9053574,
-          "Z": -34.8560524,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 115.746391,
-          "Y": -62.89589,
-          "Z": -34.8560524,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 122.588814,
-          "Y": -65.3557,
-          "Z": -33.93956,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 121.985641,
-          "Y": -72.39605,
-          "Z": -33.93956,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 118.958855,
-          "Y": -80.2993851,
-          "Z": -33.93956,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 115.507317,
-          "Y": -87.72389,
-          "Z": -33.93956,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 111.752914,
-          "Y": -93.95986,
-          "Z": -34.5903969,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 108.70697,
-          "Y": -99.27251,
-          "Z": -35.1895447,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Boss 2",
-      "Order": 2,
+      "Name": "Move to Room 5-6",
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 128.6717,
+        "Y": -12.71202,
+        "Z": -26.4703,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 142.7207,
+        "Y": -45.43332,
+        "Z": -34.85617,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 20,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 5",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 128.6717,
+        "Y": -12.71202,
+        "Z": -26.4703,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 109.1943,
+        "Y": -40.71089,
+        "Z": -34.85616,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 15,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 6",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 128.517,
+        "Y": -29.81039,
+        "Z": -32.91784,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 140.4411,
+        "Y": -71.14162,
+        "Z": -34.85615,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 15,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 7",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": 128.517,
+        "Y": -29.81039,
+        "Z": -32.91784,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 105.9949,
+        "Y": -60.38634,
+        "Z": -34.85569,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 13,
+      "ZoneToClearZLimit": 5,
+      "Name": "Pull Room 8",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 105.52977,
-          "Y": -108.063156,
-          "Z": -35.18956,
+          "X": 127.036705,
+          "Y": -48.3190536,
+          "Z": -33.93903,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 102.678162,
-          "Y": -112.602745,
-          "Z": -35.18956,
+          "X": 126.139435,
+          "Y": -55.5432358,
+          "Z": -33.93903,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 99.80702,
-          "Y": -117.548805,
-          "Z": -35.18956,
+          "X": 124.043961,
+          "Y": -63.1961555,
+          "Z": -33.93903,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 96.9243546,
-          "Y": -122.480057,
-          "Z": -33.93956,
+          "X": 121.776215,
+          "Y": -69.55609,
+          "Z": -33.93903,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 94.09045,
-          "Y": -127.318184,
-          "Z": -33.93956,
+          "X": 119.907288,
+          "Y": -75.13901,
+          "Z": -33.93903,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 91.4080048,
-          "Y": -132.359665,
-          "Z": -33.93956,
+          "X": 116.607727,
+          "Y": -83.6010742,
+          "Z": -33.93903,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 111.227623,
+          "Y": -95.0432358,
+          "Z": -35.1895561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 107.642838,
+          "Y": -101.952652,
+          "Z": -35.1895561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 103.864632,
+          "Y": -109.234879,
+          "Z": -35.1895561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 100.316376,
+          "Y": -115.426758,
+          "Z": -35.1895561,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 97.40672,
+          "Y": -120.872513,
+          "Z": -33.9409256,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 92.89398,
+          "Y": -128.966522,
+          "Z": -33.9409256,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 88.958,
+          "Y": -136.541519,
+          "Z": -33.9409256,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "Boss 3",
-      "Order": 3,
+      "Name": "Final boss",
       "CompleteCondition": {
-        "HasCompleteCondition": false,
         "ConditionType": 0,
-        "FlagsChangedGameObjectId": 0,
-        "InitialFlags": 0,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobAtPositionId": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
         "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "WaitTime": 0
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     }
   ],
   "MapId": 34,
@@ -1915,5 +1847,6 @@
       "TryToUseEvenIfCanFindPathSuccess": true,
       "Name": "Stormwind Stockade"
     }
-  ]
+  ],
+  "DungeonModel": null
 }
