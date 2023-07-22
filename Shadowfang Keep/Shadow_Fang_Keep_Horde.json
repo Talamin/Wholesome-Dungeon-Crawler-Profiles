@@ -843,41 +843,6 @@
       "HasCompleteCondition": false
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -267.4468,
-        "Y": 2270.669,
-        "Z": 95.86662,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup before Commander Springvale",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "ConditionTimer": null,
-        "GetTimerTimeLeft": 0.0,
-        "TimerTimeInSeconds": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,

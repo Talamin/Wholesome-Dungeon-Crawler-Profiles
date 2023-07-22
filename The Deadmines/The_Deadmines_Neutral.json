@@ -10,9 +10,11 @@
         "Action": ""
       },
       "Name": "Regroup Entrance",
-      "Order": 0,
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -26,8 +28,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -230,9 +236,11 @@
         }
       ],
       "Name": "Boss - Rhahk'Zor",
-      "Order": 1,
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -246,8 +254,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -352,9 +364,11 @@
         }
       ],
       "Name": "Path to Door",
-      "Order": 2,
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -368,8 +382,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -384,9 +402,11 @@
       "InteractDistance": 3,
       "SkipIfNotFound": false,
       "Name": "Interact with Door",
-      "Order": 3,
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -400,8 +420,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -457,9 +481,11 @@
         }
       ],
       "Name": "Boss - Sneed's Shredder",
-      "Order": 4,
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -473,8 +499,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -489,9 +519,11 @@
       "InteractDistance": 3,
       "SkipIfNotFound": false,
       "Name": "Open Sneed's door",
-      "Order": 5,
       "CompleteCondition": {
         "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -517,8 +549,12 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -623,9 +659,11 @@
         }
       ],
       "Name": "Path to Door",
-      "Order": 6,
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -639,8 +677,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -655,9 +697,11 @@
       "InteractDistance": 3,
       "SkipIfNotFound": false,
       "Name": "Interact with Door",
-      "Order": 7,
       "CompleteCondition": {
         "ConditionType": 2,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -671,8 +715,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -725,180 +773,14 @@
           "Z": 51.2302856,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": -185.862854,
-          "Y": -562.841736,
-          "Z": 51.2302856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -181.83461,
-          "Y": -569.698669,
-          "Z": 50.1482849,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -179.824158,
-          "Y": -577.4138,
-          "Z": 46.84323,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -180.469376,
-          "Y": -585.338745,
-          "Z": 43.4302,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -183.3342,
-          "Y": -592.721,
-          "Z": 40.10117,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -188.0332,
-          "Y": -599.0973,
-          "Z": 37.0303574,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -194.730072,
-          "Y": -603.278931,
-          "Z": 33.90608,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -202.340729,
-          "Y": -605.472839,
-          "Z": 30.8199139,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -210.231949,
-          "Y": -605.115967,
-          "Z": 27.62595,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -217.882523,
-          "Y": -602.909058,
-          "Z": 24.27631,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -224.622025,
-          "Y": -598.8005,
-          "Z": 21.28532,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -231.752548,
-          "Y": -589.907166,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -235.592834,
-          "Y": -581.861145,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -236.813492,
-          "Y": -573.0626,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -234.518967,
-          "Y": -564.832947,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -230.035065,
-          "Y": -557.7882,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -223.58374,
-          "Y": -551.6238,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -215.909164,
-          "Y": -549.295532,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -207.09111,
-          "Y": -548.488342,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -198.570145,
-          "Y": -548.86615,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -190.3535,
-          "Y": -551.1676,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -183.085144,
-          "Y": -555.6312,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -177.872574,
-          "Y": -562.352539,
-          "Z": 19.30694,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -171.55777,
-          "Y": -579.9795,
-          "Z": 19.3135529,
-          "Type": "None",
-          "Action": ""
         }
       ],
-      "Name": "Boss - Gilnid",
-      "Order": 8,
+      "Name": "Enter Goblin Room",
       "CompleteCondition": {
-        "ConditionType": 4,
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -912,8 +794,180 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -187.5547,
+        "Y": -557.8731,
+        "Z": 51.22894,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 14,
+      "ZoneToClearPosition": {
+        "X": -204.031,
+        "Y": -572.6916,
+        "Z": 20.97686,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 35,
+      "ZoneToClearZLimit": 10,
+      "Name": "Pull Goblin Room",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -188.291061,
+          "Y": -599.060242,
+          "Z": 36.97328,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -196.6636,
+          "Y": -604.537231,
+          "Z": 33.0799751,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -209.759369,
+          "Y": -603.1622,
+          "Z": 27.5519524,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -223.529755,
+          "Y": -598.368652,
+          "Z": 21.5036125,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -234.776016,
+          "Y": -590.4771,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -237.474945,
+          "Y": -577.486145,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -233.243515,
+          "Y": -569.853149,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -222.994263,
+          "Y": -559.781433,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -209.658615,
+          "Y": -553.9403,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -195.790985,
+          "Y": -554.0187,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -188.134811,
+          "Y": -559.528931,
+          "Z": 19.3065357,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -180.5303,
+          "Y": -568.0882,
+          "Z": 19.3084965,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -174.126068,
+          "Y": -576.6193,
+          "Z": 19.3112812,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "Path to goblin door",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -928,9 +982,11 @@
       "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Interact with Door",
-      "Order": 9,
       "CompleteCondition": {
         "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -956,8 +1012,12 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1027,9 +1087,11 @@
         }
       ],
       "Name": "Path to Defias Gunpowder",
-      "Order": 10,
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1043,8 +1105,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -1059,9 +1125,11 @@
       "InteractDistance": 3,
       "SkipIfNotFound": true,
       "Name": "Pickup Defias Gunpowder",
-      "Order": 11,
       "CompleteCondition": {
         "ConditionType": 3,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 5397,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1075,8 +1143,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1146,9 +1218,11 @@
         }
       ],
       "Name": "Path to Defias Cannon",
-      "Order": 12,
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1162,8 +1236,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
@@ -1178,9 +1256,11 @@
       "InteractDistance": 5,
       "SkipIfNotFound": false,
       "Name": "Interact with Defias Cannon",
-      "Order": 13,
       "CompleteCondition": {
         "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1206,16 +1286,41 @@
           "Type": "None",
           "Action": ""
         },
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -98.71735,
-          "Y": -677.265259,
-          "Z": 7.422208,
+          "X": -103.712692,
+          "Y": -655.6322,
+          "Z": 7.423776,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -100.825043,
+          "Y": -658.959839,
+          "Z": 7.42237473,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -99.6948242,
+          "Y": -663.813232,
+          "Z": 7.41675758,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -98.4142761,
+          "Y": -672.7166,
+          "Z": 7.41790962,
           "Type": "None",
           "Action": ""
         },
@@ -1368,9 +1473,11 @@
         }
       ],
       "Name": "Boss - Mr. Smite",
-      "Order": 14,
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1384,8 +1491,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1742,9 +1853,11 @@
         }
       ],
       "Name": "Boss - Captain Greenskin",
-      "Order": 15,
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1758,8 +1871,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1787,9 +1904,11 @@
         }
       ],
       "Name": "Boss - Edwin VanCleef",
-      "Order": 16,
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1803,8 +1922,12 @@
         "MobAtPositionMustReturnTrue": true,
         "LOSPositionVectorFrom": null,
         "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true
-      }
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
     }
   ],
   "MapId": 36,
@@ -3073,5 +3196,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
