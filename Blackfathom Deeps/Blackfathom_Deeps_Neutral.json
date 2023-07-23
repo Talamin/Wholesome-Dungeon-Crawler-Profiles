@@ -4327,39 +4327,87 @@
     {
       "Path": [
         {
-          "X": 4131.27441,
-          "Y": 867.2002,
-          "Z": 8.344726,
+          "X": -788.3259,
+          "Y": -84.22483,
+          "Z": -33.4813423,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -782.6674,
+          "Y": -86.85065,
+          "Z": -33.4813423,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -765.4787,
+          "Y": -105.718758,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -732.849854,
+          "Y": -116.73642,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -709.9143,
+          "Y": -114.4991,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -707.969666,
+          "Y": -83.66286,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -689.0994,
+          "Y": -63.190834,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -683.4492,
+          "Y": -50.5765,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -683.537659,
+          "Y": -21.03441,
+          "Z": -33.4823074,
+          "Type": "Swimming",
+          "Action": ""
+        },
+        {
+          "X": -708.9098,
+          "Y": 2.21917224,
+          "Z": -32.7061539,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 4140.39551,
-          "Y": 877.032959,
-          "Z": -19.4335518,
-          "Type": "Swimming",
-          "Action": ""
-        }
-      ],
-      "ContinentId": 48,
-      "Type": 0,
-      "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": ""
-    },
-    {
-      "Path": [
-        {
-          "X": -151.89,
-          "Y": 106.96,
-          "Z": -39.87,
+          "X": -720.2182,
+          "Y": 4.134371,
+          "Z": -30.0332813,
           "Type": "None",
           "Action": ""
         }
       ],
       "ContinentId": 48,
-      "Type": 0,
+      "Type": 1,
       "TryToUseEvenIfCanFindPathSuccess": true,
-      "Name": ""
+      "Name": "Moonshrine Ruins"
     }
   ],
   "DungeonModel": null
