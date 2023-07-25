@@ -925,7 +925,7 @@
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 10,
+      "SafeSpotRadius": 12,
       "ZoneToClearPosition": {
         "X": -40.84606,
         "Y": -470.6548,
@@ -1309,6 +1309,41 @@
       "HasCompleteCondition": false
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -17.92527,
+        "Y": -449.4265,
+        "Z": -18.64425,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup after boss 3",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
@@ -1602,9 +1637,9 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -4.295467,
-        "Y": -439.4235,
-        "Z": -18.93463,
+        "X": -4.294779,
+        "Y": -441.9697,
+        "Z": -18.93497,
         "Type": "None",
         "Action": ""
       },
@@ -2316,9 +2351,9 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
       "RegroupSpot": {
-        "X": -177.4468,
-        "Y": -325.7733,
-        "Z": 64.40526,
+        "X": -192.6884,
+        "Y": -339.6635,
+        "Z": 64.52454,
         "Type": "None",
         "Action": ""
       },
@@ -2352,9 +2387,23 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -168.589737,
-          "Y": -326.1111,
-          "Z": 64.40096,
+          "X": -187.606766,
+          "Y": -332.7109,
+          "Z": 64.4245148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -180.606354,
+          "Y": -325.837524,
+          "Z": 64.4245148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -168.817688,
+          "Y": -326.224182,
+          "Z": 64.40085,
           "Type": "None",
           "Action": ""
         },
@@ -2441,65 +2490,9 @@
           "Z": 87.39027,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": -197.36969,
-          "Y": -461.933,
-          "Z": 87.39027,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -199.17215,
-          "Y": -470.061462,
-          "Z": 87.39027,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -199.649033,
-          "Y": -478.0939,
-          "Z": 87.39027,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Boss 6 - Quatermaster Zigris",
-      "CompleteCondition": {
-        "ConditionType": 0,
-        "ConditionTimer": null,
-        "GetTimerTimeLeft": 0.0,
-        "TimerTimeInSeconds": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": null,
-        "LOSPositionVectorTo": null,
-        "LOSMustReturnTrue": true,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": {
-        "X": -184.0163,
-        "Y": -456.4385,
-        "Z": 87.39027,
-        "Type": "None",
-        "Action": ""
-      },
-      "Name": "Regroup after boss 6",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -2630,13 +2623,13 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -159.6917,
-        "Y": -351.2448,
-        "Z": 64.42421,
+        "X": -140.3046,
+        "Y": -339.4494,
+        "Z": 70.12653,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 10,
+      "SafeSpotRadius": 15,
       "ZoneToClearPosition": {
         "X": -125.6724,
         "Y": -308.8357,
@@ -2730,34 +2723,6 @@
           "Z": 70.9525,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": -121.772171,
-          "Y": -298.970581,
-          "Z": 70.9525,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -111.119926,
-          "Y": -302.047119,
-          "Z": 70.9525,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -103.2636,
-          "Y": -298.96347,
-          "Z": 70.9525,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -93.60637,
-          "Y": -288.4251,
-          "Z": 70.9525,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Move inside",
@@ -2791,21 +2756,21 @@
       "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
       "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -81.60442,
-        "Y": -288.1262,
-        "Z": 70.9525,
+        "X": -120.9169,
+        "Y": -299.566,
+        "Z": 70.95248,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 20,
+      "SafeSpotRadius": 37,
       "ZoneToClearPosition": {
-        "X": -75.01475,
-        "Y": -317.2623,
-        "Z": 70.96132,
+        "X": -84.75032,
+        "Y": -321.1685,
+        "Z": 70.95248,
         "Type": "None",
         "Action": ""
       },
-      "ZoneToClearRadius": 30,
+      "ZoneToClearRadius": 40,
       "ZoneToClearZLimit": 4,
       "Name": "Safepull 2",
       "CompleteCondition": {
@@ -2837,9 +2802,23 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -89.449,
-          "Y": -320.253479,
-          "Z": 70.9525757,
+          "X": -109.355751,
+          "Y": -304.578979,
+          "Z": 70.95363,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -98.86681,
+          "Y": -313.8512,
+          "Z": 70.95363,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -95.25335,
+          "Y": -320.0606,
+          "Z": 70.95363,
           "Type": "None",
           "Action": ""
         },
