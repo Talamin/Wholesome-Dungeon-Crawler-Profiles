@@ -12,7 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -300,7 +301,8 @@
       "Name": "Going downstairs to first door",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -337,7 +339,8 @@
       "Name": "Open first Door",
       "CompleteCondition": {
         "ConditionType": 2,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -548,7 +551,8 @@
       "Name": "Rejoin step",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -576,7 +580,8 @@
       "Name": "Skip Regroup 2",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -609,8 +614,9 @@
       },
       "Name": "Regroup entrance 2",
       "CompleteCondition": {
-        "ConditionType": 5,
-        "Timer": null,
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -630,7 +636,7 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
-      "HasCompleteCondition": true
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -1122,7 +1128,8 @@
       "Name": "Going downstairs",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1844,7 +1851,8 @@
       "Name": "Path to second jump",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2475,7 +2483,8 @@
       "Name": "Path to last boss",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2512,7 +2521,8 @@
       "Name": "Open door",
       "CompleteCondition": {
         "ConditionType": 2,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2653,7 +2663,8 @@
       "Name": "To last boss",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2681,5 +2692,6 @@
   "DungeonName": "Gnomeregan",
   "Faction": 0,
   "DeathRunPath": [],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
