@@ -1422,7 +1422,13 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
-      "RegroupSpot": null,
+      "RegroupSpot": {
+        "X": 3858.514,
+        "Y": -3548.502,
+        "Z": 138.1157,
+        "Type": "None",
+        "Action": ""
+      },
       "Name": "Another Ziggy Regroup",
       "CompleteCondition": {
         "ConditionType": 0,
@@ -1452,13 +1458,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 3863.81738,
-          "Y": -3546.94653,
-          "Z": 137.54451,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 3872.50317,
           "Y": -3547.99927,
@@ -1902,13 +1901,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 4018.966,
-          "Y": -3627.03467,
-          "Z": 129.426254,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 4013.91919,
           "Y": -3620.76318,
