@@ -821,6 +821,41 @@
       "HasCompleteCondition": false
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -357.8656,
+        "Y": 123.9718,
+        "Z": -45.42992,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup after boss 1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
@@ -1315,6 +1350,41 @@
       "HasCompleteCondition": false
     },
     {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": -43.50111,
+        "Y": 225.6175,
+        "Z": -48.32858,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before path 4",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
@@ -1501,16 +1571,94 @@
         }
       ],
       "Name": "Boss 4",
-      "CompleteCondition": null,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 0.5575203,
+        "Y": 411.8533,
+        "Z": -47.71651,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup before path 5",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 2.54152,
-          "Y": 389.349823,
-          "Z": -44.27652,
+          "X": 3.09083343,
+          "Y": 409.488525,
+          "Z": -47.3490829,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 5.67315769,
+          "Y": 400.532135,
+          "Z": -46.34594,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 4.44433546,
+          "Y": 395.078033,
+          "Z": -45.2797,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 0.5305803,
+          "Y": 387.923553,
+          "Z": -43.9652252,
           "Type": "None",
           "Action": ""
         },
@@ -1642,7 +1790,29 @@
         }
       ],
       "Name": "Boss 5",
-      "CompleteCondition": null,
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
       "HasCompleteCondition": false
     },
     {
@@ -2118,100 +2288,16 @@
       "HasCompleteCondition": true
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 100.432785,
-          "Y": 270.9428,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 100.618591,
-          "Y": 261.773651,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 108.731056,
-          "Y": 262.1624,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 115.635384,
-          "Y": 267.271942,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 117.10569,
-          "Y": 275.68692,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 112.614487,
-          "Y": 283.069122,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 104.918175,
-          "Y": 286.419,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 97.03958,
-          "Y": 283.193237,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 91.56625,
-          "Y": 276.750916,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 92.09612,
-          "Y": 268.07016,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 100.403366,
-          "Y": 265.921326,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 107.681145,
-          "Y": 270.7111,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 113.921257,
-          "Y": 276.673218,
-          "Z": -26.5321636,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 106.2731,
+        "Y": 273.3144,
+        "Z": -26.53211,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10,
+      "DefendSpotRadius": 17,
       "Name": "Killin all Stone Keepers",
       "CompleteCondition": {
         "ConditionType": 4,
@@ -2237,6 +2323,41 @@
         "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 121.597,
+        "Y": 280.0905,
+        "Z": -26.16645,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup after golems",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
@@ -2461,14 +2582,14 @@
         "LOSPositionVectorFrom": {
           "X": 64.42464,
           "Y": 253.821,
-          "Z": -52.19802,
+          "Z": -50.19802,
           "Type": "None",
           "Action": ""
         },
         "LOSPositionVectorTo": {
           "X": 75.48339,
           "Y": 257.6987,
-          "Z": -52.20461,
+          "Z": -50.20461,
           "Type": "None",
           "Action": ""
         },
@@ -2478,6 +2599,41 @@
         "MobAttackableSkipIfAbsent": false
       },
       "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 74.65126,
+        "Y": 258.5824,
+        "Z": -52.20461,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup final boss",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
