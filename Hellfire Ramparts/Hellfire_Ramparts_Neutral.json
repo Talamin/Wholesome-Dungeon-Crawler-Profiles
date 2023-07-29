@@ -12,6 +12,9 @@
       "Name": "Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -36,331 +39,130 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -1343.22046,
-          "Y": 1658.60913,
-          "Z": 68.69293,
+          "X": -1330.3822,
+          "Y": 1662.60754,
+          "Z": 68.7621155,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1334.529,
-          "Y": 1660.63745,
-          "Z": 68.75454,
+          "X": -1321.63232,
+          "Y": 1665.10669,
+          "Z": 68.1460953,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1326.67664,
-          "Y": 1662.61621,
-          "Z": 68.87203,
+          "X": -1306.19861,
+          "Y": 1669.43848,
+          "Z": 65.6267,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1318.54272,
-          "Y": 1665.14844,
-          "Z": 67.50533,
+          "X": -1297.98779,
+          "Y": 1671.743,
+          "Z": 66.9284058,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1310.37939,
-          "Y": 1667.4939,
-          "Z": 65.88945,
+          "X": -1290.17444,
+          "Y": 1673.36438,
+          "Z": 68.49684,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1298.15686,
-          "Y": 1670.99976,
-          "Z": 66.8912048,
+          "X": -1274.72424,
+          "Y": 1669.867,
+          "Z": 68.6864853,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1287.5835,
-          "Y": 1671.591,
-          "Z": 68.79504,
+          "X": -1266.50647,
+          "Y": 1663.1084,
+          "Z": 68.7409744,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1277.64819,
-          "Y": 1670.69067,
-          "Z": 68.70374,
+          "X": -1256.95093,
+          "Y": 1651.83167,
+          "Z": 67.833,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1268.95862,
-          "Y": 1663.69568,
-          "Z": 68.78369,
+          "X": -1252.49329,
+          "Y": 1645.05359,
+          "Z": 67.8405,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1263.94177,
-          "Y": 1655.47473,
-          "Z": 68.44975,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1257.5625,
-          "Y": 1646.39221,
-          "Z": 67.95724,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1250.76074,
-          "Y": 1637.70825,
-          "Z": 68.45532,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1246.224,
-          "Y": 1627.19958,
-          "Z": 68.52547,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1244.49268,
-          "Y": 1616.30286,
-          "Z": 68.52082,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1246.62012,
-          "Y": 1605.13733,
-          "Z": 68.53715,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1249.252,
-          "Y": 1593.74414,
-          "Z": 68.53753,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1254.18628,
-          "Y": 1583.87109,
-          "Z": 68.53776,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1260.938,
-          "Y": 1574.72546,
-          "Z": 68.638504,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1268.123,
-          "Y": 1565.77271,
-          "Z": 68.5860748,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1274.86658,
-          "Y": 1556.79663,
-          "Z": 68.58462,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1281.65479,
-          "Y": 1547.29736,
-          "Z": 68.5831757,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1288.11169,
-          "Y": 1538.21472,
-          "Z": 68.58507,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1295.46472,
-          "Y": 1530.2605,
-          "Z": 68.59479,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1294.45276,
-          "Y": 1520.71643,
-          "Z": 68.592186,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1290.06128,
-          "Y": 1511.10425,
-          "Z": 68.58268,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1283.06543,
-          "Y": 1503.12756,
-          "Z": 68.57684,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1277.114,
-          "Y": 1493.78845,
-          "Z": 68.57456,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1269.25037,
-          "Y": 1486.63025,
-          "Z": 68.57461,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1263.39783,
-          "Y": 1477.81531,
-          "Z": 68.57856,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1253.6991,
-          "Y": 1471.894,
-          "Z": 68.5775452,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1243.88989,
-          "Y": 1466.37341,
-          "Z": 68.5750961,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1233.53479,
-          "Y": 1461.04248,
-          "Z": 68.57567,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1223.46887,
-          "Y": 1456.13159,
-          "Z": 68.57567,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1213.1062,
-          "Y": 1451.84546,
-          "Z": 68.56076,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1201.82483,
-          "Y": 1448.97791,
-          "Z": 68.51272,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1192.1521,
-          "Y": 1453.02222,
-          "Z": 68.4624252,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1183.36292,
-          "Y": 1459.952,
-          "Z": 68.44393,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1175.54724,
-          "Y": 1468.62463,
-          "Z": 68.43963,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1169.04773,
-          "Y": 1477.71484,
-          "Z": 68.4382248,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1167.00928,
-          "Y": 1488.61353,
-          "Z": 68.44199,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1167.51147,
-          "Y": 1500.27283,
-          "Z": 68.44463,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1161.77722,
-          "Y": 1508.47681,
-          "Z": 68.42739,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1166.61511,
-          "Y": 1516.02136,
-          "Z": 68.4321747,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1172.80408,
-          "Y": 1524.30945,
-          "Z": 68.44126,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1181.01672,
-          "Y": 1531.6333,
-          "Z": 68.47389,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1187.57312,
-          "Y": 1537.24976,
-          "Z": 68.4677,
+          "X": -1249.145,
+          "Y": 1636.36658,
+          "Z": 68.52137,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "1",
+      "IgnoreFightsDuringPath": false,
+      "Name": "Path to Boss 1 - pt 1",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -1258.574,
+        "Y": 1626.352,
+        "Z": 68.61007,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 28,
+      "ZoneToClearPosition": {
+        "X": -1273.703,
+        "Y": 1558.689,
+        "Z": 68.58389,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 46,
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear the road",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -385,366 +187,632 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": -1187.57312,
-          "Y": 1537.24976,
-          "Z": 68.4677,
+          "X": -1247.21741,
+          "Y": 1614.1814,
+          "Z": 68.54154,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1197.09387,
-          "Y": 1538.89673,
-          "Z": 68.4919,
+          "X": -1250.85449,
+          "Y": 1598.72461,
+          "Z": 68.56237,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1209.26367,
-          "Y": 1537.75708,
-          "Z": 68.54873,
+          "X": -1253.61743,
+          "Y": 1588.73987,
+          "Z": 68.5501556,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1218.31946,
-          "Y": 1535.16089,
-          "Z": 68.54011,
+          "X": -1255.877,
+          "Y": 1580.86926,
+          "Z": 68.54028,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1217.92993,
-          "Y": 1524.28479,
-          "Z": 68.74305,
+          "X": -1262.69153,
+          "Y": 1571.80884,
+          "Z": 68.6399,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1215.224,
-          "Y": 1516.54065,
-          "Z": 68.54082,
+          "X": -1272.587,
+          "Y": 1563.72156,
+          "Z": 68.58749,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1214.85645,
-          "Y": 1508.00818,
-          "Z": 68.51655,
+          "X": -1282.14124,
+          "Y": 1554.12,
+          "Z": 68.59054,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1221.47314,
-          "Y": 1502.7644,
-          "Z": 70.7727,
+          "X": -1287.824,
+          "Y": 1540.2677,
+          "Z": 68.5873947,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1229.52759,
-          "Y": 1499.953,
-          "Z": 73.83533,
+          "X": -1291.65649,
+          "Y": 1528.85413,
+          "Z": 68.58867,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1237.9707,
-          "Y": 1499.83,
-          "Z": 76.56086,
+          "X": -1293.40759,
+          "Y": 1517.28247,
+          "Z": 68.59021,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1245.49524,
-          "Y": 1503.517,
-          "Z": 79.68368,
+          "X": -1291.84277,
+          "Y": 1506.0509,
+          "Z": 68.58883,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1250.81335,
-          "Y": 1510.19641,
-          "Z": 82.39724,
+          "X": -1289.73938,
+          "Y": 1497.42236,
+          "Z": 68.5915451,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1253.89148,
-          "Y": 1517.96936,
-          "Z": 85.089035,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1253.6604,
-          "Y": 1526.45581,
-          "Z": 87.7209244,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1249.20129,
-          "Y": 1533.62622,
-          "Z": 89.3456,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1241.69189,
-          "Y": 1537.39539,
-          "Z": 90.2638,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1233.91064,
-          "Y": 1540.413,
-          "Z": 90.1712,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1234.74451,
-          "Y": 1548.71509,
-          "Z": 90.36859,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1236.09265,
-          "Y": 1557.11951,
-          "Z": 90.96389,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1237.97913,
-          "Y": 1565.4718,
-          "Z": 91.11514,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1241.42285,
-          "Y": 1573.26868,
-          "Z": 91.24066,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1246.825,
-          "Y": 1579.91589,
-          "Z": 91.17822,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1253.29431,
-          "Y": 1585.43445,
-          "Z": 91.28459,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1260.05737,
-          "Y": 1590.61438,
-          "Z": 91.95364,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1266.96436,
-          "Y": 1596.58826,
-          "Z": 91.7425,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1274.66211,
-          "Y": 1599.96912,
-          "Z": 91.77061,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1280.9364,
-          "Y": 1605.4032,
-          "Z": 91.77606,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1284.91589,
-          "Y": 1612.843,
-          "Z": 91.77426,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1292.82947,
-          "Y": 1616.62122,
-          "Z": 91.76111,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1301.20227,
-          "Y": 1616.5105,
-          "Z": 91.75651,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1306.34631,
-          "Y": 1624.14966,
-          "Z": 91.75213,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1299.40747,
-          "Y": 1629.90112,
-          "Z": 91.7507,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1291.3,
-          "Y": 1632.48608,
-          "Z": 91.7493057,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1283.638,
-          "Y": 1636.201,
-          "Z": 91.7205048,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1275.95593,
-          "Y": 1639.97278,
-          "Z": 91.6716461,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1268.35461,
-          "Y": 1643.85864,
-          "Z": 91.70793,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1260.84961,
-          "Y": 1647.91907,
-          "Z": 93.07727,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1253.3446,
-          "Y": 1651.97949,
-          "Z": 93.1291,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1243.70325,
-          "Y": 1657.1958,
-          "Z": 92.71141,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1233.74548,
-          "Y": 1662.46533,
-          "Z": 92.36967,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1222.95056,
-          "Y": 1666.68921,
-          "Z": 92.69075,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1212.45947,
-          "Y": 1670.607,
-          "Z": 93.1718,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1201.89673,
-          "Y": 1675.38208,
-          "Z": 92.6268539,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1191.4646,
-          "Y": 1680.10657,
-          "Z": 91.5982,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1180.75208,
-          "Y": 1684.7478,
-          "Z": 91.02133,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1170.3761,
-          "Y": 1688.96423,
-          "Z": 91.68536,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1159.78113,
-          "Y": 1693.237,
-          "Z": 91.49512,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1148.96191,
-          "Y": 1697.62634,
-          "Z": 90.9497,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1139.15723,
-          "Y": 1702.49512,
-          "Z": 90.42466,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1131.33167,
-          "Y": 1710.54126,
-          "Z": 89.86302,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1122.07642,
-          "Y": 1716.82422,
-          "Z": 89.3733139,
+          "X": -1287.72607,
+          "Y": 1488.45447,
+          "Z": 68.59545,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "2",
+      "IgnoreFightsDuringPath": false,
+      "Name": "Path to Boss 1 - pt 2",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -1262.295,
+        "Y": 1473.624,
+        "Z": 68.58232,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 30,
+      "ZoneToClearPosition": {
+        "X": -1194.685,
+        "Y": 1450.785,
+        "Z": 68.47496,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 45,
+      "ZoneToClearZLimit": 5,
+      "Name": "Kill Boss 1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -1230.37256,
+          "Y": 1454.68762,
+          "Z": 68.58264,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1218.63831,
+          "Y": 1452.77234,
+          "Z": 68.58045,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1208.4303,
+          "Y": 1451.02075,
+          "Z": 68.54025,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1198.86365,
+          "Y": 1448.89514,
+          "Z": 68.49893,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1189.66138,
+          "Y": 1447.59485,
+          "Z": 68.45814,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1180.93835,
+          "Y": 1448.78247,
+          "Z": 68.43165,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1176.443,
+          "Y": 1455.54224,
+          "Z": 68.43011,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1165.503,
+          "Y": 1464.79443,
+          "Z": 68.42235,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1160.84119,
+          "Y": 1476.461,
+          "Z": 68.42426,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1160.50586,
+          "Y": 1489.77075,
+          "Z": 68.432785,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1161.64941,
+          "Y": 1497.90942,
+          "Z": 68.4334641,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1163.88477,
+          "Y": 1507.09106,
+          "Z": 68.4320145,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1169.73389,
+          "Y": 1514.15332,
+          "Z": 68.44072,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1177.14465,
+          "Y": 1521.76416,
+          "Z": 68.4530945,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1187.404,
+          "Y": 1528.8634,
+          "Z": 68.4932861,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1204.112,
+          "Y": 1538.4071,
+          "Z": 68.51946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1211.719,
+          "Y": 1541.415,
+          "Z": 68.5451355,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1217.72375,
+          "Y": 1535.35132,
+          "Z": 68.55814,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1219.9873,
+          "Y": 1525.69849,
+          "Z": 68.67184,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1217.66455,
+          "Y": 1514.03076,
+          "Z": 68.5291061,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1220.91968,
+          "Y": 1505.69861,
+          "Z": 70.09728,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1231.67639,
+          "Y": 1502.55933,
+          "Z": 74.5057449,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1240.89563,
+          "Y": 1503.50525,
+          "Z": 77.68713,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1247.61279,
+          "Y": 1509.19385,
+          "Z": 81.56841,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1251.12671,
+          "Y": 1517.57263,
+          "Z": 84.6798248,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1250.91724,
+          "Y": 1527.507,
+          "Z": 87.94049,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1244.95129,
+          "Y": 1534.87683,
+          "Z": 89.72603,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1236.44983,
+          "Y": 1537.95776,
+          "Z": 90.37629,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1239.53979,
+          "Y": 1563.1532,
+          "Z": 91.05818,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1244.48181,
+          "Y": 1576.34741,
+          "Z": 91.20648,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Path to Boss 2 - pt 1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
+      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
+      "SafeSpotPosition": {
+        "X": -1258.929,
+        "Y": 1590.896,
+        "Z": 91.90285,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 25,
+      "ZoneToClearPosition": {
+        "X": -1294.466,
+        "Y": 1620.149,
+        "Z": 91.75351,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 37,
+      "ZoneToClearZLimit": 3,
+      "Name": "Clear the road",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Path to Boss 3",
+      "Name": "Skipp boss 2 if it's dead",
       "CompleteCondition": {
         "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 17308,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -1266.95068,
+          "Y": 1595.67017,
+          "Z": 91.73597,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1273.27344,
+          "Y": 1600.87244,
+          "Z": 91.77341,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1276.40918,
+          "Y": 1612.08911,
+          "Z": 91.76544,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1275.42,
+          "Y": 1620.84448,
+          "Z": 91.7085953,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1274.5769,
+          "Y": 1629.15344,
+          "Z": 91.69399,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1273.44153,
+          "Y": 1638.2002,
+          "Z": 91.66535,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1264.16772,
+          "Y": 1644.4115,
+          "Z": 92.29096,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1256.973,
+          "Y": 1648.54,
+          "Z": 93.17489,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1247.9126,
+          "Y": 1653.70569,
+          "Z": 93.0126648,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1234.97888,
+          "Y": 1660.23694,
+          "Z": 92.39592,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1222.27173,
+          "Y": 1666.02393,
+          "Z": 92.7372055,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1208.84375,
+          "Y": 1671.91577,
+          "Z": 93.17198,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1196.35522,
+          "Y": 1678.00732,
+          "Z": 91.84169,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1183.809,
+          "Y": 1684.219,
+          "Z": 91.0614548,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1170.7738,
+          "Y": 1690.88684,
+          "Z": 91.66715,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1158.168,
+          "Y": 1697.29016,
+          "Z": 91.29712,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1145.3501,
+          "Y": 1703.73157,
+          "Z": 90.6083,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1133.332,
+          "Y": 1710.97229,
+          "Z": 89.92148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1123.7605,
+          "Y": 1717.8,
+          "Z": 89.33774,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Path to Boss 2 - pt 2",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -881,128 +949,128 @@
           "Action": ""
         },
         {
-          "X": -1279.61633,
-          "Y": 1636.51831,
-          "Z": 91.90448,
+          "X": -1277.91943,
+          "Y": 1633.25623,
+          "Z": 91.70196,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": -1287.74048,
-          "Y": 1631.392,
-          "Z": 91.74806,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1298.6825,
-          "Y": 1630.55347,
-          "Z": 91.7485046,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1306.89709,
-          "Y": 1639.16235,
-          "Z": 91.74678,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1314.0835,
-          "Y": 1647.78882,
-          "Z": 91.68854,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1321.16455,
-          "Y": 1656.46631,
-          "Z": 92.13911,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1328.691,
-          "Y": 1665.27686,
-          "Z": 93.1465454,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1336.57373,
-          "Y": 1673.31128,
-          "Z": 92.30382,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1344.47119,
-          "Y": 1681.25293,
-          "Z": 90.69525,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1352.70215,
-          "Y": 1689.49475,
-          "Z": 88.2940445,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1360.67688,
-          "Y": 1697.43835,
-          "Z": 85.52985,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1368.67627,
-          "Y": 1705.23743,
-          "Z": 83.43019,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1377.00867,
-          "Y": 1713.357,
-          "Z": 82.80878,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1383.59961,
-          "Y": 1722.58423,
-          "Z": 82.48883,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1389.67627,
-          "Y": 1732.00525,
-          "Z": 82.0270538,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1397.67432,
-          "Y": 1740.15015,
-          "Z": 81.57513,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -1407.55994,
-          "Y": 1745.89978,
-          "Z": 81.07165,
+          "X": -1296.49536,
+          "Y": 1622.556,
+          "Z": 91.75269,
           "Type": "None",
           "Action": ""
         }
       ],
-      "Name": "3",
+      "IgnoreFightsDuringPath": false,
+      "Name": "Return to the middle",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": -1302.80554,
+          "Y": 1631.31152,
+          "Z": 91.74926,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1310.531,
+          "Y": 1642.2644,
+          "Z": 91.73241,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1317.7771,
+          "Y": 1652.22815,
+          "Z": 91.6274261,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1323.19324,
+          "Y": 1659.53772,
+          "Z": 92.70321,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1330.42883,
+          "Y": 1667.47986,
+          "Z": 93.14596,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1338.89111,
+          "Y": 1676.43323,
+          "Z": 91.71336,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1348.43555,
+          "Y": 1687.23767,
+          "Z": 89.27496,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1357.925,
+          "Y": 1697.52759,
+          "Z": 85.8184738,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1367.53418,
+          "Y": 1707.99365,
+          "Z": 83.27377,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1378.66809,
+          "Y": 1717.14355,
+          "Z": 82.78895,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Path to Boss 3",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1032,11 +1100,14 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 5,
-      "DefendSpotRadius": 30,
+      "Timer": 7,
+      "DefendSpotRadius": 35,
       "Name": "Wait for boss",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1082,9 +1153,13 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Go to Chest",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -1120,12 +1195,43 @@
       "Name": "Loot",
       "CompleteCondition": {
         "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
         "CanGossipMustReturnTrue": true,
         "InitialFlags": 0,
         "FlagsChangedGameObjectId": 184179,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.LeaveDungeonModel, WholesomeDungeonCrawler",
+      "Name": "Leave dungeon",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
         "DeadMobId": 0,
         "MobDeadMustReturnTrue": true,
         "MobAtPositionId": 0,
@@ -1146,5 +1252,6 @@
   "DungeonName": "Hellfire Ramparts",
   "Faction": 0,
   "DeathRunPath": [],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
