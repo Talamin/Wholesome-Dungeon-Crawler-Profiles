@@ -12,7 +12,8 @@
       "Name": "Regroup Entrance",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -780,10 +781,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Antu'sul",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1117,10 +1120,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - With Doctor Zum'rah",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1398,10 +1403,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Move to Sandfury Executioner",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1435,7 +1442,8 @@
       "Name": "Regroup at the bottom of pyramid",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1503,10 +1511,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Sandfury Executioner",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1588,10 +1598,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Path to Troll Cage",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1628,7 +1640,8 @@
       "Name": "Interact with Troll Cage",
       "CompleteCondition": {
         "ConditionType": 5,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1657,27 +1670,23 @@
       "HasCompleteCondition": true
     },
     {
-      "$type": "WholesomeDungeonCrawler.Models.FollowUnitModel, WholesomeDungeonCrawler",
-      "ExpectedStartPosition": {
-        "X": 1883.182,
-        "Y": 1288.839,
-        "Z": 44.76941,
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 1887.431,
+        "Y": 1261.303,
+        "Z": 40.8096,
         "Type": "None",
         "Action": ""
       },
-      "ExpectedEndPosition": {
-        "X": 1883.178,
-        "Y": 1202.448,
-        "Z": 8.877665,
-        "Type": "None",
-        "Action": ""
-      },
-      "SkipIfNotFound": true,
-      "UnitId": 7607,
-      "Name": "Follow Weegli Blastfuse",
+      "Timer": 30,
+      "DefendSpotRadius": 30,
+      "DefendSpotZLimit": 50,
+      "ResetTimerOnCombat": true,
+      "Name": "Defend pyramid event",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1702,18 +1711,21 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
       "DefendPosition": {
-        "X": 1887.367,
-        "Y": 1217.059,
-        "Z": 8.877477,
+        "X": 1885.201,
+        "Y": 1225.973,
+        "Z": 9.692171,
         "Type": "None",
         "Action": ""
       },
-      "Timer": 5,
+      "Timer": 10,
       "DefendSpotRadius": 30,
-      "Name": "Clear bottom pyramid",
+      "DefendSpotZLimit": 5,
+      "ResetTimerOnCombat": false,
+      "Name": "Defend bottom pyramid",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1750,7 +1762,8 @@
       "Name": "Interact with Weegli Blastfuse",
       "CompleteCondition": {
         "ConditionType": 5,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1831,10 +1844,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Move to Ukroz door",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -1862,7 +1877,8 @@
       "Name": "Skip Ukroz if door closed",
       "CompleteCondition": {
         "ConditionType": 6,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2054,10 +2070,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Chief Ukroz Sandscalp 1",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2181,10 +2199,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Chief Ukroz Sandscalp 2",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2364,10 +2384,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Chief Ukroz Sandscalp 3",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2771,10 +2793,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Clear Gong area",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2842,10 +2866,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Path to Gong of Zul'Farrak",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2882,7 +2908,8 @@
       "Name": "Interact with Gong",
       "CompleteCondition": {
         "ConditionType": 2,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -2916,7 +2943,8 @@
       "Name": "Regroup before Gha Zilla",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -3019,10 +3047,12 @@
           "Action": ""
         }
       ],
+      "IgnoreFightsDuringPath": false,
       "Name": "Boss - Gahz'rilla",
       "CompleteCondition": {
         "ConditionType": 0,
-        "Timer": null,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
@@ -4024,5 +4054,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
