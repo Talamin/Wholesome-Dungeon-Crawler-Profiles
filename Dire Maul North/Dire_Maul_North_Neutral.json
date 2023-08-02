@@ -612,7 +612,7 @@
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 5,
+      "SafeSpotRadius": 20,
       "ZoneToClearPosition": {
         "X": 384.4965,
         "Y": 224.5937,
@@ -621,7 +621,7 @@
         "Action": ""
       },
       "ZoneToClearRadius": 60,
-      "ZoneToClearZLimit": 8,
+      "ZoneToClearZLimit": 15,
       "Name": "Kill some trash from the platform",
       "CompleteCondition": {
         "ConditionType": 0,
@@ -651,20 +651,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 392.193817,
-          "Y": 165.914413,
-          "Z": 2.85290933,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 389.697937,
-          "Y": 174.15448,
-          "Z": 2.87000918,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 386.821777,
           "Y": 187.462143,
@@ -1108,60 +1094,11 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 3,
+      "InteractDistance": 5,
       "SkipIfNotFound": false,
       "Name": "Open the gate 1",
       "CompleteCondition": {
         "ConditionType": 0,
-        "ConditionTimer": null,
-        "GetTimerTimeLeft": 0.0,
-        "TimerTimeInSeconds": 0,
-        "HaveItemId": 0,
-        "HaveItemMustReturnTrue": true,
-        "CanGossipMobId": 0,
-        "CanGossipMustReturnTrue": true,
-        "InitialFlags": 0,
-        "FlagsChangedGameObjectId": 0,
-        "DeadMobId": 0,
-        "MobDeadMustReturnTrue": true,
-        "MobAtPositionId": 0,
-        "MobAtPositionVector": null,
-        "MobAtPositionMustReturnTrue": true,
-        "LOSPositionVectorFrom": {
-          "X": 385.3511,
-          "Y": 371.0426,
-          "Z": -0.5601197,
-          "Type": "None",
-          "Action": ""
-        },
-        "LOSPositionVectorTo": {
-          "X": 385.0688,
-          "Y": 389.4659,
-          "Z": -1.67671,
-          "Type": "None",
-          "Action": ""
-        },
-        "LOSMustReturnTrue": false,
-        "MobAttackableEntry": 0,
-        "MobAttackableMustReturnTrue": false,
-        "MobAttackableSkipIfAbsent": false
-      },
-      "HasCompleteCondition": false
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
-      "DefendPosition": {
-        "X": 385.3248,
-        "Y": 374.2014,
-        "Z": -1.245564,
-        "Type": "None",
-        "Action": ""
-      },
-      "Timer": 10,
-      "DefendSpotRadius": 10,
-      "Name": "Wait for the gate 1 to open",
-      "CompleteCondition": {
-        "ConditionType": 6,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -1191,6 +1128,96 @@
           "Action": ""
         },
         "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 385.7524,
+        "Y": 367.2835,
+        "Z": 0.2556558,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 8,
+      "DefendSpotRadius": 4,
+      "Name": "Wait for the gate 1 to open",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 385.3248,
+          "Y": 374.2014,
+          "Z": -1.245564,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 385.2262,
+          "Y": 392.5841,
+          "Z": -1.676684,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": false,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Leave dungeon",
+      "Name": "Check if the gate is open",
+      "CompleteCondition": {
+        "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 18266,
+        "HaveItemMustReturnTrue": false,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 386.0316,
+          "Y": 368.8828,
+          "Z": -0.09144269,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 385.8061,
+          "Y": 390.6346,
+          "Z": -1.676709,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": false,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false

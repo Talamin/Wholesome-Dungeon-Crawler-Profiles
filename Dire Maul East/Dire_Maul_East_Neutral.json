@@ -898,6 +898,27 @@
           "Z": 16.404026,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": -17.11757,
+          "Y": -456.176483,
+          "Z": 16.4020767,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -7.04510736,
+          "Y": -457.378845,
+          "Z": 16.4334431,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 3.26306963,
+          "Y": -456.6356,
+          "Z": 16.40344,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "Name": "Boss - Lethtendris",
@@ -4075,5 +4096,6 @@
       "Action": ""
     }
   ],
-  "OffMeshConnections": []
+  "OffMeshConnections": [],
+  "DungeonModel": null
 }
