@@ -370,7 +370,43 @@
         }
       ],
       "IgnoreFightsDuringPath": false,
-      "Name": "1",
+      "Name": "To Svala",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 291.8571,
+        "Y": -355.8183,
+        "Z": 90.54649,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regoup after first boss",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -400,13 +436,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 296.477325,
-          "Y": -354.963379,
-          "Z": 90.94823,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 287.400848,
           "Y": -353.0873,
@@ -590,57 +619,218 @@
           "Action": ""
         },
         {
-          "X": 246.515869,
-          "Y": -451.6256,
-          "Z": 104.7165,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 258.1638,
-          "Y": -451.660828,
-          "Z": 104.707565,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 269.363464,
-          "Y": -451.739777,
-          "Z": 104.700066,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 280.3036,
-          "Y": -452.1286,
-          "Z": 104.711456,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 292.236023,
-          "Y": -452.871918,
-          "Z": 104.740387,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 303.328644,
-          "Y": -454.1596,
-          "Z": 104.728058,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 309.262848,
-          "Y": -455.72052,
-          "Z": 104.717392,
+          "X": 237.315613,
+          "Y": -456.982574,
+          "Z": 105.487541,
           "Type": "None",
           "Action": ""
         }
       ],
       "IgnoreFightsDuringPath": false,
-      "Name": "2",
+      "Name": "To Trophy Hall",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
+      "ObjectId": "188593",
+      "ExpectedPosition": {
+        "X": 238.518,
+        "Y": -460.827,
+        "Z": 105.476,
+        "Type": "None",
+        "Action": ""
+      },
+      "InteractDistance": 3,
+      "SkipIfNotFound": false,
+      "Name": "Turn off statis generator",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 188593,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 237.315613,
+          "Y": -456.982574,
+          "Z": 105.487541,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 245.328049,
+          "Y": -450.953979,
+          "Z": 104.71907,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 253.470322,
+          "Y": -451.258728,
+          "Z": 104.707962,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 265.114532,
+          "Y": -451.525726,
+          "Z": 104.703644,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 275.8938,
+          "Y": -451.426544,
+          "Z": 104.702,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 284.628967,
+          "Y": -451.307831,
+          "Z": 104.724792,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 294.6517,
+          "Y": -451.150665,
+          "Z": 104.739876,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 305.7487,
+          "Y": -451.9987,
+          "Z": 104.721786,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Move through trophy room",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
+      "DefendPosition": {
+        "X": 305.7487,
+        "Y": -451.9987,
+        "Z": 104.7218,
+        "Type": "None",
+        "Action": ""
+      },
+      "Timer": 10,
+      "DefendSpotRadius": 30,
+      "DefendSpotZLimit": 5,
+      "ResetTimerOnCombat": true,
+      "Name": "Kill bosses",
+      "CompleteCondition": {
+        "ConditionType": 4,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 26687,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 310.3132,
+        "Y": -461.9688,
+        "Z": 104.7182,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regoup after trophy room",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -670,13 +860,6 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
-        {
-          "X": 309.262848,
-          "Y": -455.72052,
-          "Z": 104.717392,
-          "Type": "None",
-          "Action": ""
-        },
         {
           "X": 310.180176,
           "Y": -469.058136,
@@ -819,7 +1002,43 @@
         }
       ],
       "IgnoreFightsDuringPath": false,
-      "Name": "3",
+      "Name": "To Skadi",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 476.9481,
+        "Y": -496.1771,
+        "Z": 104.7264,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup after Skadi",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -934,9 +1153,16 @@
           "Action": ""
         },
         {
-          "X": 490.646759,
-          "Y": -430.7276,
-          "Z": 84.0513153,
+          "X": 490.3893,
+          "Y": -427.556183,
+          "Z": 86.7782745,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 491.7474,
+          "Y": -432.268768,
+          "Z": 83.41777,
           "Type": "None",
           "Action": ""
         },
@@ -974,24 +1200,10 @@
           "Z": 75.0509644,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 460.135254,
-          "Y": -457.6144,
-          "Z": 75.05132,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 451.58606,
-          "Y": -457.166382,
-          "Z": 75.06527,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "IgnoreFightsDuringPath": false,
-      "Name": "4",
+      "Name": "To Ruined Court",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -1021,23 +1233,23 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
       "SafeSpotPosition": {
-        "X": 444.7516,
-        "Y": -454.9698,
-        "Z": 75.11414,
+        "X": 466.205,
+        "Y": -457.612,
+        "Z": 75.04934,
         "Type": "None",
         "Action": ""
       },
       "SafeSpotRadius": 10,
       "ZoneToClearPosition": {
-        "X": 415.4784,
-        "Y": -452.1486,
-        "Z": 75.1815,
+        "X": 436.0693,
+        "Y": -456.1514,
+        "Z": 75.12815,
         "Type": "None",
         "Action": ""
       },
-      "ZoneToClearRadius": 30,
+      "ZoneToClearRadius": 20,
       "ZoneToClearZLimit": 5,
-      "Name": "safe",
+      "Name": "Clear courtyard",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -1068,19 +1280,118 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 441.0928,
-          "Y": -456.4587,
-          "Z": 75.13277,
+          "X": 467.759521,
+          "Y": -457.0049,
+          "Z": 75.04913,
           "Type": "None",
           "Action": ""
         },
         {
-          "X": 433.030945,
-          "Y": -455.7608,
-          "Z": 75.1156,
+          "X": 456.623871,
+          "Y": -457.934448,
+          "Z": 75.04813,
           "Type": "None",
           "Action": ""
         },
+        {
+          "X": 447.949524,
+          "Y": -457.6482,
+          "Z": 75.09328,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 439.028168,
+          "Y": -457.219879,
+          "Z": 75.14035,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 430.236633,
+          "Y": -456.429626,
+          "Z": 75.11416,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Move to courtyard",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
+      "SafeSpotPosition": {
+        "X": 430.2366,
+        "Y": -456.4296,
+        "Z": 75.11416,
+        "Type": "None",
+        "Action": ""
+      },
+      "SafeSpotRadius": 10,
+      "ZoneToClearPosition": {
+        "X": 404.5257,
+        "Y": -447.4294,
+        "Z": 75.10249,
+        "Type": "None",
+        "Action": ""
+      },
+      "ZoneToClearRadius": 30,
+      "ZoneToClearZLimit": 5,
+      "Name": "Clear rest of courtyard",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
         {
           "X": 424.578583,
           "Y": -455.029083,
@@ -1251,7 +1562,7 @@
         }
       ],
       "IgnoreFightsDuringPath": false,
-      "Name": "5",
+      "Name": "To King Ymiron",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
