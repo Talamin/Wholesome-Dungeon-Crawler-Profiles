@@ -345,7 +345,7 @@
       "IgnoreFightsDuringPath": false,
       "Name": "Path to Boss 1 - The Maker",
       "CompleteCondition": {
-        "ConditionType": 4,
+        "ConditionType": 0,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
         "TimerTimeInSeconds": 0,
@@ -369,7 +369,7 @@
       },
       "StepFaction": 0,
       "StepRole": 0,
-      "HasCompleteCondition": true
+      "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
@@ -635,6 +635,34 @@
           "Z": 9.618659,
           "Type": "None",
           "Action": ""
+        },
+        {
+          "X": 458.655853,
+          "Y": 171.962814,
+          "Z": 9.61562,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 456.84903,
+          "Y": 163.1753,
+          "Z": 9.61562,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 455.973877,
+          "Y": 154.743362,
+          "Z": 9.59062,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 455.698059,
+          "Y": 146.236908,
+          "Z": 9.580454,
+          "Type": "None",
+          "Action": ""
         }
       ],
       "IgnoreFightsDuringPath": false,
@@ -669,21 +697,21 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
       "SafeSpotPosition": {
-        "X": 473.2811,
-        "Y": 162.0993,
-        "Z": 9.611179,
+        "X": 455.0454,
+        "Y": 136.5714,
+        "Z": 9.615066,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 20,
+      "SafeSpotRadius": 30,
       "ZoneToClearPosition": {
-        "X": 456.2603,
-        "Y": 83.7209,
-        "Z": 9.613604,
+        "X": 456.1751,
+        "Y": 86.25455,
+        "Z": 9.615337,
         "Type": "None",
         "Action": ""
       },
-      "ZoneToClearRadius": 30,
+      "ZoneToClearRadius": 31,
       "ZoneToClearZLimit": 3,
       "Name": "Clear trash before Boss 2",
       "CompleteCondition": {
