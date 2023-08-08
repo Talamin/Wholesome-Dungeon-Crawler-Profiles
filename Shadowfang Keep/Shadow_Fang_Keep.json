@@ -34,6 +34,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -248,6 +249,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -262,7 +264,7 @@
       },
       "InteractDistance": 4,
       "SkipIfNotFound": false,
-      "Name": "Interact with celle lever [A]",
+      "Name": "Interact with celle lever",
       "CompleteCondition": {
         "ConditionType": 2,
         "ConditionTimer": null,
@@ -287,6 +289,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 2,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -301,7 +304,7 @@
       "SkipIfNotFound": true,
       "UnitId": 3850,
       "GossipIndex": 1,
-      "Name": "Talk to Sorcerer Ashcrombe [A]",
+      "Name": "Talk to Sorcerer Ashcrombe",
       "CompleteCondition": {
         "ConditionType": 5,
         "ConditionTimer": null,
@@ -332,6 +335,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 2,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -346,7 +350,7 @@
       },
       "InteractDistance": 4,
       "SkipIfNotFound": false,
-      "Name": "Interact with Cell Lever [H]",
+      "Name": "Interact with Cell Lever",
       "CompleteCondition": {
         "ConditionType": 0,
         "ConditionTimer": null,
@@ -371,6 +375,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 1,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -385,7 +390,7 @@
       "SkipIfNotFound": true,
       "UnitId": 3849,
       "GossipIndex": 1,
-      "Name": "Talk to Deathstalker Adamant [H]",
+      "Name": "Talk to Deathstalker Adamant",
       "CompleteCondition": {
         "ConditionType": 5,
         "ConditionTimer": null,
@@ -416,6 +421,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 1,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -495,6 +501,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -541,6 +548,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -790,6 +798,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -913,6 +922,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -959,6 +969,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1215,6 +1226,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1464,6 +1476,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1839,6 +1852,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -2151,6 +2165,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -2295,6 +2310,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     }
   ],

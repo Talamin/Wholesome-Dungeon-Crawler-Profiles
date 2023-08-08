@@ -41,9 +41,23 @@
       "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
       "Path": [
         {
-          "X": 200.782913,
-          "Y": 102.571877,
-          "Z": 128.42218,
+          "X": 200.815353,
+          "Y": 124.493393,
+          "Z": 134.911148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 200.681763,
+          "Y": 118.782494,
+          "Z": 133.567642,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 200.484177,
+          "Y": 109.379692,
+          "Z": 128.448868,
           "Type": "None",
           "Action": ""
         },
@@ -155,14 +169,14 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
-      "StepRole": 0,
+      "StepRole": 3,
       "HasCompleteCondition": true
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
       "SafeSpotPosition": {
-        "X": 200.015,
-        "Y": 68.30413,
+        "X": 208.4252,
+        "Y": 68.07486,
         "Z": 128.4346,
         "Type": "None",
         "Action": ""
@@ -298,7 +312,7 @@
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
       "ObjectId": "175612",
       "ExpectedPosition": null,
-      "InteractDistance": 3,
+      "InteractDistance": 4,
       "SkipIfNotFound": false,
       "Name": "Open basement gate",
       "CompleteCondition": {
@@ -444,7 +458,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
-      "StepRole": 0,
+      "StepRole": 3,
       "HasCompleteCondition": true
     },
     {
@@ -727,7 +741,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
-      "StepRole": 0,
+      "StepRole": 3,
       "HasCompleteCondition": true
     },
     {
@@ -1503,7 +1517,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
-      "StepRole": 0,
+      "StepRole": 3,
       "HasCompleteCondition": true
     },
     {

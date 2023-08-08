@@ -34,6 +34,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -444,6 +445,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -714,6 +716,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -750,6 +753,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -789,6 +793,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -829,6 +834,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1176,6 +1182,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1216,6 +1223,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     }
   ],
@@ -2083,13 +2091,6 @@
         {
           "X": -302.558258,
           "Y": 3163.078,
-          "Z": 31.7290268,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -3072.55835,
-          "Y": 3171.078,
           "Z": 31.7290268,
           "Type": "None",
           "Action": ""
