@@ -1,0 +1,3201 @@
+{
+  "StepModels": [
+    {
+      "$type": "WholesomeDungeonCrawler.Models.RegroupModel, WholesomeDungeonCrawler",
+      "RegroupSpot": {
+        "X": 1032.247,
+        "Y": -446.6053,
+        "Z": -43.07871,
+        "Type": "None",
+        "Action": ""
+      },
+      "Name": "Regroup Entrance",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1058.55469,
+          "Y": -445.860565,
+          "Z": -42.41034,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1072.46179,
+          "Y": -441.4323,
+          "Z": -41.9497147,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1081.33911,
+          "Y": -438.627075,
+          "Z": -39.8721161,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1087.80493,
+          "Y": -444.890137,
+          "Z": -39.6465569,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1087.09314,
+          "Y": -452.950653,
+          "Z": -39.17497,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1084.6145,
+          "Y": -462.33493,
+          "Z": -36.8000641,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1077.59766,
+          "Y": -467.3931,
+          "Z": -36.9994125,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1068.49463,
+          "Y": -469.264954,
+          "Z": -34.0974121,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1061.62512,
+          "Y": -464.765717,
+          "Z": -33.92008,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1061.49048,
+          "Y": -454.8973,
+          "Z": -30.966032,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1061.65186,
+          "Y": -440.3034,
+          "Z": -30.6104488,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1061.11292,
+          "Y": -431.5369,
+          "Z": -32.52284,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1055.26,
+          "Y": -422.41983,
+          "Z": -31.8969727,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1052.75085,
+          "Y": -412.277679,
+          "Z": -33.497612,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1051.68787,
+          "Y": -401.79776,
+          "Z": -35.3119354,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1050.57678,
+          "Y": -387.8426,
+          "Z": -36.3026543,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1040.62354,
+          "Y": -383.157227,
+          "Z": -36.3066635,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1026.81628,
+          "Y": -378.4349,
+          "Z": -37.23184,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1017.01007,
+          "Y": -371.2845,
+          "Z": -38.1220551,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1012.28088,
+          "Y": -364.713074,
+          "Z": -39.77252,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1006.71826,
+          "Y": -352.72522,
+          "Z": -40.9002533,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1002.54773,
+          "Y": -338.7428,
+          "Z": -42.01502,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 998.0997,
+          "Y": -324.8789,
+          "Z": -44.79485,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 990.0791,
+          "Y": -321.75705,
+          "Z": -45.62822,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 980.738342,
+          "Y": -318.048279,
+          "Z": -46.0578346,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 974.572449,
+          "Y": -314.093933,
+          "Z": -45.8594475,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 967.772339,
+          "Y": -308.1516,
+          "Z": -45.47889,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 962.1549,
+          "Y": -302.135834,
+          "Z": -45.364296,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 956.289063,
+          "Y": -295.874725,
+          "Z": -45.2172737,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 950.575439,
+          "Y": -290.374,
+          "Z": -45.6128349,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 945.5545,
+          "Y": -280.090149,
+          "Z": -46.08588,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 938.7435,
+          "Y": -274.330231,
+          "Z": -45.87368,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 935.1269,
+          "Y": -269.5618,
+          "Z": -45.7582664,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 932.2643,
+          "Y": -262.366669,
+          "Z": -45.81763,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 927.7587,
+          "Y": -254.111511,
+          "Z": -46.5467834,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 918.0504,
+          "Y": -247.875214,
+          "Z": -46.5897827,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 905.478638,
+          "Y": -256.337158,
+          "Z": -46.1773643,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 893.560364,
+          "Y": -263.6783,
+          "Z": -45.6789,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 888.8355,
+          "Y": -270.223816,
+          "Z": -45.589756,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 886.282043,
+          "Y": -279.4144,
+          "Z": -45.929512,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 886.86145,
+          "Y": -283.852722,
+          "Z": -45.929512,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 888.342163,
+          "Y": -291.2178,
+          "Z": -45.929512,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 890.4997,
+          "Y": -297.683746,
+          "Z": -45.9718666,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 892.374451,
+          "Y": -303.784332,
+          "Z": -45.9637375,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 894.5695,
+          "Y": -311.17215,
+          "Z": -46.9432526,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 897.8746,
+          "Y": -320.534729,
+          "Z": -49.3092346,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 900.1419,
+          "Y": -326.481934,
+          "Z": -49.6545372,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 903.7972,
+          "Y": -331.0852,
+          "Z": -49.4820976,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 910.575562,
+          "Y": -333.41217,
+          "Z": -49.3111877,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 919.0278,
+          "Y": -336.7126,
+          "Z": -49.3169136,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 928.798767,
+          "Y": -342.975616,
+          "Z": -49.8909149,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 934.936035,
+          "Y": -350.7943,
+          "Z": -50.47425,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 943.9049,
+          "Y": -362.2627,
+          "Z": -50.31921,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 952.561462,
+          "Y": -370.893768,
+          "Z": -50.0628281,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 960.8676,
+          "Y": -373.641418,
+          "Z": -49.8558731,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 973.2321,
+          "Y": -377.2256,
+          "Z": -49.6535454,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 980.54425,
+          "Y": -367.4781,
+          "Z": -50.2054825,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 984.3285,
+          "Y": -355.203522,
+          "Z": -52.56661,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 986.837646,
+          "Y": -346.821,
+          "Z": -55.7607079,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 989.285767,
+          "Y": -339.641541,
+          "Z": -59.1664276,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 995.4776,
+          "Y": -328.304047,
+          "Z": -65.4529343,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1003.12451,
+          "Y": -317.011017,
+          "Z": -70.12225,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1013.85004,
+          "Y": -309.435852,
+          "Z": -71.9740448,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1021.88422,
+          "Y": -303.659149,
+          "Z": -71.81758,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1027.773,
+          "Y": -298.063141,
+          "Z": -71.95615,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1035.18689,
+          "Y": -302.120056,
+          "Z": -71.95518,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1041.51245,
+          "Y": -307.263,
+          "Z": -72.42299,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1047.96118,
+          "Y": -314.0263,
+          "Z": -72.56203,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1055.27576,
+          "Y": -319.5906,
+          "Z": -72.59405,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1066.69214,
+          "Y": -317.2332,
+          "Z": -72.562,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1073.42041,
+          "Y": -306.1082,
+          "Z": -72.61411,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1072.99023,
+          "Y": -294.439148,
+          "Z": -72.64468,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1079.2019,
+          "Y": -287.4746,
+          "Z": -72.40091,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1089.76233,
+          "Y": -277.40155,
+          "Z": -72.9213638,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1099.36938,
+          "Y": -267.218964,
+          "Z": -74.81813,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1109.522,
+          "Y": -256.7398,
+          "Z": -77.00487,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1118.40137,
+          "Y": -255.804245,
+          "Z": -78.7971649,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1126.056,
+          "Y": -254.142166,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1134.5105,
+          "Y": -249.8755,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1141.52051,
+          "Y": -245.4121,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1144.50061,
+          "Y": -240.477737,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1144.695,
+          "Y": -232.876038,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1142.68665,
+          "Y": -226.241058,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1139.50293,
+          "Y": -217.999588,
+          "Z": -79.26437,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1131.66357,
+          "Y": -208.51091,
+          "Z": -80.08465,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1131.4657,
+          "Y": -195.7038,
+          "Z": -80.08465,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Boss1",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 1120.304,
+          "Y": -224.208054,
+          "Z": -79.26433,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1107.66626,
+          "Y": -226.501328,
+          "Z": -77.23931,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1098.76648,
+          "Y": -222.577423,
+          "Z": -75.55555,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1093.34778,
+          "Y": -214.244751,
+          "Z": -74.7165451,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1082.9447,
+          "Y": -215.271347,
+          "Z": -74.06332,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1073.01172,
+          "Y": -218.781052,
+          "Z": -73.11532,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1063.025,
+          "Y": -221.898148,
+          "Z": -72.43181,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1055.18848,
+          "Y": -224.278,
+          "Z": -72.0687,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1044.464,
+          "Y": -226.895691,
+          "Z": -72.227,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1037.57788,
+          "Y": -222.543488,
+          "Z": -72.2685547,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1029.7876,
+          "Y": -215.451416,
+          "Z": -70.62664,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1021.8988,
+          "Y": -209.6337,
+          "Z": -69.01055,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1012.83044,
+          "Y": -207.435272,
+          "Z": -67.92103,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 1004.15314,
+          "Y": -201.523514,
+          "Z": -67.6193161,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 994.16,
+          "Y": -192.636932,
+          "Z": -67.67605,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 988.094238,
+          "Y": -186.282135,
+          "Z": -67.77757,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 978.7567,
+          "Y": -183.0168,
+          "Z": -67.92422,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 967.8461,
+          "Y": -181.205032,
+          "Z": -66.3051758,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 959.2123,
+          "Y": -179.8701,
+          "Z": -65.027916,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 950.0321,
+          "Y": -178.16095,
+          "Z": -63.78201,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 941.2973,
+          "Y": -173.505768,
+          "Z": -62.6715736,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 936.7557,
+          "Y": -166.2748,
+          "Z": -61.7183151,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 937.6991,
+          "Y": -156.441727,
+          "Z": -60.7935944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 943.3188,
+          "Y": -147.096725,
+          "Z": -60.44386,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 948.748,
+          "Y": -138.822586,
+          "Z": -61.0685768,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 953.8824,
+          "Y": -125.776672,
+          "Z": -62.38562,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 962.0797,
+          "Y": -114.918533,
+          "Z": -63.3975067,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 965.2859,
+          "Y": -102.212746,
+          "Z": -63.763237,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 963.0369,
+          "Y": -88.37167,
+          "Z": -62.7115059,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 963.402649,
+          "Y": -78.81376,
+          "Z": -62.16579,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 963.2265,
+          "Y": -68.7622147,
+          "Z": -61.9006538,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 969.699036,
+          "Y": -61.78069,
+          "Z": -61.90711,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 974.059937,
+          "Y": -52.42943,
+          "Z": -61.9085045,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 978.229736,
+          "Y": -39.4931,
+          "Z": -62.1265831,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 978.5729,
+          "Y": -24.904686,
+          "Z": -62.58673,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 979.209167,
+          "Y": -10.3314047,
+          "Z": -62.58673,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Boss2",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 977.035339,
+          "Y": -35.19887,
+          "Z": -62.3548164,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 975.0018,
+          "Y": -44.3199234,
+          "Z": -61.93175,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 971.332153,
+          "Y": -55.2982674,
+          "Z": -61.90897,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 962.317139,
+          "Y": -66.68338,
+          "Z": -61.9072,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 952.8937,
+          "Y": -66.44532,
+          "Z": -62.0453949,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 941.145935,
+          "Y": -62.9774475,
+          "Z": -61.7145,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 929.711365,
+          "Y": -58.5830345,
+          "Z": -60.6072578,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 917.0555,
+          "Y": -56.9151268,
+          "Z": -59.42136,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 905.7215,
+          "Y": -62.95741,
+          "Z": -59.18177,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 898.571838,
+          "Y": -66.87974,
+          "Z": -59.44025,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 916.4042,
+          "Y": -104.963387,
+          "Z": -61.7248764,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 915.362549,
+          "Y": -115.411491,
+          "Z": -61.8980179,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 911.424,
+          "Y": -124.995361,
+          "Z": -61.8019676,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 902.7852,
+          "Y": -135.955368,
+          "Z": -60.4331551,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 901.772949,
+          "Y": -148.5661,
+          "Z": -60.634613,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 904.942444,
+          "Y": -157.945938,
+          "Z": -60.5863266,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 910.023865,
+          "Y": -171.6241,
+          "Z": -59.5798149,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 913.615845,
+          "Y": -180.890808,
+          "Z": -57.9833069,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 914.2403,
+          "Y": -190.625458,
+          "Z": -56.51164,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 903.7915,
+          "Y": -198.0957,
+          "Z": -52.7048874,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 897.808655,
+          "Y": -203.6778,
+          "Z": -52.2689247,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 892.167542,
+          "Y": -214.551636,
+          "Z": -52.6723938,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 881.713745,
+          "Y": -224.0827,
+          "Z": -53.7067032,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 868.9006,
+          "Y": -231.0675,
+          "Z": -54.1460457,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 856.4696,
+          "Y": -238.640778,
+          "Z": -54.0751381,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 844.4746,
+          "Y": -245.855667,
+          "Z": -56.4162636,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 833.0697,
+          "Y": -250.282608,
+          "Z": -58.86368,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 819.91864,
+          "Y": -255.0837,
+          "Z": -60.3228836,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 806.5613,
+          "Y": -251.410675,
+          "Z": -60.85119,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 800.039246,
+          "Y": -245.997787,
+          "Z": -62.2633,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 794.9413,
+          "Y": -237.464691,
+          "Z": -64.62515,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 787.6239,
+          "Y": -224.8382,
+          "Z": -66.634285,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 783.5352,
+          "Y": -217.784225,
+          "Z": -64.9186859,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 775.868164,
+          "Y": -208.217743,
+          "Z": -65.86315,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 775.3915,
+          "Y": -196.282257,
+          "Z": -69.58824,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 778.9827,
+          "Y": -187.332428,
+          "Z": -72.06416,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 784.91,
+          "Y": -178.640411,
+          "Z": -74.57482,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 799.552551,
+          "Y": -191.780548,
+          "Z": -77.1488953,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 815.9238,
+          "Y": -213.231522,
+          "Z": -77.1488953,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 827.2901,
+          "Y": -227.606384,
+          "Z": -74.80039,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 846.8947,
+          "Y": -208.393112,
+          "Z": -76.20012,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 853.0062,
+          "Y": -202.364029,
+          "Z": -77.66376,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 858.7854,
+          "Y": -191.727676,
+          "Z": -82.40798,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 863.1534,
+          "Y": -183.2698,
+          "Z": -85.26373,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 867.6039,
+          "Y": -170.011353,
+          "Z": -87.19467,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 870.029236,
+          "Y": -155.266235,
+          "Z": -87.05185,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 870.9454,
+          "Y": -141.334808,
+          "Z": -87.08921,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 870.6641,
+          "Y": -128.808777,
+          "Z": -87.09332,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 869.861755,
+          "Y": -114.84063,
+          "Z": -86.98912,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 867.253845,
+          "Y": -101.068878,
+          "Z": -87.17029,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 864.1687,
+          "Y": -92.77555,
+          "Z": -87.3291245,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 857.903748,
+          "Y": -80.26757,
+          "Z": -87.24592,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 851.1114,
+          "Y": -68.05507,
+          "Z": -86.97364,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 847.7866,
+          "Y": -54.0041656,
+          "Z": -86.69207,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 844.5197,
+          "Y": -40.3549042,
+          "Z": -87.1204,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 841.030945,
+          "Y": -26.0749035,
+          "Z": -87.20193,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 837.7083,
+          "Y": -12.4749031,
+          "Z": -87.17968,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 834.19696,
+          "Y": 1.11304116,
+          "Z": -87.07176,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 831.010132,
+          "Y": 12.9412432,
+          "Z": -87.02555,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 826.432739,
+          "Y": 26.1554966,
+          "Z": -86.94878,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 820.1722,
+          "Y": 38.7163,
+          "Z": -86.9512253,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 812.9736,
+          "Y": 51.2075424,
+          "Z": -86.9628,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 804.5926,
+          "Y": 62.70574,
+          "Z": -87.0094757,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 794.8876,
+          "Y": 72.44349,
+          "Z": -87.01625,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 784.2678,
+          "Y": 78.3101349,
+          "Z": -86.90923,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 771.7814,
+          "Y": 79.2966843,
+          "Z": -88.14911,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 757.369934,
+          "Y": 79.31921,
+          "Z": -88.14911,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 743.144958,
+          "Y": 78.11508,
+          "Z": -86.85816,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 724.833069,
+          "Y": 78.5534,
+          "Z": -86.74372,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "IgnoreFightsDuringPath": false,
+      "Name": "Boss3",
+      "CompleteCondition": {
+        "ConditionType": 0,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": null,
+        "LOSPositionVectorTo": null,
+        "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": false
+    }
+  ],
+  "MapId": 349,
+  "ProfileName": "Maraudon Foulspore Cavern",
+  "DungeonName": "Maraudon - Foulspore Cavern",
+  "DeathRunPaths": [
+    {
+      "Name": "Maraudon Foulspore Cavern [Converted]",
+      "Path": [
+        {
+          "X": -448.310883,
+          "Y": 2512.64575,
+          "Z": 93.0772552,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -442.8988,
+          "Y": 2505.3855,
+          "Z": 93.0365,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -435.337738,
+          "Y": 2501.05322,
+          "Z": 93.612,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -428.409515,
+          "Y": 2495.427,
+          "Z": 93.63235,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -421.754028,
+          "Y": 2490.0144,
+          "Z": 93.6620255,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -415.696625,
+          "Y": 2483.74341,
+          "Z": 93.59493,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -410.359772,
+          "Y": 2476.84521,
+          "Z": 90.56388,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -407.51123,
+          "Y": 2469.08252,
+          "Z": 85.02053,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -408.12854,
+          "Y": 2461.354,
+          "Z": 81.45408,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -410.260681,
+          "Y": 2446.31445,
+          "Z": 74.93027,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -412.225769,
+          "Y": 2432.453,
+          "Z": 68.63922,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -414.367737,
+          "Y": 2417.344,
+          "Z": 62.1874771,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -416.323,
+          "Y": 2403.552,
+          "Z": 56.4486847,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -418.467316,
+          "Y": 2388.585,
+          "Z": 52.2988319,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -421.463745,
+          "Y": 2374.91235,
+          "Z": 52.6525154,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -425.38327,
+          "Y": 2360.38,
+          "Z": 56.7865,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -430.66,
+          "Y": 2347.44141,
+          "Z": 62.0551949,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -435.1098,
+          "Y": 2337.888,
+          "Z": 66.02268,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -447.856018,
+          "Y": 2342.83936,
+          "Z": 66.64289,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -461.873047,
+          "Y": 2334.53931,
+          "Z": 69.8028946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -469.7144,
+          "Y": 2329.4314,
+          "Z": 72.09489,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -476.08313,
+          "Y": 2324.28223,
+          "Z": 75.64103,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -486.952728,
+          "Y": 2315.49414,
+          "Z": 82.83704,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -494.6147,
+          "Y": 2308.54883,
+          "Z": 82.36643,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -502.261566,
+          "Y": 2298.1853,
+          "Z": 85.660614,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -511.295471,
+          "Y": 2286.0647,
+          "Z": 88.748024,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -522.2683,
+          "Y": 2277.617,
+          "Z": 90.58447,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -535.225952,
+          "Y": 2272.326,
+          "Z": 90.92074,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -549.6023,
+          "Y": 2267.69458,
+          "Z": 90.50133,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -563.132751,
+          "Y": 2264.099,
+          "Z": 88.66092,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -577.7456,
+          "Y": 2260.216,
+          "Z": 89.0964355,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -591.4257,
+          "Y": 2256.93823,
+          "Z": 91.1815643,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -605.0612,
+          "Y": 2254.09229,
+          "Z": 93.7699356,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -619.0219,
+          "Y": 2252.49976,
+          "Z": 94.49908,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -635.2459,
+          "Y": 2252.91187,
+          "Z": 94.3015442,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -649.214539,
+          "Y": 2253.84668,
+          "Z": 93.9794846,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -663.249939,
+          "Y": 2254.83276,
+          "Z": 92.51103,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -677.1457,
+          "Y": 2255.809,
+          "Z": 92.38577,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -692.29834,
+          "Y": 2256.87354,
+          "Z": 91.14862,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -706.2639,
+          "Y": 2257.85474,
+          "Z": 91.51111,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -720.2993,
+          "Y": 2258.84082,
+          "Z": 89.9642944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -735.451965,
+          "Y": 2259.90527,
+          "Z": 89.9642944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -750.5348,
+          "Y": 2260.96484,
+          "Z": 89.9642944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -764.430542,
+          "Y": 2261.94116,
+          "Z": 89.9642944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -778.465942,
+          "Y": 2262.92725,
+          "Z": 89.9642944,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -793.548767,
+          "Y": 2263.98682,
+          "Z": 89.96119,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -807.514343,
+          "Y": 2264.968,
+          "Z": 89.85323,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -821.48,
+          "Y": 2265.94922,
+          "Z": 89.76863,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -836.562744,
+          "Y": 2267.00879,
+          "Z": 89.95694,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -850.5982,
+          "Y": 2267.99487,
+          "Z": 92.52531,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -864.5637,
+          "Y": 2268.976,
+          "Z": 92.78012,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -879.646545,
+          "Y": 2270.03564,
+          "Z": 91.38909,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -893.6121,
+          "Y": 2271.01685,
+          "Z": 90.10105,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -908.764832,
+          "Y": 2272.08154,
+          "Z": 88.68847,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -922.730347,
+          "Y": 2273.0625,
+          "Z": 88.08463,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -936.6959,
+          "Y": 2274.0437,
+          "Z": 86.8098,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -951.8486,
+          "Y": 2275.1084,
+          "Z": 85.3652649,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -965.7278,
+          "Y": 2276.08325,
+          "Z": 85.295784,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -979.7632,
+          "Y": 2277.06934,
+          "Z": 86.82394,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -994.985657,
+          "Y": 2278.139,
+          "Z": 89.18521,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1008.81158,
+          "Y": 2279.11,
+          "Z": 90.21707,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1023.96423,
+          "Y": 2280.1748,
+          "Z": 89.68042,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1037.92981,
+          "Y": 2281.15576,
+          "Z": 88.89241,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1053.0127,
+          "Y": 2282.21558,
+          "Z": 88.14537,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1066.97827,
+          "Y": 2283.19653,
+          "Z": 87.7029,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1080.94385,
+          "Y": 2284.178,
+          "Z": 87.4949951,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1096.09644,
+          "Y": 2285.24243,
+          "Z": 88.2274246,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1110.03186,
+          "Y": 2286.22144,
+          "Z": 89.7912445,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1125.11462,
+          "Y": 2287.281,
+          "Z": 91.61594,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1139.15,
+          "Y": 2288.267,
+          "Z": 92.73761,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1153.1156,
+          "Y": 2289.24829,
+          "Z": 93.12076,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1168.19849,
+          "Y": 2290.30786,
+          "Z": 92.29793,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1181.67773,
+          "Y": 2293.79248,
+          "Z": 90.9228745,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1194.99487,
+          "Y": 2298.11133,
+          "Z": 90.52851,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1209.444,
+          "Y": 2302.79761,
+          "Z": 90.97377,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1222.76111,
+          "Y": 2307.11646,
+          "Z": 91.4349442,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1236.07825,
+          "Y": 2311.43555,
+          "Z": 91.530304,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1250.46082,
+          "Y": 2316.09985,
+          "Z": 91.02872,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1263.78577,
+          "Y": 2320.61133,
+          "Z": 91.47787,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1277.12756,
+          "Y": 2327.52686,
+          "Z": 92.7290344,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1288.82593,
+          "Y": 2335.21265,
+          "Z": 92.54791,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1300.09729,
+          "Y": 2343.5166,
+          "Z": 92.1326141,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1311.34668,
+          "Y": 2351.85034,
+          "Z": 92.0136642,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1322.5553,
+          "Y": 2360.188,
+          "Z": 91.9715,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1334.64063,
+          "Y": 2369.38965,
+          "Z": 91.70059,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1345.044,
+          "Y": 2378.5293,
+          "Z": 93.23256,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1353.79333,
+          "Y": 2389.44849,
+          "Z": 92.80136,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1361.12952,
+          "Y": 2401.36084,
+          "Z": 90.6386642,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1367.609,
+          "Y": 2415.01514,
+          "Z": 90.38122,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1372.60791,
+          "Y": 2428.08984,
+          "Z": 90.72771,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1376.545,
+          "Y": 2441.513,
+          "Z": 88.8831,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1378.85315,
+          "Y": 2456.52173,
+          "Z": 88.82621,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1380.6427,
+          "Y": 2470.407,
+          "Z": 88.81792,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1381.72644,
+          "Y": 2484.35254,
+          "Z": 88.92023,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1380.321,
+          "Y": 2498.19043,
+          "Z": 90.45791,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1377.93408,
+          "Y": 2513.13574,
+          "Z": 94.55702,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1374.22119,
+          "Y": 2526.55664,
+          "Z": 99.43051,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1370.606,
+          "Y": 2538.944,
+          "Z": 103.5008,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1366.53906,
+          "Y": 2552.26733,
+          "Z": 107.968132,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1360.64,
+          "Y": 2563.61914,
+          "Z": 111.255142,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1352.03259,
+          "Y": 2574.57178,
+          "Z": 111.556206,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1337.87256,
+          "Y": 2591.64624,
+          "Z": 111.556206,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1328.45264,
+          "Y": 2601.9082,
+          "Z": 111.893463,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1319.036,
+          "Y": 2612.36,
+          "Z": 111.564064,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1309.39746,
+          "Y": 2624.00977,
+          "Z": 111.725426,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1300.357,
+          "Y": 2634.69824,
+          "Z": 111.556496,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1290.86462,
+          "Y": 2645.27271,
+          "Z": 111.556496,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1282.42639,
+          "Y": 2654.63,
+          "Z": 111.556496,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1268.87085,
+          "Y": 2665.6792,
+          "Z": 111.51857,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1256.95886,
+          "Y": 2675.10449,
+          "Z": 111.561516,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1246.05811,
+          "Y": 2683.777,
+          "Z": 111.556152,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1234.17126,
+          "Y": 2693.23462,
+          "Z": 111.313957,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1223.2157,
+          "Y": 2701.951,
+          "Z": 111.261,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1212.26013,
+          "Y": 2710.66724,
+          "Z": 111.3343,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1201.36023,
+          "Y": 2719.345,
+          "Z": 111.4068,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1190.982,
+          "Y": 2728.71875,
+          "Z": 111.156479,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1183.21545,
+          "Y": 2741.694,
+          "Z": 111.129196,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1176.711,
+          "Y": 2755.34326,
+          "Z": 111.533409,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1171.62671,
+          "Y": 2768.361,
+          "Z": 114.01722,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1169.86853,
+          "Y": 2782.22339,
+          "Z": 118.754257,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1171.951,
+          "Y": 2793.66187,
+          "Z": 120.487007,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1176.48523,
+          "Y": 2801.76855,
+          "Z": 121.983971,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1185.97388,
+          "Y": 2813.53931,
+          "Z": 121.576187,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1195.97351,
+          "Y": 2823.272,
+          "Z": 121.89444,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1208.55383,
+          "Y": 2831.773,
+          "Z": 120.184158,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1220.69141,
+          "Y": 2838.74438,
+          "Z": 118.990082,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1233.31189,
+          "Y": 2844.79541,
+          "Z": 117.60807,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1247.67639,
+          "Y": 2849.66724,
+          "Z": 116.356148,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1261.47876,
+          "Y": 2851.98267,
+          "Z": 113.710968,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1275.3938,
+          "Y": 2853.45459,
+          "Z": 113.721252,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1290.50891,
+          "Y": 2853.12939,
+          "Z": 113.7109,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1299.88525,
+          "Y": 2852.86646,
+          "Z": 113.353706,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1321.994,
+          "Y": 2852.15967,
+          "Z": 112.262314,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1336.05786,
+          "Y": 2851.75659,
+          "Z": 113.149406,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1348.79382,
+          "Y": 2852.66113,
+          "Z": 113.63324,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1361.11829,
+          "Y": 2859.30249,
+          "Z": 115.622757,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1374.46143,
+          "Y": 2866.561,
+          "Z": 122.092239,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1388.30444,
+          "Y": 2875.0437,
+          "Z": 127.2337,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1400.7782,
+          "Y": 2881.40161,
+          "Z": 131.683548,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1412.61316,
+          "Y": 2884.12744,
+          "Z": 132.588486,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1421.149,
+          "Y": 2902.00977,
+          "Z": 135.883545,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1422.225,
+          "Y": 2912.45459,
+          "Z": 136.909729,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1423.12231,
+          "Y": 2921.16553,
+          "Z": 136.306763,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.0907,
+          "Y": 2930.566,
+          "Z": 136.02919,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.98792,
+          "Y": 2939.27686,
+          "Z": 134.9993,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1425.03174,
+          "Y": 2947.985,
+          "Z": 135.0547,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.49609,
+          "Y": 2956.70874,
+          "Z": 134.5973,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.1842,
+          "Y": 2965.45679,
+          "Z": 134.4551,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.49634,
+          "Y": 2974.18726,
+          "Z": 132.617783,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1424.11353,
+          "Y": 2982.513,
+          "Z": 133.151566,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1416.56311,
+          "Y": 2986.27466,
+          "Z": 131.929565,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1408.74365,
+          "Y": 2982.82031,
+          "Z": 129.951263,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1404.39026,
+          "Y": 2975.288,
+          "Z": 129.203842,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1403.27271,
+          "Y": 2966.699,
+          "Z": 127.011475,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1406.12988,
+          "Y": 2958.928,
+          "Z": 126.7026,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1413.89661,
+          "Y": 2955.40723,
+          "Z": 124.654716,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1422.67456,
+          "Y": 2958.65479,
+          "Z": 124.006638,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1432.16907,
+          "Y": 2962.2478,
+          "Z": 124.368637,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1442.80237,
+          "Y": 2964.1687,
+          "Z": 123.938011,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1452.75623,
+          "Y": 2961.20435,
+          "Z": 123.488655,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1460.25061,
+          "Y": 2957.41016,
+          "Z": 122.748734,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1468.53833,
+          "Y": 2954.715,
+          "Z": 121.864685,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1477.09375,
+          "Y": 2952.929,
+          "Z": 121.253426,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1485.46375,
+          "Y": 2951.12427,
+          "Z": 121.388481,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1492.79834,
+          "Y": 2954.54663,
+          "Z": 121.141464,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1495.83728,
+          "Y": 2962.15356,
+          "Z": 120.451607,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1494.26221,
+          "Y": 2970.18286,
+          "Z": 119.837,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1488.94226,
+          "Y": 2977.42749,
+          "Z": 119.231522,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1480.66467,
+          "Y": 2978.857,
+          "Z": 118.205978,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1472.43457,
+          "Y": 2980.42578,
+          "Z": 116.823792,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1464.41821,
+          "Y": 2982.99121,
+          "Z": 115.53376,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1456.61462,
+          "Y": 2986.905,
+          "Z": 114.595612,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1449.74121,
+          "Y": 2991.06567,
+          "Z": 114.807915,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1442.80847,
+          "Y": 2998.463,
+          "Z": 115.245163,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1434.474,
+          "Y": 2999.49561,
+          "Z": 115.279778,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1429.42078,
+          "Y": 2991.58569,
+          "Z": 115.147156,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1421.68494,
+          "Y": 2989.16138,
+          "Z": 113.877464,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1413.022,
+          "Y": 2990.18774,
+          "Z": 110.651123,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1404.427,
+          "Y": 2991.86377,
+          "Z": 107.428032,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1396.40283,
+          "Y": 2990.725,
+          "Z": 106.344254,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1397.65845,
+          "Y": 2982.29834,
+          "Z": 106.204933,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1409.36011,
+          "Y": 2979.55078,
+          "Z": 103.09272,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1418.449,
+          "Y": 2978.96143,
+          "Z": 100.481781,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1426.83618,
+          "Y": 2978.49683,
+          "Z": 100.491829,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1433.01074,
+          "Y": 2970.85327,
+          "Z": 99.71636,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1433.9104,
+          "Y": 2962.14844,
+          "Z": 97.97573,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1435.82263,
+          "Y": 2954.12,
+          "Z": 96.0232239,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1439.515,
+          "Y": 2946.426,
+          "Z": 95.1034,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1445.16406,
+          "Y": 2940.14038,
+          "Z": 94.71066,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1450.59412,
+          "Y": 2933.77417,
+          "Z": 94.71731,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1456.015,
+          "Y": 2926.89673,
+          "Z": 94.5888748,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1461.53931,
+          "Y": 2920.12964,
+          "Z": 93.7735443,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1467.26428,
+          "Y": 2913.04175,
+          "Z": 93.26393,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1471.12512,
+          "Y": 2905.99683,
+          "Z": 93.2701,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1481.80164,
+          "Y": 2901.77979,
+          "Z": 93.47414,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1490.17493,
+          "Y": 2901.10962,
+          "Z": 93.05356,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1497.99292,
+          "Y": 2896.84839,
+          "Z": 92.7449,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1502.0321,
+          "Y": 2889.46,
+          "Z": 92.87491,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1503.31409,
+          "Y": 2881.37451,
+          "Z": 92.64086,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1498.73584,
+          "Y": 2874.54468,
+          "Z": 92.48744,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1491.23169,
+          "Y": 2870.11353,
+          "Z": 92.64972,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1483.20911,
+          "Y": 2866.60376,
+          "Z": 93.53848,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1477.96765,
+          "Y": 2860.23633,
+          "Z": 94.06034,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1478.73462,
+          "Y": 2851.534,
+          "Z": 93.65679,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1479.422,
+          "Y": 2842.468,
+          "Z": 92.6115,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1475.1637,
+          "Y": 2831.80469,
+          "Z": 91.7819443,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1471.055,
+          "Y": 2824.08154,
+          "Z": 92.42043,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1469.762,
+          "Y": 2816.01123,
+          "Z": 93.820816,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1472.69934,
+          "Y": 2804.48755,
+          "Z": 93.60824,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1476.0564,
+          "Y": 2796.78857,
+          "Z": 93.3538,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1481.32043,
+          "Y": 2789.94751,
+          "Z": 94.72476,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1489.26563,
+          "Y": 2786.342,
+          "Z": 95.58416,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1497.35828,
+          "Y": 2783.05176,
+          "Z": 95.42946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1505.13977,
+          "Y": 2779.888,
+          "Z": 95.2431946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1513.31665,
+          "Y": 2776.69751,
+          "Z": 95.22469,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1521.52026,
+          "Y": 2773.695,
+          "Z": 94.58681,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1529.69556,
+          "Y": 2770.55664,
+          "Z": 93.3516159,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1536.87878,
+          "Y": 2766.32813,
+          "Z": 92.07481,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1541.89441,
+          "Y": 2759.26245,
+          "Z": 90.6183853,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1543.706,
+          "Y": 2750.83887,
+          "Z": 89.3990555,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1545.97058,
+          "Y": 2742.95972,
+          "Z": 89.19589,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1547.40637,
+          "Y": 2734.8,
+          "Z": 88.96617,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1538.35046,
+          "Y": 2707.86426,
+          "Z": 87.56343,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1531.08313,
+          "Y": 2703.69385,
+          "Z": 86.92842,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1523.7793,
+          "Y": 2699.50244,
+          "Z": 86.4806061,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1516.11829,
+          "Y": 2695.31055,
+          "Z": 85.90711,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1507.86951,
+          "Y": 2692.45728,
+          "Z": 84.33693,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1499.4248,
+          "Y": 2690.14282,
+          "Z": 82.61378,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1490.89893,
+          "Y": 2688.14453,
+          "Z": 80.32791,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1482.59607,
+          "Y": 2686.89453,
+          "Z": 78.14104,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1473.84558,
+          "Y": 2686.682,
+          "Z": 77.3652954,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1465.13965,
+          "Y": 2687.40234,
+          "Z": 77.36035,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1454.14514,
+          "Y": 2685.57349,
+          "Z": 77.2703552,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1445.85,
+          "Y": 2684.25122,
+          "Z": 77.18337,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1437.23914,
+          "Y": 2682.71045,
+          "Z": 77.1828,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1430.05664,
+          "Y": 2677.942,
+          "Z": 77.19048,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1425.26892,
+          "Y": 2668.402,
+          "Z": 77.27997,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1427.14807,
+          "Y": 2658.9585,
+          "Z": 76.49889,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1432.33838,
+          "Y": 2647.79883,
+          "Z": 76.50593,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1436.992,
+          "Y": 2640.38062,
+          "Z": 76.4983749,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1441.39966,
+          "Y": 2633.23022,
+          "Z": 76.51383,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1446.3584,
+          "Y": 2625.18579,
+          "Z": 76.37378,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1451.42517,
+          "Y": 2616.97485,
+          "Z": 76.09885,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1472.806,
+          "Y": 2616.005,
+          "Z": 76.18347,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -1495.806,
+          "Y": 2612.055,
+          "Z": 76.18347,
+          "Type": "None",
+          "Action": ""
+        }
+      ]
+    }
+  ],
+  "OffMeshConnections": [],
+  "DungeonModel": null,
+  "DeathRunPath": null
+}
