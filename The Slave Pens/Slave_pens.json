@@ -33,6 +33,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -302,20 +304,20 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
-      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
-      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": -100.3945,
-        "Y": -110.4837,
-        "Z": -3.568468,
+        "X": -100.3127,
+        "Y": -117.6788,
+        "Z": -2.657694,
         "Type": "None",
         "Action": ""
       },
-      "SafeSpotRadius": 37,
+      "SafeSpotRadius": 21,
       "ZoneToClearPosition": {
         "X": -100.7073,
         "Y": -174.7598,
@@ -349,6 +351,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -499,6 +503,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -534,6 +540,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -656,16 +664,16 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
-      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
-      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
-        "X": 70.59302,
-        "Y": -333.4091,
-        "Z": 3.035909,
+        "X": 70.96961,
+        "Y": -330.8601,
+        "Z": 3.035641,
         "Type": "None",
         "Action": ""
       },
@@ -678,7 +686,7 @@
         "Action": ""
       },
       "ZoneToClearRadius": 45,
-      "ZoneToClearZLimit": 15,
+      "ZoneToClearZLimit": 25,
       "Name": "Kill Boss 1",
       "CompleteCondition": {
         "ConditionType": 4,
@@ -703,6 +711,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -1070,12 +1080,12 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
-      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
-      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
         "X": -229.2916,
         "Y": -380.3338,
@@ -1117,6 +1127,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1323,6 +1335,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1334,8 +1348,10 @@
         "Type": "None",
         "Action": ""
       },
-      "Timer": 10,
+      "Timer": 0,
       "DefendSpotRadius": 60,
+      "DefendSpotZLimit": 5,
+      "ResetTimerOnCombat": false,
       "Name": "Kill Boss 2",
       "CompleteCondition": {
         "ConditionType": 4,
@@ -1360,6 +1376,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -1685,6 +1703,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1720,6 +1740,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1821,12 +1843,12 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.PullToSafeSpotModel, WholesomeDungeonCrawler",
-      "DEFAULT_MELEE_FIGHT_RANGE": 7.0,
-      "DEFAULT_RANGED_FIGHT_RANGE": 15.0,
       "SafeSpotPosition": {
         "X": -277.8427,
         "Y": -668.2697,
@@ -1868,6 +1890,8 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -1896,14 +1920,15 @@
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
       },
+      "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     }
   ],
   "MapId": 547,
   "ProfileName": "Slave pens",
   "DungeonName": "The Slave Pens",
-  "Faction": 0,
-  "DeathRunPath": [],
+  "DeathRunPaths": [],
   "OffMeshConnections": [
     {
       "Path": [
@@ -1928,5 +1953,6 @@
       "Name": "Jumpt to water"
     }
   ],
-  "DungeonModel": null
+  "DungeonModel": null,
+  "DeathRunPath": []
 }
