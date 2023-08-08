@@ -2573,7 +2573,7 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
-      "StepToJumpTo": "Leave the dngeon",
+      "StepToJumpTo": "Leave the dungeon",
       "Name": "If doors are still closed - leave",
       "CompleteCondition": {
         "ConditionType": 6,

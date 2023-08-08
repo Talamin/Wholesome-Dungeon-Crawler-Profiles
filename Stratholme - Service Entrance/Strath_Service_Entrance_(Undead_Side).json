@@ -113,14 +113,14 @@
         "Type": "None",
         "Action": ""
       },
-      "InteractDistance": 3,
+      "InteractDistance": 5,
       "SkipIfNotFound": false,
       "Name": "Open Service Gate",
       "CompleteCondition": {
-        "ConditionType": 6,
+        "ConditionType": 9,
         "ConditionTimer": null,
         "GetTimerTimeLeft": 0.0,
-        "TimerTimeInSeconds": 0,
+        "TimerTimeInSeconds": 15,
         "HaveItemId": 0,
         "HaveItemMustReturnTrue": true,
         "CanGossipMobId": 0,
@@ -147,6 +147,48 @@
           "Action": ""
         },
         "LOSMustReturnTrue": true,
+        "MobAttackableEntry": 0,
+        "MobAttackableMustReturnTrue": false,
+        "MobAttackableSkipIfAbsent": false
+      },
+      "StepFaction": 0,
+      "HasCompleteCondition": true
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.JumpToStepModel, WholesomeDungeonCrawler",
+      "StepToJumpTo": "Leave the dungeon",
+      "Name": "Leave if gate closed",
+      "CompleteCondition": {
+        "ConditionType": 6,
+        "ConditionTimer": null,
+        "GetTimerTimeLeft": 0.0,
+        "TimerTimeInSeconds": 0,
+        "HaveItemId": 0,
+        "HaveItemMustReturnTrue": true,
+        "CanGossipMobId": 0,
+        "CanGossipMustReturnTrue": true,
+        "InitialFlags": 0,
+        "FlagsChangedGameObjectId": 0,
+        "DeadMobId": 0,
+        "MobDeadMustReturnTrue": true,
+        "MobAtPositionId": 0,
+        "MobAtPositionVector": null,
+        "MobAtPositionMustReturnTrue": true,
+        "LOSPositionVectorFrom": {
+          "X": 3620.368,
+          "Y": -3644.754,
+          "Z": 140.1308,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSPositionVectorTo": {
+          "X": 3626.818,
+          "Y": -3641.506,
+          "Z": 140.1057,
+          "Type": "None",
+          "Action": ""
+        },
+        "LOSMustReturnTrue": false,
         "MobAttackableEntry": 0,
         "MobAttackableMustReturnTrue": false,
         "MobAttackableSkipIfAbsent": false
