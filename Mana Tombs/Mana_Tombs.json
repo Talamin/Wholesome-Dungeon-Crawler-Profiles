@@ -34,6 +34,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -178,6 +179,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -490,6 +492,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -823,6 +826,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     }
   ],
@@ -831,7 +835,7 @@
   "DungeonName": "Mana Tombs",
   "DeathRunPaths": [
     {
-      "Name": "Mana Tombs [Converted]",
+      "Name": "Mana Tombs",
       "Path": [
         {
           "X": -3562.41,

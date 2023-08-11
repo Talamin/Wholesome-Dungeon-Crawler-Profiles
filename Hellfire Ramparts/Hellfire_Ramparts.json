@@ -34,6 +34,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -136,6 +137,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -182,6 +184,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -305,6 +308,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -351,6 +355,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -586,6 +591,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -632,6 +638,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -662,6 +669,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -827,6 +835,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": true
     },
     {
@@ -985,6 +994,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1087,6 +1097,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1127,6 +1138,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1180,6 +1192,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1219,6 +1232,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     },
     {
@@ -1248,6 +1262,7 @@
         "MobAttackableSkipIfAbsent": false
       },
       "StepFaction": 0,
+      "StepRole": 0,
       "HasCompleteCondition": false
     }
   ],
@@ -1256,7 +1271,7 @@
   "DungeonName": "Hellfire Ramparts",
   "DeathRunPaths": [
     {
-      "Name": "Deathrun",
+      "Name": "Horde Deathrun",
       "Path": [
         {
           "X": 158.06,
@@ -2018,6 +2033,620 @@
           "X": -360.408051,
           "Y": 3075.25635,
           "Z": -15.0298319,
+          "Type": "None",
+          "Action": ""
+        }
+      ]
+    },
+    {
+      "Name": "Alliance Deathrun",
+      "Path": [
+        {
+          "X": -803.012,
+          "Y": 2702.59,
+          "Z": 106.758,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -793.0915,
+          "Y": 2700.314,
+          "Z": 105.729042,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -784.769836,
+          "Y": 2698.37329,
+          "Z": 105.381889,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -776.4963,
+          "Y": 2696.80469,
+          "Z": 105.27327,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -768.0989,
+          "Y": 2695.2124,
+          "Z": 104.728722,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -758.3498,
+          "Y": 2696.85083,
+          "Z": 105.438835,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -753.0683,
+          "Y": 2703.47778,
+          "Z": 108.195427,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -744.7706,
+          "Y": 2702.91968,
+          "Z": 107.450455,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -739.3697,
+          "Y": 2696.30884,
+          "Z": 104.798012,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -733.260864,
+          "Y": 2690.31641,
+          "Z": 101.8642,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -727.373962,
+          "Y": 2684.207,
+          "Z": 98.92363,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -719.696838,
+          "Y": 2681.7168,
+          "Z": 96.35531,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -711.155,
+          "Y": 2682.20239,
+          "Z": 94.26472,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -702.581055,
+          "Y": 2682.4812,
+          "Z": 93.8304443,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -694.1348,
+          "Y": 2682.791,
+          "Z": 93.43574,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -685.7279,
+          "Y": 2684.20654,
+          "Z": 93.11234,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -677.3701,
+          "Y": 2686.13672,
+          "Z": 91.97789,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -669.0332,
+          "Y": 2688.11328,
+          "Z": 90.33936,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -661.1092,
+          "Y": 2690.97852,
+          "Z": 88.86769,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -654.9627,
+          "Y": 2696.7876,
+          "Z": 88.01106,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -649.95874,
+          "Y": 2703.69067,
+          "Z": 87.30428,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -644.93634,
+          "Y": 2710.61938,
+          "Z": 86.96622,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -639.9201,
+          "Y": 2717.53955,
+          "Z": 86.29222,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -634.891541,
+          "Y": 2724.47656,
+          "Z": 85.87141,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -629.9369,
+          "Y": 2731.31177,
+          "Z": 85.30025,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -624.9268,
+          "Y": 2738.22339,
+          "Z": 84.77274,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -619.8982,
+          "Y": 2745.16064,
+          "Z": 84.0899048,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -614.8696,
+          "Y": 2752.09766,
+          "Z": 82.52289,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -609.8472,
+          "Y": 2759.02637,
+          "Z": 80.40783,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -604.9049,
+          "Y": 2765.84448,
+          "Z": 77.97217,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -599.876343,
+          "Y": 2772.78174,
+          "Z": 75.22232,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -594.453369,
+          "Y": 2780.2627,
+          "Z": 72.44777,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -589.4063,
+          "Y": 2787.22534,
+          "Z": 70.30741,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -584.46405,
+          "Y": 2794.0437,
+          "Z": 68.7487259,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -579.447754,
+          "Y": 2800.96362,
+          "Z": 66.51801,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -574.4192,
+          "Y": 2807.901,
+          "Z": 64.0329742,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -569.3906,
+          "Y": 2814.83813,
+          "Z": 61.6735649,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -564.3744,
+          "Y": 2821.7583,
+          "Z": 59.5214767,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -559.432068,
+          "Y": 2828.57642,
+          "Z": 57.45931,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -554.397339,
+          "Y": 2835.522,
+          "Z": 55.4216881,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -549.356445,
+          "Y": 2842.476,
+          "Z": 53.3261147,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -544.358643,
+          "Y": 2849.37085,
+          "Z": 51.28506,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -539.3979,
+          "Y": 2856.21436,
+          "Z": 49.1748772,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -531.213867,
+          "Y": 2863.625,
+          "Z": 46.3688,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -525.037231,
+          "Y": 2868.37256,
+          "Z": 44.33708,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -519.0779,
+          "Y": 2874.52881,
+          "Z": 41.99609,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -513.1439,
+          "Y": 2880.66553,
+          "Z": 39.686615,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -507.2026,
+          "Y": 2886.80981,
+          "Z": 37.4382324,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -501.246735,
+          "Y": 2892.96924,
+          "Z": 35.2867966,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -495.393,
+          "Y": 2899.023,
+          "Z": 33.2697868,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -489.4317,
+          "Y": 2905.16187,
+          "Z": 31.28455,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -489.326233,
+          "Y": 2913.53174,
+          "Z": 29.65168,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -490.842072,
+          "Y": 2921.97388,
+          "Z": 28.1601868,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -492.3906,
+          "Y": 2930.401,
+          "Z": 26.5299664,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -493.914429,
+          "Y": 2938.6936,
+          "Z": 24.5423985,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -495.461029,
+          "Y": 2947.11,
+          "Z": 21.9503689,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -497.011444,
+          "Y": 2955.54736,
+          "Z": 19.1038971,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -498.556152,
+          "Y": 2963.95361,
+          "Z": 16.5407658,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -500.0781,
+          "Y": 2972.23584,
+          "Z": 14.419261,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -500.942139,
+          "Y": 2980.63843,
+          "Z": 12.0161257,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -498.771667,
+          "Y": 2988.914,
+          "Z": 7.96859074,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -495.542145,
+          "Y": 2996.82642,
+          "Z": 4.91846943,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -488.957062,
+          "Y": 3002.103,
+          "Z": 2.38884068,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -480.914459,
+          "Y": 3004.51318,
+          "Z": 0.01791623,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -472.587738,
+          "Y": 3006.487,
+          "Z": -2.74623442,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -464.261047,
+          "Y": 3008.46118,
+          "Z": -5.955369,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -455.9241,
+          "Y": 3010.43774,
+          "Z": -9.4431,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -447.474823,
+          "Y": 3012.44067,
+          "Z": -12.7282343,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -439.1481,
+          "Y": 3014.41479,
+          "Z": -15.1966829,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -430.8402,
+          "Y": 3016.38428,
+          "Z": -17.5406456,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -422.665771,
+          "Y": 3018.32251,
+          "Z": -16.99365,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -414.318634,
+          "Y": 3020.30127,
+          "Z": -16.3101311,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -406.043152,
+          "Y": 3022.26343,
+          "Z": -16.1480255,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -397.706238,
+          "Y": 3024.24,
+          "Z": -16.1480255,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -389.379517,
+          "Y": 3026.21387,
+          "Z": -16.1480255,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -381.199432,
+          "Y": 3028.217,
+          "Z": -16.3495712,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -372.882233,
+          "Y": 3030.25757,
+          "Z": -16.335783,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -364.566559,
+          "Y": 3032.29883,
+          "Z": -15.2574005,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -356.362762,
+          "Y": 3034.50635,
+          "Z": -13.7953663,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -348.0242,
+          "Y": 3036.47144,
+          "Z": -15.0435429,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -339.66864,
+          "Y": 3038.213,
+          "Z": -16.5535946,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -333.7305,
+          "Y": 3045.33545,
+          "Z": -16.8808136,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -340.807678,
+          "Y": 3052.44556,
+          "Z": -16.23722,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -347.529968,
+          "Y": 3057.72388,
+          "Z": -15.5631714,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -353.6336,
+          "Y": 3063.66724,
+          "Z": -15.1812868,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -358.482147,
+          "Y": 3070.70044,
+          "Z": -15.10162,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": -362.653137,
+          "Y": 3078.01147,
+          "Z": -15.0018463,
           "Type": "None",
           "Action": ""
         }
