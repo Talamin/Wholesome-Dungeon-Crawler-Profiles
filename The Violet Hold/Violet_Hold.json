@@ -191,15 +191,15 @@
     {
       "$type": "WholesomeDungeonCrawler.Models.DefendSpotModel, WholesomeDungeonCrawler",
       "DefendPosition": {
-        "X": 1869.52,
-        "Y": 809.4902,
-        "Z": 38.64583,
+        "X": 1859.885,
+        "Y": 803.9161,
+        "Z": 44.00874,
         "Type": "None",
         "Action": ""
       },
       "Timer": 3000,
-      "DefendSpotRadius": 44,
-      "DefendSpotZLimit": 5,
+      "DefendSpotRadius": 150,
+      "DefendSpotZLimit": 40,
       "ResetTimerOnCombat": false,
       "Name": "Defend room!",
       "CompleteCondition": {
